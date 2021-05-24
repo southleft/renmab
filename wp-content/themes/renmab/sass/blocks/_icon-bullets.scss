@@ -1,0 +1,60 @@
+.icon-bullets {
+	margin: em(70) 0 0;
+}
+
+.icon-bullets h3 {
+	text-align: center;
+	padding: em(20) 0 em(22);
+}
+
+.icon-bullets ul {
+	margin: 0;
+	padding: 0;
+	@include flex-wrap(wrap);
+	@include justify-content(space-around);
+}
+
+.icon-bullets li {
+	@include flex-basis(46%);
+	@include align-items(flex-start);
+	max-width: 500px;
+	margin-bottom: em(60);
+
+	&:nth-of-type(odd) {
+		margin-right: $gutterLarge;
+	}
+}
+
+.icon-bullets li:before {
+	display: none;
+}
+
+.bullet-icon {
+	max-width: 78px;
+	margin-right: 8%;
+}
+
+.bullet-text {
+	padding-top: em(10);
+}
+
+@media screen and (max-width: $screenSizeM) {
+	.icon-bullets ul {
+		@include justify-content(flex-start);
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.icon-bullets li {
+		@include flex-basis(100%);
+		@include justify-content(flex-start);
+		margin-bottom: em(10);
+	}
+}
+
+@media screen and (min-width: $screenSizeM + 1px) {
+	.icon-bullets li:last-child,
+	.icon-bullets li:nth-last-child(2) {
+	  margin-bottom: 0;
+	}
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpiedata>
+  <item>
+    <post_title><![CDATA[name 1]]></post_title>
+    <pi_phase><![CDATA[Antibody Screening]]></pi_phase>
+    <post_category><![CDATA[autoimmunity-inflammation]]></post_category>
+    <_pi_phase></_pi_phase>
+    <post_category_1><![CDATA[autoimmunity-inflammation]]></post_category_1>
+  </item>
+  <item>
+    <post_title><![CDATA[name 2]]></post_title>
+    <pi_phase><![CDATA[2b]]></pi_phase>
+    <post_category><![CDATA[Autoimmunity &amp; Inflammation]]></post_category>
+    <_pi_phase><![CDATA[2b]]></_pi_phase>
+    <post_category_1><![CDATA[Autoimmunity &amp; Inflammation]]></post_category_1>
+  </item>
+  <item>
+    <post_title><![CDATA[name 3]]></post_title>
+    <pi_phase><![CDATA[In Vivo]]></pi_phase>
+    <post_category><![CDATA[Autoimmunity &amp; Inflammation]]></post_category>
+    <_pi_phase><![CDATA[In Vivo]]></_pi_phase>
+    <post_category_1><![CDATA[Autoimmunity &amp; Inflammation]]></post_category_1>
+  </item>
+</wpiedata>

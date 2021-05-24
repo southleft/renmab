@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<target><![CDATA[Siglec-15]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[]]></developmentphase>
+		<exclusivepartership><![CDATA[Yes]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[GCGR]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Metabolism]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CB1]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Metabolism]]></therapeuticarea>
+		<developmentphase><![CDATA[Immunization]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CCR4]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[Slc7a11]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD73]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[B7-H3]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[]]></developmentphase>
+		<exclusivepartership><![CDATA[Yes]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL4RA,IL4R]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[Immunization]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[SIRPA]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[PD1]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[Immunization]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[TNFR2]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD47]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[PD-L1]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[Claudin 18.2]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[SOST]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Orthopaedic Disorders]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[KLRC1, NKG2A]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[GITR]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[FCGR3A,CD16A]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[]]></developmentphase>
+		<exclusivepartership><![CDATA[Yes]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CB2,CNR2]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD24]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[]]></developmentphase>
+		<exclusivepartership><![CDATA[Yes]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD39,ENTPD1]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ST2,IL1RL1,IL33R]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL33]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[B7-H4,VTCN1]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[FAP]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CCL2]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CCR2]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD96]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL31RA]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[TSLP]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[GPRC5D]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD122]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD226]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CRTH2,PTGDR2]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[FGL-1]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[GM-CSF,CSF2]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[GPR77,C5AR2]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-1¨»]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-1R1,IL1R¨»,CD121¨»]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-1¦Â]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-6RA]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-10]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-10RA]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F2(-/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-17RA]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-36R,IL1RL2]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-23R]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[]]></developmentphase>
+		<exclusivepartership><![CDATA[Yes]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[GARP,LRRC32]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[]]></developmentphase>
+		<exclusivepartership><![CDATA[Yes]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[NKG2D,KLRK1]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[NKp46,NCR1]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[Siglec-10]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-1RAP,IL1RAP,IL1R3]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[TIGIT,VSIG9,VSTM3]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD79b,AGM6,B29]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL13]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[MUC1,CD227,EMA,H23AG]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[FcRn,FCGRT]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CAIX,CA9,G250]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ALB]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD45,B220,Ly-5]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD26,ADABP,ADCP2]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[C1S]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD64]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[LAG-3]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F1(+/-)]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[MUC-16,CA-125]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[OX40,CD134,TNFRSF4]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[4-1BB,CD137,TNFRSF9]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[TIM3,CD366]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[BCMA,TNFRSF17,CD269]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[DR5,CD262,TNFRSF10B,TRAILR2]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ICOS,CD278]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[MSLN,CAK1,MPF]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD44]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD40L,CD154,TNFSF5]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL17A,CTLA-8]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL21]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL4]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL15]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CDH3,CDH15,CADH3]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD61,GPIIIa,ITGB3]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL17F]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[SELPLG]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[PGF]]></target>
+		<type><![CDATA[Growth factor]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD2]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[BTLA]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[Notch3]]></target>
+		<type><![CDATA[essential signaling]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ANTXR1,TEM8]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ELAM,ESEL,CD62E,ELAM1,LECAM2,SELE]]></target>
+		<type><![CDATA[Cell Adhesion Molecules]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD87,UPAR,URKR,U-PAR,PLAUR]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CKR5,CCR-5,CD195,CCCKR5,CCR5]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Infectious Diseases, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD56]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-22,ILTIF,IL-TIF,IL-D110,IL22]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[AMHR,MRII,MISR2,MISRII,AMHR2]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[BLR1,CD185,MDR15,CXCR5]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CLL1,MICL,CD371,CLL-1,CLEC12A]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[]]></developmentphase>
+		<exclusivepartership><![CDATA[Yes]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[C5A,C5AR,C5R1,CD88,C5AR1]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[GPR9,MigR,CD182,CD183,CXCR3]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL17E,IL25]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[FMS,CSFR,CD115,CSF-1R,CSF1R]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[MER,RP38,MERTK]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL-6,BSF-2,IFNB2,IFN-beta-2,IL6]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[p55,CD25,IL2R,]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD182,IL8R2,IL8RA,IL8RB,CXCR2]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[STEAP,PRSS24,STEAP1]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD27L,LPFS3,TNFSF7,CD70]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[OSM]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CXCL10,IFI10, INP10]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD37,GP52-40, TSPAN26]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[MCSP,NG2, MCSP]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD18,MFI7, LCAMB, LFA-1]]></target>
+		<type><![CDATA[essential signaling]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[GP100,SIL, ME20]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[TNC,HXB, GMEM]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[GPA33]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[FLT3,FLK2, STK1, CD135]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD74,p33, DHLAG, HLADG]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[SDC, CD138, SYND1]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[MIF,GIF, GLIF]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[LIGHT,CD258, HVEML]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[AXL,UFO, JTK11]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[GPC3,OCI-5, SGBS1, GTR2-2]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CDH17,HPT1]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[FGF2,BFGF,FGFB]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[L1CAM,SPG1,CAML1,CD171]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[MDK,ARAP,NEGF2]]></target>
+		<type><![CDATA[essential signaling]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[PD-L2,B7DC,CD273,PDCD1LG2]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD106,VCAM1]]></target>
+		<type><![CDATA[essential signaling]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity, Cardiovascular]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[FGFR4, JTK2,CD334]]></target>
+		<type><![CDATA[essential signaling]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ALK,CD246,NBLST3]]></target>
+		<type><![CDATA[essential signaling]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ABCB1,CD243,GP170]]></target>
+		<type><![CDATA[transporters]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD14]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Infectious Diseases, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[TLR3,CD283,IIAE2]]></target>
+		<type><![CDATA[essential signaling]]></type>
+		<therapeuticarea><![CDATA[Infectious Diseases, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[TGM2]]></target>
+		<type><![CDATA[enzyme]]></type>
+		<therapeuticarea><![CDATA[Infectious Diseases, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CCR8, CKRL1, CMKBR8]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CX3CR1,GPR13,CMKDR1]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Cardiovascular]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL12B,CLMF,NKSF,CLMF2]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[TNFRSF1A,TNFAR,TNFR1]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Infectious Diseases, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ADAM9,MCMP]]></target>
+		<type><![CDATA[enzyme]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL21R,NILR,CD360]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CCR6,CD196, CKR-L3, CKRL3]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD20,CVID5, LEU-16, MS4A2]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD22,SIGLEC-2]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD33,SIGLEC-3]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL23,IL-23A,IL23P19,P19]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ROBO4,AOVD3,ECSM4]]></target>
+		<type><![CDATA[essential signaling]]></type>
+		<therapeuticarea><![CDATA[Ophthalmology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD27,TNFRSF7,Tp55]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL22RA1,CRF2-9,IL22R,IL22R1]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[LRRC15,LIB]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL18RA,CD218a]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD30,D1S166E, Ki-1]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL5R,CD125]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CACNA2D1,CCHL2A]]></target>
+		<type><![CDATA[channels]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL18,IL-1g, IL1F4,IGIF]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CNGB1,GARP2]]></target>
+		<type><![CDATA[channels]]></type>
+		<therapeuticarea><![CDATA[Ophthalmology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[B7H5, PD-1H, VISTA]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[TROP2,EGP1,GA733-1]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CCR7,CD197]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[GLP1R,GLP-1]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Metabolism]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[DDR1]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology, Cardiovascular]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[PCSK9]]></target>
+		<type><![CDATA[enzyme]]></type>
+		<therapeuticarea><![CDATA[Metabolism, Cardiovascular, Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[RANKL,OPGL,CD254,TNFSF11]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Orthopaedic Disorders, Metabolism, Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD19,B4,CVID3]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IFNG,IFG,IFI]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity, Infectious Diseases]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL5]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD62P,CD62,GRMP,SELP]]></target>
+		<type><![CDATA[calcium-dependent receptor]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity, Cardiovascular]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CGRP,CALC1,CGRP1]]></target>
+		<type><![CDATA[peptide hormones]]></type>
+		<therapeuticarea><![CDATA[Neuroscience, Metabolism]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CRCP,CGRPRCP]]></target>
+		<type><![CDATA[peptide hormones receptor]]></type>
+		<therapeuticarea><![CDATA[Neuroscience]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ITGB6,AI1H]]></target>
+		<type><![CDATA[essential signaling]]></type>
+		<therapeuticarea><![CDATA[Oncology, Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[EPHA2,ECK,CTRCT6]]></target>
+		<type><![CDATA[kinase]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[TPBG,5T4,WAIF1]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ACE2]]></target>
+		<type><![CDATA[enzyme/virus receptor]]></type>
+		<therapeuticarea><![CDATA[Infectious Diseases]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[PVRIG,CD112R, C7orf15]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[Nectin-4,NECTIN4]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD38]]></target>
+		<type><![CDATA[TAA]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[ITGB7]]></target>
+		<type><![CDATA[essential signaling]]></type>
+		<therapeuticarea><![CDATA[Inflammation and Autoimmunity]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL11RA,CRSDA]]></target>
+		<type><![CDATA[Cytokine Receptor]]></type>
+		<therapeuticarea><![CDATA[Oncology, Infectious Diseases]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CCR9,GPR28,CC-CKR-9]]></target>
+		<type><![CDATA[GPCR]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD155,PVR]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[IL11]]></target>
+		<type><![CDATA[Cytokine]]></type>
+		<therapeuticarea><![CDATA[Oncology, Infectious Diseases]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[LRRC33,NRROS]]></target>
+		<type><![CDATA[essential signaling]]></type>
+		<therapeuticarea><![CDATA[Oncology]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+	<node>
+		<target><![CDATA[CD36,FAT; GP4; GP3B]]></target>
+		<type><![CDATA[Immunomodulator Target]]></type>
+		<therapeuticarea><![CDATA[Oncology, Cardiovascular]]></therapeuticarea>
+		<developmentphase><![CDATA[F0]]></developmentphase>
+		<exclusivepartership><![CDATA[No]]></exclusivepartership>
+	</node>
+</data>

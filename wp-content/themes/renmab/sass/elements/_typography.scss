@@ -1,0 +1,105 @@
+body {
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	@include headlineStyle;
+	margin-bottom: 0.75em;
+	margin-top: 0;
+
+	a {
+		font-weight: inherit;
+	}
+}
+
+.lead {
+	@include leadStyle;
+	margin-bottom: 1em;
+}
+
+h1 {
+	@include headlineSize($headlineSizeXL);
+}
+
+h2, .h2 {
+	@include headlineSize($headlineSizeL);
+}
+
+h3, .h3 {
+	@include headlineSize($headlineSizeM);
+}
+
+h4, .h4 {
+	@include headlineSize($headlineSizeS);
+}
+
+h5, .h5, .lead {
+	@include headlineSize($leadSizeL);
+}
+
+h6, .h6, .lead-small {
+	@include headlineSize($leadSizeM);
+}
+
+.is-style-lead {
+	@extend .lead;
+	@extend .lead-small;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 2em;
+	line-height: 2;
+}
+
+.accent {
+	@include accentStyle();
+	font-size: $accentSizeM;
+	margin-bottom: 0.75rem;
+	line-height: 1.4;
+}
+
+.is-style-accent {
+	@extend .accent;
+}
+
+.accent-large {
+	font-size: $accentSizeL;
+}
+
+.accent-small {
+	font-size: $accentSizeS;
+}
+
+@media screen and (max-width: $screenSizeL) {
+	h1 {
+		@include headlineSize($headlineSizeL);
+	}
+	h2, .h2 {
+		@include headlineSize($headlineSizeM);
+	}	
+	h3, .h3 {
+		@include headlineSize($headlineSizeS);
+	}	
+	h4, .h4 {
+		@include headlineSize($headlineSizeXS);
+	}	
+
+	h5, .h5, .lead {
+		@include headlineSize($leadSizeM);
+	}
+
+	.accent {
+		font-size: $accentSizeS;
+	}
+
+	.accent-large {
+		font-size: $accentSizeM;
+	}
+}
+
+@media screen and (max-width: $screenSizeS) {
+	h1 {
+		@include headlineSize($headlineSizeM);
+	}	
+}

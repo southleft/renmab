@@ -1,0 +1,234 @@
+Target,Target Aliases,Type,Therapeutic Area,Development Phase,Exclusive Partership,Pharmacodia ID
+SIGLEC15,Siglec-15,Immunomodulator Target,Oncology,antibody discovery,Yes,64915430323214916176
+GCGR,GCGR,GPCR,Metabolism,Immunization,No,1310451640410575009
+CB1,CB1,GPCR,Metabolism,Immunization,No,1310451640410575011
+CCR4,CCR4,GPCR,Oncology,Immunization,No,75961979824188916250
+SLC7A11,Slc7a11,TAA,Oncology,Immunization,No,47253517339812916971
+CD73,CD73,Immunomodulator Target,Oncology,F2(-/-),No,40796544885929916353
+B7-H3,B7-H3,Immunomodulator Target,Oncology,Immunization,Yes,90521562439189916730
+IL4RA,"IL4RA,IL4R",Cytokine Receptor,Inflammation and Autoimmunity,F2(-/-),No,15621522008106916971
+SIRPA,SIRPA,Immunomodulator Target,Oncology,Immunization,No,1310451640410575013
+PD-1,PD1,Immunomodulator Target,Oncology,antibody discovery,No,95062444234141916540
+TNFR2,TNFR2,Immunomodulator Target,Oncology,Immunization,No,78230464363844916301
+CD47,CD47,Immunomodulator Target,Oncology,F2(-/-),No,37537348212294916131
+PD-L1,PD-L1,Immunomodulator Target,Oncology,F2(-/-),No,94238000764503916816
+Claudin 18.2,Claudin 18.2,TAA,Oncology,Immunization,No,18364549454371916638
+Sclerostin,SOST,Cytokine,Orthopaedic Disorders,F1(+/-),No,31670478083301916703
+NKG2A,"KLRC1, NKG2A",Immunomodulator Target,Oncology,F2(-/-),No,01784957511375916667
+GITR,GITR,Immunomodulator Target,Oncology,F1(+/-),No,01244370588848916952
+CD16A,"FCGR3A,CD16A",Immunomodulator Target,Oncology,Immunization,Yes,27555996035783916271
+CB2,"CB2,CNR2",GPCR,"Oncology,Inflammation and Autoimmunity",F0,No,56275489835055916966
+CD24,CD24,Immunomodulator Target,Oncology,F2(-/-),Yes,40907795751650916158
+CD39,"CD39,ENTPD1",Immunomodulator Target,Oncology,F0,No,93911308973648916672
+ST2,"ST2,IL1RL1,IL33R",Cytokine Receptor,Inflammation and Autoimmunity,F2(-/-),No,08111791541898916898
+IL33,IL33,Cytokine,Inflammation and Autoimmunity,F1(+/-),No,73396102262160916988
+B7-H4,"B7-H4,VTCN1",Immunomodulator Target,Oncology,F2(-/-),No,61872389720407916814
+FAP,FAP,TAA,Oncology,F2(-/-),No,65098110261631916202
+CCL2,CCL2,Cytokine,"Oncology,Inflammation and Autoimmunity",F2(-/-),No,1310451640410575015
+CCR2,CCR2,GPCR,"Oncology,Inflammation and Autoimmunity",F2(-/-),No,1310451640410575017
+CD96,CD96,Immunomodulator Target,Oncology,F1(+/-),No,30830199674784916418
+IL31RA,IL31RA,Cytokine Receptor,Inflammation and Autoimmunity,F1(+/-),No,03258932679204916690
+TSLP,TSLP,Cytokine,"Oncology,Inflammation and Autoimmunity",F2(-/-),No,55701079333590916422
+GPRC5D,GPRC5D,GPCR,Oncology,F2(-/-),No,11940843243062916501
+IL2RB,CD122,Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,57697900903708916935
+CD226,CD226,Immunomodulator Target,Oncology,F1(+/-),No,76123926390403916981
+CRTH2,"CRTH2,PTGDR2",GPCR,Inflammation and Autoimmunity,F2(-/-),No,69167746170650916458
+GM-CSF,"GM-CSF,CSF2",Cytokine,"Oncology,Inflammation and Autoimmunity",F0,No,77537355125232916510
+GPR77,"GPR77,C5AR2",GPCR,Oncology,F1(+/-),No,86360205749459916687
+IL1A,IL-1A,Cytokine,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,1310451640410575019
+IL1R,"IL-1R1,IL1R_,CD121_",Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F0,No,1310451640410575021
+IL1B,IL-1_,Cytokine,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,15563742598470916601
+IL6R,IL-6RA,Cytokine Receptor,Inflammation and Autoimmunity,F0,No,65910194357446916947
+IL10,IL-10,Cytokine,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,68819975007252916926
+IL10RA,IL-10RA,Cytokine Receptor,Inflammation and Autoimmunity,F2(-/-),No,02601101396589916393
+IL17RA,IL-17RA,Cytokine Receptor,Inflammation and Autoimmunity,F1(+/-),No,25217404131691916667
+IL36R,"IL-36R,IL1RL2",Cytokine Receptor,Inflammation and Autoimmunity,F1(+/-),No,07272802723843916997
+IL23R,IL-23R,Cytokine Receptor,Inflammation and Autoimmunity,F1(+/-),Yes,62970374419843916863
+GARP,"GARP,LRRC32",Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F0,Yes,30386034493737916478
+NKG2D,"NKG2D,KLRK1",Immunomodulator Target,Oncology,F1(+/-),No,19367787448993916585
+NKp46,"NKp46,NCR1",Immunomodulator Target,Oncology,F1(+/-),No,75968780273393916709
+Siglec-10,Siglec-10,Immunomodulator Target,Oncology,F2(-/-),No,57486312350504916104
+IL1RAP,"IL-1RAP,IL1RAP,IL1R3",Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,31236955043971916769
+TIGIT,"TIGIT,VSIG9,VSTM3",Immunomodulator Target,Oncology,F2(-/-),No,64191601945873916997
+CD79b,"CD79b,AGM6,B29",TAA,"Oncology,Inflammation and Autoimmunity",F0,No,65508508795958916649
+IL13,IL13,Cytokine,Inflammation and Autoimmunity,F1(+/-),No,85032835843070916379
+MUC1,"MUC1,CD227,EMA",Immunomodulator Target,Oncology,F0,No,1310451640410575024
+FcRn,"FcRn,FCGRT",Immunomodulator Target,Inflammation and Autoimmunity,F0,No,87246012261747916148
+CAIX,"CAIX,CA9,G250",TAA,Oncology,F0,No,68977677421825916266
+ALB,ALB,Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,00130394742121916446
+CD45RB,"CD45,B220,Ly-5",Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F0,No,89264038391022916327
+CD26,"CD26,ADABP,ADCP2",Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F2(-/-),No,84967672751457916932
+C1S,C1S,Immunomodulator Target,Inflammation and Autoimmunity,F1(+/-),No,10395993102836916461
+FCGR1,CD64,Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,1310451640410575026
+LAG-3,LAG-3,Immunomodulator Target,Oncology,F2(-/-),No,1310451640410575028
+MUC16,"MUC-16,CA-125",TAA,Oncology,F0,No,95610343298992916513
+OX40,"OX40,CD134,TNFRSF4",Immunomodulator Target,Oncology,F1(+/-),No,36815686346884916639
+4-1BB,"4-1BB,CD137,TNFRSF9",Immunomodulator Target,Oncology,F1(+/-),No,#N/A
+TIM3,"TIM3,CD366",Immunomodulator Target,Oncology,F1(+/-),No,08048810814188916426
+BCMA,"BCMA,TNFRSF17,CD269",TAA,Oncology,F0,No,91619997677283916180
+DR5,"DR5,CD262,TNFRSF10B",Immunomodulator Target,Oncology,F0,No,92929137379010916612
+ICOS,"ICOS,CD278",Immunomodulator Target,Oncology,F0,No,27953483272985916403
+MSLN,"MSLN,CAK1,MPF",TAA,Oncology,F1(+/-),No,31578053968180916274
+CD44,CD44,Immunomodulator Target,Oncology,F1(+/-),No,40159407503969916221
+CD40L,"CD40L,CD154,TNFSF5",Immunomodulator Target,Oncology,F0,No,96193414205365916874
+IL17A,"IL17A,CTLA-8",Cytokine,Inflammation and Autoimmunity,F1(+/-),No,64973103667172916313
+IL21,IL21,Cytokine,Inflammation and Autoimmunity,F1(+/-),No,17756226822117916860
+IL4,IL4,Cytokine,Inflammation and Autoimmunity,F0,No,38804715200151916797
+IL15,IL15,Cytokine,"Oncology,Inflammation and Autoimmunity",F0,No,71804658338521916886
+CDH3,"CDH3,CDH15,CADH3",TAA,Oncology,F1(+/-),No,09703215307519916974
+CD61,"CD61,GPIIIa,ITGB3",TAA,Oncology,F0,No,46816161531326916133
+IL17F,IL17F,Cytokine,Inflammation and Autoimmunity,F1(+/-),No,49519632397865916268
+SELPLG,SELPLG,Immunomodulator Target,Inflammation and Autoimmunity,F1(+/-),No,74162531070476916983
+PGF,PGF,Growth factor,"Oncology,Inflammation and Autoimmunity",F0,No,14298893426153916280
+CD2,CD2,TAA,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,56200896022390916811
+BTLA,BTLA,Immunomodulator Target,Oncology,F1(+/-),No,1310451640410575030
+Notch3,Notch3,essential signaling,Oncology,F0,No,57205569033259916223
+ANTXR1,"ANTXR1,TEM8",TAA,Oncology,F1(+/-),No,73668506199811916254
+CD62E,"ELAM,CD62E,SELE",Cell Adhesion Molecules,Inflammation and Autoimmunity,F0,No,30266526516741916336
+UPAR,"CD87,UPAR,PLAUR",TAA,Oncology,F1(+/-),No,23250019070616916796
+CCR5,"CKR5,CD195,CCR5",GPCR,"Infectious Diseases,Inflammation and Autoimmunity",F0,No,03801258456684916217
+CD56,CD56,Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F0,No,82280785182307916413
+IL22,"IL-22,ILTIF,IL-D110",Cytokine,"Oncology,Inflammation and Autoimmunity",F0,No,12713442303282916135
+AMHR2,"AMHR,MRII,AMHR2",TAA,Oncology,F1(+/-),No,63536745839153916590
+CXCR5,"BLR1,CD185,CXCR5",GPCR,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,1310451640410575032
+CLEC12A,"CLL1,CD371,CLEC12A",TAA,Oncology,,Yes,22424155011510916836
+C5AR1,"C5AR,CD88,C5AR1",GPCR,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,68469461003699916334
+CXCR3,"CD182,CD183,CXCR3",GPCR,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,55819445450384916845
+IL25,"IL17E,IL25",Cytokine,Inflammation and Autoimmunity,F0,No,18985413768736916312
+CSF1R,"CSFR,CD115,CSF1R",Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F0,No,43924804952673916842
+MERTK,"MER,RP38,MERTK",Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F0,No,45161167916037916731
+IL6,"IL-6,BSF-2,IFNB2",Cytokine,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,71351630127021916862
+IL2RA,"p55,CD25,IL2R,",Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F0,No,1310451640410575034
+CXCR2,"CD182,IL8RB,CXCR2",GPCR,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,87453896485585916299
+STEAP1,"STEAP,PRSS24,STEAP1",TAA,Oncology,F0,No,96693969738336916784
+CD70,"CD27L,TNFSF7,CD70",Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F0,No,57822612170208916231
+OSM,OSM,Cytokine,Inflammation and Autoimmunity,F0,No,44464211505840916206
+CXCL10,"CXCL10,IFI10,INP10",Immunomodulator Target,Inflammation and Autoimmunity,F0,No,31828099555148916285
+CD37,"CD37,GP52-40,TSPAN26",TAA,Oncology,F0,No,88942008418766916988
+MCSP,"MCSP,NG2,MCSP",TAA,Oncology,F0,No,97865375327357916545
+CD18,"CD18,MFI7,LCAMB",essential signaling,Oncology,F0,No,08446898862424916684
+GP100,"GP100,SIL,ME20",TAA,Oncology,F0,No,63602013038599916337
+TNC,"TNC,HXB,GMEM",TAA,Oncology,F0,No,1310451640410575036
+GPA33,GPA33,TAA,Oncology,F0,No,90544556903243916298
+FLT3,"FLT3,FLK2,CD135",Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F0,No,04681502849961916923
+CD74,"CD74,p33, DHLAG, HLADG",Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F0,No,47482556424049916274
+CD138,"SDC, CD138, SYND1",TAA,Oncology,F0,No,44976656254571916243
+MIF,"MIF,GIF, GLIF",Cytokine,"Oncology,Inflammation and Autoimmunity",F0,No,33192063159190916307
+LIGHT,"LIGHT,CD258,HVEML",Cytokine,Inflammation and Autoimmunity,F0,No,54604055145346916427
+AXL,"AXL,UFO, JTK11",TAA,Oncology,F0,No,1310451640410575038
+GPC3,"GPC3,OCI-5,GTR2-2",TAA,Oncology,F0,No,91020535233631916244
+CDH17,"CDH17,HPT1",TAA,Oncology,F0,No,82849458975896916632
+FGF2,"FGF2,BFGF,FGFB",Cytokine,Oncology,F0,No,1310451640410575040
+L1CAM,"L1CAM,SPG1,CD171",TAA,Oncology,F0,No,17049336557942916698
+MDK,"MDK,ARAP,NEGF2",essential signaling,"Oncology,Inflammation and Autoimmunity",F0,No,83545398982601916199
+PD-L2,"PD-L2,CD273,PDCD1LG2",Immunomodulator Target,Oncology,F0,No,42983332049452916554
+CD106,"CD106,VCAM1",essential signaling,"Oncology,Inflammation and Autoimmunity,Cardiovascular",F0,No,29461854685250916363
+FGFR4,"FGFR4, JTK2,CD334",essential signaling,Oncology,F0,No,34841917747295916806
+ALK,"ALK,CD246,NBLST3",essential signaling,Oncology,F0,No,21598965952541916934
+MDR-1,"ABCB1,CD243,GP170",transporters,Oncology,F0,No,1310451640410575042
+CD14,CD14,Immunomodulator Target,"Infectious Diseases,Inflammation and Autoimmunity",F0,No,1310451640410575044
+TLR3,"TLR3,CD283,IIAE2",essential signaling,"Infectious Diseases,Inflammation and Autoimmunity",F0,No,13590665151072916995
+TGM2,TGM2,enzyme,"Infectious Diseases,Inflammation and Autoimmunity",F0,No,31645456493265916792
+CCR8,"CCR8,CKRL1,CMKBR8",GPCR,Oncology,F0,No,1310451640410575046
+CX3CR1,"CX3CR1,GPR13,CMKDR1",GPCR,Cardiovascular,F0,No,72405101970909916204
+IL12B,"IL12B,CLMF,NKSF",Cytokine,Inflammation and Autoimmunity,F0,No,1310451640410575048
+TNFRSF1A,"TNFRSF1A,TNFAR,TNFR1",Cytokine Receptor,"Infectious Diseases,Inflammation and Autoimmunity",F0,No,02011191198432916912
+ADAM9,"ADAM9,MCMP",enzyme,Oncology,F0,No,88621787568658916316
+IL21R,"IL21R,NILR,CD360",Cytokine Receptor,Inflammation and Autoimmunity,F0,No,30751819539021916561
+CCR6,"CCR6,CD196,CKR-L3",GPCR,"Oncology,Inflammation and Autoimmunity",F0,No,41162214347632916358
+CD20,"CD20,CVID5,LEU-16",TAA,"Oncology,Inflammation and Autoimmunity",F0,No,22899326610400916253
+CD22,"CD22,SIGLEC-2",Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F0,No,30557258460640916196
+CD33,"CD33,SIGLEC-3",TAA,Oncology,F0,No,46764371590695916252
+IL23A,"IL23,IL-23A,IL23P19",Cytokine,Inflammation and Autoimmunity,F0,No,90536468979644916581
+ROBO4,"ROBO4,AOVD3,ECSM4",essential signaling,Ophthalmology,F0,No,1310451640410574919
+CD27,"CD27,TNFRSF7,Tp55",Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F0,No,1310451640410575050
+IL22RA,"IL22RA1,CRF2-9,IL22R",Cytokine Receptor,Inflammation and Autoimmunity,F0,No,38921526126169916746
+LRRC15,"LRRC15,LIB",TAA,Oncology,F0,No,78680331462859916290
+IL18RA,"IL18RA,CD218a",Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F0,No,39967709229869916242
+CD30,"CD30,D1S166E, Ki-1",Cytokine Receptor,Oncology,F0,No,61032525534389916396
+IL5R,"IL5R,CD125",Cytokine Receptor,Inflammation and Autoimmunity,F0,No,38111845132564916747
+CACNA2D1,"CACNA2D1,CCHL2A",channels,Oncology,F0,No,1310451640410575052
+IL18,"IL18,IL1F4,IGIF",Cytokine,Inflammation and Autoimmunity,F0,No,23645542959569916341
+CNGB1,"CNGB1,GARP2",channels,Ophthalmology,F0,No,06027288113026916542
+VISTA,"B7H5,PD-1H,VISTA",Immunomodulator Target,Oncology,F0,No,1310451640410575054
+TROP2,"TROP2,EGP1,GA733-1",TAA,Oncology,F0,No,32296005354379916552
+CCR7,"CCR7,CD197",GPCR,Oncology,F0,No,79714985011981916982
+GLP1R,"GLP1R,GLP-1",GPCR,Metabolism,F0,No,27554931889835916868
+DDR1,DDR1,TAA,"Oncology,Cardiovascular",F0,No,14970618143896916646
+PCSK9,PCSK9,enzyme,"Metabolism,Cardiovascular,Oncology",F0,No,54717611867037916409
+RANKL,"RANKL,OPGL,TNFSF11",Cytokine Receptor,"Orthopaedic Disorders,Metabolism,Oncology",F0,No,66147303301116916890
+CD19,"CD19,B4,CVID3",TAA,"Oncology,Inflammation and Autoimmunity",F0,No,19865102961534916994
+IFNG,"IFNG,IFG,IFI",Cytokine,"Inflammation and Autoimmunity,Infectious Diseases",F0,No,78580917798396916493
+IL5,IL5,Cytokine,Inflammation and Autoimmunity,F0,No,42005763161498916999
+CD62P,"CD62P,GRMP,SELP",calcium-dependent receptor,"Inflammation and Autoimmunity,Cardiovascular",F0,No,39619912108046916857
+CGRP,"CGRP,CALC1,CGRP1",peptide hormones,"Neuroscience,Metabolism",F0,No,23518951860670916323
+CRCP,"CRCP,CGRPRCP",peptide hormones receptor,Neuroscience,F0,No,26567826078845916755
+ITGB6,"ITGB6,AI1H",essential signaling,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,14431346138653916680
+EPHA2,"EPHA2,ECK,CTRCT6",kinase,Oncology,F0,No,57906774692304916129
+TPBG,"TPBG,5T4,WAIF1",TAA,Oncology,F1(+/-),No,1310451640410575056
+ACE2,ACE2,enzyme/virus receptor,Infectious Diseases,F0,No,1310451640410574975
+PVRIG,"PVRIG,CD112R,C7orf15",Immunomodulator Target,Oncology,F0,No,11305322132083916293
+Nectin-4,"Nectin-4,NECTIN4",Immunomodulator Target,Oncology,F0,No,67418836212031916937
+CD38,CD38,TAA,Oncology,F0,No,12591927799219916688
+ITGB7,ITGB7,essential signaling,Inflammation and Autoimmunity,F0,No,56832495721391916472
+IL11RA,"IL11RA,CRSDA",Cytokine Receptor,"Oncology,Infectious Diseases",F0,No,61504603393555916655
+CCR9,"CCR9,GPR28,CC-CKR-9",GPCR,Oncology,F0,No,01910423193895916137
+CD155,"CD155,PVR",Immunomodulator Target,Oncology,F0,No,25392407978537916821
+IL11,IL11,Cytokine,"Oncology,Infectious Diseases",F0,No,88162081516013916957
+LRRC33,"LRRC33,NRROS",essential signaling,Oncology,F0,No,95697457469445916103
+CD36,"CD36,FAT,GP3B",Immunomodulator Target,"Oncology,Cardiovascular",F0,No,06763113072055916788
+ADORA2A,"A2aR,RDC8,ADORA2",GPCR,Oncology,F0,No,14251656948190916995
+IL18RAP,"IL18RAP,IL18RB",Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F0,No,32589473692462916938
+PSMA,"PSMA,FGCP,FOLH1",TAA,"Oncology,Neuroscience",F0,No,89494209252697916385
+IL18BP,"IL18BP,FVHa",Cytokine,"Oncology,Inflammation and Autoimmunity",F0,No,72592263388112916297
+TNF,"TNF,TNFA,TNFSF2",Cytokine,"Inflammation and Autoimmunity,Oncology,Infectious Diseases",F0,No,52026146910305916685
+IL31,IL31,Cytokine,Inflammation and Autoimmunity,F0,No,77078448374145916638
+BAFF,"BAFF,CD257,TNFSF20",Cytokine,"Oncology,Inflammation and Autoimmunity",F0,No,89585389795827916578
+CD6,"CD6,TP120",Immunomodulator Target,"Oncology,Inflammation and Autoimmunity,Metabolism",F0,No,55851758659778916469
+CD52,"CD52,HE5,EDDM5",TAA,"Oncology,Inflammation and Autoimmunity",F0,No,83289583030144916336
+SLAMF7,"SLAMF7,CD319,CRACC",Immunomodulator Target,Oncology,F0,No,79985221955958916466
+ITGAL,"ITGAL,CD11A,LFA-1",essential signaling,Inflammation and Autoimmunity,F0,No,70693036517368916818
+IL13RA1,IL13RA1,Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F0,No,59274403593916916953
+ANGPTL4,"ANGPTL4,NL2,ARP4",hormones,"Oncology,Metabolism",F0,No,86849750309301916508
+CD133,"CD133,RP41,AC133",TAA,Oncology,F0,No,54723516511603916859
+CD8,"CD8,p32,Leu2",Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F0,No,42243263828488916869
+CD63,"CD63,MLA1,TSPAN30",essential signaling,"Oncology,Inflammation and Autoimmunity",F0,No,85557227442131916926
+CAXII,"CAXII,CA-XII,T18816",enzyme,Oncology,F0,No,76724920909085916221
+CLDN3,"CLDN3,RVP1,CPETR2",TAA,Oncology,F0,No,55306105777820916458
+SPP1,"SPP1,OPN,BNSP",Cytokine,"Oncology,Inflammation and Autoimmunity",F0,No,31149628631465916880
+TNFSF15,"TNFSF15,TL1,VEGI",Cytokine Receptor,Inflammation and Autoimmunity,F0,No,57961220151422916431
+AGR-2,"AGR-2,GOB-4,HAG-2",essential signaling,"Oncology,Inflammation and Autoimmunity",F0,No,08161605990734916246
+ASCT2,"ASCT2,ATBO,M7VS1",transporters,Oncology,F0,No,08658265338578916276
+BSPII,"BSP,BNSP,BSPII",essential signaling,Oncology,F0,No,28720966962433916962
+CD166,"MEMD,CD166",Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F0,No,15704883039394916560
+CLDN4,"CLDN4,CPER,WBSCR8",TAA,Oncology,F0,No,15892773237899916950
+IL20,"IL-20,IL10D,ZCYTO10",Cytokine,Inflammation and Autoimmunity,F0,No,55655070459597916180
+IFNB1,"IFNB1,IFNB,IFN-beta",Cytokine,Inflammation and Autoimmunity,F0,No,57885634250413916586
+CD23,"CD23,FCE2",TAA,"Oncology,Inflammation and Autoimmunity",F0,No,66828665893569916636
+PRLR,"PRLR,HPRL,MFAB",Cytokine Receptor,"Oncology,Reproductive System Diseases",F0,No,31604609394284916839
+OSMR,"OSMR,IL-31R-beta",Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F0,No,41769138261362916519
+KIR,"KIR,KIR3DL1",Immunomodulator Target,Oncology,F0,No,56467653341964916397
+CX3CL1,"CX3CL1,CXC3C",Cytokine,Inflammation and Autoimmunity,F0,No,66894713897960916329
+CD80,"CD80,B7-1,CD28LG",Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F0,No,17532840296690916853
+CD15,"CD15,FCT3A,FUTIV",TAA,"Oncology,Inflammation and Autoimmunity",F0,No,20761358688836916797
+CCL5,"CCL5,SCYA5,RANTES",Cytokine,Inflammation and Autoimmunity,F0,No,97240823256319916544
+CCL24,"CCL24,Ckb-6,MPIF2",Cytokine,"Inflammation and Autoimmunity,Metabolism,Infectious Diseases",F0,No,81011440780449916714
+EPHA3,"EPHA3,EK4,TYRO4",protein-tyrosine kinase,Oncology,F0,No,74724715854221916843
+GUCY2C,"GUCY2C,STAR,MECIL",enzyme,Oncology,F0,No,43796496802684916248
+LRP5,"LRP5,HBM,LR3",essential signaling,"Oncology,Ophthalmology",F0,No,45565885477456916481
+TNFRSF25,"TNFRSF25,DDR3,TRAMP",Cytokine Receptor,"Oncology,Inflammation and Autoimmunity",F0,No,88944873770003916120
+CXCL13,"CXCL13,BLC,ANGIE",Cytokine,"Oncology,Inflammation and Autoimmunity,Infectious Diseases",F0,No,44317419277371916393
+EMP2,"EMP2,XMP",essential signaling,Oncology,F0,No,1310451640410575058
+GRP,"GRP,GRP-10,proGRP",signaling peptides,"Oncology,Infectious Diseases",F0,No,33090788836563916891
+LGALS9,"LGALS9,HUAT,LGALS9A",Immunomodulator Target,"Oncology,Infectious Diseases",F0,No,04350381698587916968
+TREM1,"TREM1,CD354,TREM-1",Immunomodulator Target,"Oncology,Inflammation and Autoimmunity",F0,No,92936647445121916406
+IFNAR1,"IFNAR1,AVP,IFNBR",Cytokine Receptor,"Inflammation and Autoimmunity,Urological Diseases",F0,No,32041683596266916595
+TSLPR,"CRL2,TSLPR,CRLF2Y",Cytokine Receptor,Inflammation and Autoimmunity,F0,No,30425329449376916296
+ILDR2,"ILDR2,C1orf32,dJ782G3.1",Immunomodulator Target,Oncology,F0,No,66016016904358916610
+CD54,"BB2,CD54,P3.58",Adhesion Molecule,"Oncology,Inflammation and Autoimmunity",F0,No,78904291006321916257
+TLR4,TLR4,essential signaling,"Inflammation and Autoimmunity,Infectious Diseases,Gastrointestinal",F0,No,00430643659703916543
+TLR2,TLR2,essential signaling,"Inflammation and Autoimmunity,Infectious Diseases,Gastrointestinal,Oncology",F0,No,98471047413486916295
+TEM1,"TEM1,CD164L1",Tumor endothelial markers,Oncology,F0,No,46964100323087916369
+MFGE8,"MFGE8,BA46,HMFG,",essential signaling,"Oncology,Neuroscience,Ophthalmology",F0,No,25867640997118916818
+CSF2RA,"CSF2RA,CD116,CSF2R",Cytokine Receptor,Inflammation and Autoimmunity,F0,No,60761882606562916318
+AFP,"AFP,FETA,HPAFP",plasma protein,Oncology,F0,No,57300513357037916947

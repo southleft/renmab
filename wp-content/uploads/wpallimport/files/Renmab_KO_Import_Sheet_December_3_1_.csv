@@ -1,0 +1,374 @@
+Target,Target Aliases,Therapeutic Area,Development Phase,Exclusive Partership,Launched Rrugs,Pharmacodia ID
+SIGLEC15,Siglec-15,Oncology,In Vivo Efficacy,Yes,2,1310451640410575058
+PD-1,PD1,Oncology,In Vitro,No,90,33090788836563916891
+CD16A,"FCGR3A,CD16A",Oncology,In Vitro,Yes,6,04350381698587916968
+CCR2,CCR2,"Oncology,Inflammation and Autoimmunity",Immunization,No,25,92936647445121916406
+GCGR,GCGR,Metabolism,Immunization,No,146,32041683596266916595
+CB1,CB1,Metabolism,Immunization,No,49,30425329449376916296
+CCR4,CCR4,Oncology,Immunization,No,5,66016016904358916610
+Claudin 18.2,Claudin 18.2,Oncology,Immunization,No,8,78904291006321916257
+SIRPa,SIRPA,Oncology,Immunization,No,0,00430643659703916543
+IL4RA,"IL4RA,IL4R",Inflammation and Autoimmunity,F2(-/-),No,15,98471047413486916295
+CD47,CD47,Oncology,F2(-/-),No,23,46964100323087916369
+PD-L1,PD-L1,Oncology,F2(-/-),No,90,25867640997118916818
+NKG2A,"KLRC1, NKG2A",Oncology,F2(-/-),No,1,60761882606562916318
+CD24,CD24,Oncology,F2(-/-),Yes,0,57300513357037916947
+ST2,"ST2,IL1RL1,IL33R",Inflammation and Autoimmunity,F2(-/-),No,5,83780033797898916476
+B7-H4,"B7-H4,VTCN1",Oncology,F2(-/-),No,1,03304598841459916522
+FAP,FAP,Oncology,F2(-/-),No,8,68764075540305916174
+CCL2,CCL2,"Oncology,Inflammation and Autoimmunity",F2(-/-),No,6,72194324001460916917
+CD96,CD96,Oncology,F2(-/-),No,0,23781858800383916625
+GPRC5D,GPRC5D,Oncology,F2(-/-),No,1,87869652015706916202
+CD226,CD226,Oncology,F2(-/-),No,0,93074488256362916590
+CRTH2,"CRTH2,PTGDR2",Inflammation and Autoimmunity,F2(-/-),No,21,51954379428262916870
+IL1B,IL-1b,"Oncology,Inflammation and Autoimmunity",F2(-/-),No,30,34575248282844916742
+NKp46,"NKp46,NCR1",Oncology,F2(-/-),No,0,09879904612150916739
+Siglec-10,Siglec-10,Oncology,F2(-/-),No,1,58515680034618916233
+TIGIT,"TIGIT,VSIG9,VSTM3",Oncology,F2(-/-),No,9,70582932807103916260
+CD26,"CD26,ADABP,ADCP2","Oncology,Inflammation and Autoimmunity",F2(-/-),No,88,69101446028366916498
+C1S,C1S,Inflammation and Autoimmunity,F2(-/-),No,6,83699669692262916613
+LAG-3,LAG-3,Oncology,F2(-/-),No,19,28641163374798916312
+IL17A,"IL17A,CTLA-8",Inflammation and Autoimmunity,F2(-/-),No,19,99376684457857916944
+ANTXR1,"ANTXR1,TEM8",Oncology,F2(-/-),No,,41931322576240916462
+Sclerostin,SOST,Orthopaedic Disorders,F1(+/-),No,5,68872603873977916174
+GITR,GITR,Oncology,F1(+/-),No,12,82657388042681916136
+CB2,"CB2,CNR2","Oncology,Inflammation and Autoimmunity",F1(+/-),No,24,45944238912474916762
+CD39,"CD39,ENTPD1",Oncology,F1(+/-),No,4,30973073884855916687
+IL33,IL33,Inflammation and Autoimmunity,F1(+/-),No,4,37972375419378916562
+IL31RA,IL31RA,Inflammation and Autoimmunity,F1(+/-),No,0,03300307107566916524
+TSLP,TSLP,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,2,06753583376099916169
+IL2RB,CD122,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,1,25624731982117916277
+GPR77,"GPR77,C5AR2",Oncology,F1(+/-),No,0,76321457181224916753
+IL1A,IL-1a,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,14,91871206869016916419
+IL10,IL-10,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,11,37848628072571916229
+IL17RA,IL-17RA,Inflammation and Autoimmunity,F1(+/-),No,4,98513421396890916247
+IL36R,"IL-36R,IL1RL2",Inflammation and Autoimmunity,F1(+/-),No,2,63718417158614916477
+IL23R,IL-23R,Inflammation and Autoimmunity,F1(+/-),Yes,1,29829875523264916973
+NKG2D,"NKG2D,KLRK1",Oncology,F1(+/-),No,0,15561814756739916782
+IL1RAP,"IL-1RAP,IL1RAP,IL1R3","Oncology,Inflammation and Autoimmunity",F1(+/-),No,0,63479132982572916645
+IL13,IL13,Inflammation and Autoimmunity,F1(+/-),No,15,02307456434040916363
+MUC1,"MUC1,CD227,EMA",Oncology,F1(+/-),Yes,37,1310451640410575060
+CAIX,"CAIX,CA9,G250",Oncology,F1(+/-),No,12,19685317757960916760
+ALB,ALB,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,,01579470033279916559
+FCGR1,CD64,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,6,27945173609573916410
+OX40,"OX40,CD134,TNFRSF4",Oncology,F1(+/-),No,21,1310451640410575062
+4-1BB,"4-1BB,CD137,TNFRSF9",Oncology,F1(+/-),No,,1310451640410575064
+TIM3,"TIM3,CD366",Oncology,F1(+/-),No,12,55328561551078916213
+ICOS,"ICOS,CD278",Oncology,F1(+/-),No,7,64821165656440916792
+MSLN,"MSLN,CAK1,MPF",Oncology,F1(+/-),No,17,1310451640410575066
+CD44,CD44,Oncology,F1(+/-),No,23,1310451640410575068
+IL21,IL21,Inflammation and Autoimmunity,F1(+/-),No,5,69953000040696916967
+CDH3,"CDH3,CDH15,CADH3",Oncology,F1(+/-),No,4,05191137118987916544
+IL17F,IL17F,Inflammation and Autoimmunity,F1(+/-),No,2,02158733726351916942
+SELPLG,SELPLG,Inflammation and Autoimmunity,F1(+/-),No,3,43797324723715916953
+CD2,CD2,"Oncology,Inflammation and Autoimmunity",F1(+/-),No,4,77386074600741916234
+BTLA,BTLA,Oncology,F1(+/-),No,,35385874910146916180
+UPAR,"CD87,UPAR,PLAUR",Oncology,F1(+/-),No,0,47217518607394916824
+AMHR2,"AMHR,MRII,AMHR2",Oncology,F1(+/-),No,,26974522861770916621
+CXCR5,"BLR1,CD185,CXCR5","Oncology,Inflammation and Autoimmunity",F1(+/-),No,1,1310451640410575070
+CLEC12A,"CLL1,CD371,CLEC12A",Oncology,F1(+/-),Yes,6,09117613835246916645
+C5AR1,"C5AR,CD88,C5AR1","Oncology,Inflammation and Autoimmunity",F1(+/-),No,12,92867985181034916368
+CXCR3,"CD182,CD183,CXCR3","Oncology,Inflammation and Autoimmunity",F1(+/-),No,3,41026192067037916575
+IL25,"IL17E,IL25",Inflammation and Autoimmunity,F1(+/-),No,0,91687245352227916358
+IL6,"IL-6,BSF-2,IFNB2","Oncology,Inflammation and Autoimmunity",F1(+/-),No,37,10760507684901916972
+IL2RA,"p55,CD25,IL2R,","Oncology,Inflammation and Autoimmunity",F1(+/-),No,14,82271959624812916450
+CXCR2,"CD182,IL8RB,CXCR2","Oncology,Inflammation and Autoimmunity",F1(+/-),No,10,98155555386054916821
+STEAP1,"STEAP,PRSS24,STEAP1",Oncology,F1(+/-),No,3,17203746289430916805
+FLT3,"FLT3,FLK2,CD135","Oncology,Inflammation and Autoimmunity",F1(+/-),No,66,1306110757150130294
+MIF,"MIF,GIF, GLIF","Oncology,Inflammation and Autoimmunity",F1(+/-),No,5,55964799397868916279
+LIGHT,"LIGHT,CD258,HVEML",Inflammation and Autoimmunity,F1(+/-),No,1,25984551399914916903
+MDK,"MDK,ARAP,NEGF2","Oncology,Inflammation and Autoimmunity",F1(+/-),No,1,00286026827920916430
+PD-L2,"PD-L2,CD273,PDCD1LG2",Oncology,F1(+/-),No,0,07340745167804916871
+CD106,"CD106,VCAM1","Oncology,Inflammation and Autoimmunity,Cardiovascular",F1(+/-),No,,46139033657595916324
+MDR-1,"ABCB1,CD243,GP170",Oncology,F1(+/-),No,45,66836462839454916145
+CD14,CD14,"Infectious Diseases,Inflammation and Autoimmunity",F1(+/-),No,,09238649229821916117
+CCR8,"CCR8,CKRL1,CMKBR8",Oncology,F1(+/-),No,,77042272957146916606
+CX3CR1,"CX3CR1,GPR13,CMKDR1",Cardiovascular,F1(+/-),No,2,89575321706743916515
+TNFRSF1A,"TNFRSF1A,TNFAR,TNFR1","Infectious Diseases,Inflammation and Autoimmunity",F1(+/-),No,0,83850204050873916825
+ADAM9,"ADAM9,MCMP",Oncology,F1(+/-),No,,84170532869546916423
+IL21R,"IL21R,NILR,CD360",Inflammation and Autoimmunity,F1(+/-),No,1,21637559468862916238
+CCR6,"CCR6,CD196,CKR-L3","Oncology,Inflammation and Autoimmunity",F1(+/-),No,,72813100630636916815
+CD20,"CD20,CVID5,LEU-16","Oncology,Inflammation and Autoimmunity",F1(+/-),No,121,44341300980003916941
+ROBO4,"ROBO4,AOVD3,ECSM4",Ophthalmology,F1(+/-),No,0,18748689748358916559
+TROP2,"TROP2,EGP1,GA733-1",Oncology,F1(+/-),No,6,60667102785278916145
+GLP1R,"GLP1R,GLP-1",Metabolism,F1(+/-),No,130,55286018400206916835
+ITGB6,"ITGB6,AI1H","Oncology,Inflammation and Autoimmunity",F1(+/-),No,0,67906168731846916701
+ACE2,ACE2,Infectious Diseases,F1(+/-),No,,23505916659437916474
+CD155,"CD155,PVR",Oncology,F1(+/-),No,,16758137466226916847
+CX3CL1,"CX3CL1,CXC3C",Inflammation and Autoimmunity,F1(+/-),No,1,04169750574622916879
+SLC7A11,Slc7a11,Oncology,F1(+/-),No,1,87808894260546916465
+GM-CSF,"GM-CSF,CSF2","Oncology,Inflammation and Autoimmunity",F0,No,130,12733715526825916728
+IL1R,"IL-1R1,IL1Ra,CD121a","Oncology,Inflammation and Autoimmunity",F0,No,22,81409915318183916744
+IL6R,IL-6RA,Inflammation and Autoimmunity,F0,No,21,44891215618383916429
+IL10RA,IL-10RA,Inflammation and Autoimmunity,F0,No,0,61057443668665916268
+CD79b,"CD79b,AGM6,B29","Oncology,Inflammation and Autoimmunity",F0,No,3,79955849275690916310
+FcRn,"FcRn,FCGRT",Inflammation and Autoimmunity,F0,No,6,95100625238137916657
+CD45RB,"CD45,B220,Ly-5","Oncology,Inflammation and Autoimmunity",F0,No,4,80171082550426916293
+MUC16,"MUC-16,CA-125",Oncology,F0,No,5,97242359437971916719
+BCMA,"BCMA,TNFRSF17,CD269",Oncology,F0,No,,43535222652793916898
+DR5,"DR5,CD262,TNFRSF10B",Oncology,F0,No,22,05020145115581916112
+IL4,IL4,Inflammation and Autoimmunity,F0,No,12,80778830314379916459
+IL15,IL15,"Oncology,Inflammation and Autoimmunity",F0,No,6,35562683419243916514
+CD61,"CD61,GPIIIa,ITGB3",Oncology,F0,No,0,24721907696695916581
+PGF,PGF,"Oncology,Inflammation and Autoimmunity",F0,No,14,07505985549278916829
+Notch3,Notch3,Oncology,F0,No,2,22836338213386916922
+CD62E,"ELAM,CD62E,SELE",Inflammation and Autoimmunity,F0,No,11,01123161100982916104
+CCR5,"CKR5,CD195,CCR5","Infectious Diseases,Inflammation and Autoimmunity",F0,No,,59352411958432916673
+CD56,CD56,"Oncology,Inflammation and Autoimmunity",F0,No,3,74133949430368916666
+IL22,"IL-22,ILTIF,IL-D110","Oncology,Inflammation and Autoimmunity",F0,No,3,67568222935333916663
+CSF1R,"CSFR,CD115,CSF1R","Oncology,Inflammation and Autoimmunity",F0,No,28,36393982546978916696
+MERTK,"MER,RP38,MERTK","Oncology,Inflammation and Autoimmunity",F0,No,3,12222315259877916982
+CD70,"CD27L,TNFSF7,CD70","Oncology,Inflammation and Autoimmunity",F0,No,9,89476637824583916418
+OSM,OSM,Inflammation and Autoimmunity,F0,No,3,94712087009016916949
+CXCL10,"CXCL10,IFI10,INP10",Inflammation and Autoimmunity,F0,No,5,88946266953710916657
+CD37,"CD37,GP52-40,TSPAN26",Oncology,F0,No,,83231254241026916413
+MCSP,"MCSP,NG2,MCSP",Oncology,F0,No,0,05007770851002916908
+CD18,"CD18,MFI7,LCAMB",Oncology,F0,No,,79162459189410916201
+GP100,"GP100,SIL,ME20",Oncology,F0,No,3,59411491036480916669
+TNC,"TNC,HXB,GMEM",Oncology,F0,No,5,33327892025973916260
+GPA33,GPA33,Oncology,F0,No,4,1310451640410575147
+CD74,"CD74,p33, DHLAG, HLADG","Oncology,Inflammation and Autoimmunity",F0,No,8,01784829796133916853
+CD138,"SDC, CD138, SYND1",Oncology,F0,No,,44773610624882916847
+AXL,"AXL,UFO, JTK11",Oncology,F0,No,,1310451640410575072
+GPC3,"GPC3,OCI-5,GTR2-2",Oncology,F0,No,10,05992419414198916133
+CDH17,"CDH17,HPT1",Oncology,F0,No,0,93889454933402916976
+FGF2,"FGF2,BFGF,FGFB",Oncology,F0,No,10,78637376934159916408
+L1CAM,"L1CAM,SPG1,CD171",Oncology,F0,No,0,04982022097976916644
+FGFR4,"FGFR4, JTK2,CD334",Oncology,F0,No,17,71182081805141916782
+ALK,"ALK,CD246,NBLST3",Oncology,F0,No,,11338237401382916871
+TLR3,"TLR3,CD283,IIAE2","Infectious Diseases,Inflammation and Autoimmunity",F0,No,16,35344266512392916242
+TGM2,TGM2,"Infectious Diseases,Inflammation and Autoimmunity",F0,No,3,83923534036833916351
+IL12B,"IL12B,CLMF,NKSF",Inflammation and Autoimmunity,F0,No,2,
+CD22,"CD22,SIGLEC-2","Oncology,Inflammation and Autoimmunity",F0,No,,
+CD33,"CD33,SIGLEC-3",Oncology,F0,No,,
+IL23A,"IL23,IL-23A,IL23P19",Inflammation and Autoimmunity,F0,No,2,
+CD27,"CD27,TNFRSF7,Tp55","Oncology,Inflammation and Autoimmunity",F0,No,,
+IL22RA,"IL22RA1,CRF2-9,IL22R",Inflammation and Autoimmunity,F0,No,0,
+LRRC15,"LRRC15,LIB",Oncology,F0,No,1,
+IL18RA,"IL18RA,CD218a","Oncology,Inflammation and Autoimmunity",F0,No,0,
+CD30,"CD30,D1S166E, Ki-1",Oncology,F0,No,,
+IL5R,"IL5R,CD125",Inflammation and Autoimmunity,F0,No,3,
+CACNA2D1,"CACNA2D1,CCHL2A",Oncology,F0,No,,
+IL18,"IL18,IL1F4,IGIF",Inflammation and Autoimmunity,F0,No,5,
+CNGB1,"CNGB1,GARP2",Ophthalmology,F0,No,0,
+VISTA,"B7H5,PD-1H,VISTA",Oncology,F0,No,3,
+CCR7,"CCR7,CD197",Oncology,F0,No,,
+DDR1b,DDR1,"Oncology,Cardiovascular",F0,No,0,
+PCSK9,PCSK9,"Metabolism,Cardiovascular,Oncology",F0,No,30,
+RANKL,"RANKL,OPGL,TNFSF11","Orthopaedic Disorders,Metabolism,Oncology",F0,No,24,
+CD19,"CD19,B4,CVID3","Oncology,Inflammation and Autoimmunity",F0,No,,
+IFNG,"IFNG,IFG,IFI","Inflammation and Autoimmunity,Infectious Diseases",F0,No,20,
+IL5,IL5,Inflammation and Autoimmunity,F0,No,7,
+CD62P,"CD62P,GRMP,SELP","Inflammation and Autoimmunity,Cardiovascular",F0,No,,
+CGRP,"CGRP,CALC1,CGRP1","Neuroscience,Metabolism",F0,No,0,
+CRCP,"CRCP,CGRPRCP",Neuroscience,F0,No,0,
+EPHA2,"EPHA2,ECK,CTRCT6",Oncology,F0,No,8,
+TPBG,"TPBG,5T4,WAIF1",Oncology,F0,No,8,
+PVRIG,"PVRIG,CD112R,C7orf15",Oncology,F0,No,1,
+Nectin-4,"Nectin-4,NECTIN4",Oncology,F0,No,2,
+CD38,CD38,Oncology,F0,No,,
+ITGB7,ITGB7,Inflammation and Autoimmunity,F0,No,0,
+IL11RA,"IL11RA,CRSDA","Oncology,Infectious Diseases",F0,No,12,
+CCR9,"CCR9,GPR28,CC-CKR-9",Oncology,F0,No,,
+IL11,IL11,"Oncology,Infectious Diseases",F0,No,0,
+LRRC33,"LRRC33,NRROS",Oncology,F0,No,0,
+CD36,"CD36,FAT,GP3B","Oncology,Cardiovascular",F0,No,,
+ADORA2A,"A2aR,RDC8,ADORA2",Oncology,F0,No,,
+IL18RAP,"IL18RAP,IL18RB","Oncology,Inflammation and Autoimmunity",F0,No,0,
+PSMA,"PSMA,FGCP,FOLH1","Oncology,Neuroscience",F0,No,30,
+IL18BP,"IL18BP,FVHa","Oncology,Inflammation and Autoimmunity",F0,No,0,
+TNF,"TNF,TNFA,TNFSF2","Inflammation and Autoimmunity,Oncology,Infectious Diseases",F0,No,176,
+IL31,IL31,Inflammation and Autoimmunity,F0,No,0,
+BAFF,"BAFF,CD257,TNFSF20","Oncology,Inflammation and Autoimmunity",F0,No,,
+CD6,"CD6,TP120","Oncology,Inflammation and Autoimmunity,Metabolism",F0,No,,
+CD52,"CD52,HE5,EDDM5","Oncology,Inflammation and Autoimmunity",F0,No,,
+SLAMF7,"SLAMF7,CD319,CRACC",Oncology,F0,No,6,
+ITGAL,"ITGAL,CD11A,LFA-1",Inflammation and Autoimmunity,F0,No,6,
+IL13RA1,IL13RA1,"Oncology,Inflammation and Autoimmunity",F0,No,0,
+ANGPTL4,"ANGPTL4,NL2,ARP4","Oncology,Metabolism",F0,No,,
+CD133,"CD133,RP41,AC133",Oncology,F0,No,,
+CD8,"CD8,p32,Leu2","Oncology,Inflammation and Autoimmunity",F0,No,,
+CD63,"CD63,MLA1,TSPAN30","Oncology,Inflammation and Autoimmunity",F0,No,,
+CAXII,"CAXII,CA-XII,T18816",Oncology,F0,No,,
+CLDN3,"CLDN3,RVP1,CPETR2",Oncology,F0,No,,
+SPP1,"SPP1,OPN,BNSP","Oncology,Inflammation and Autoimmunity",F0,No,2,
+TNFSF15,"TNFSF15,TL1,VEGI",Inflammation and Autoimmunity,F0,No,1,
+AGR-2,"AGR-2,GOB-4,HAG-2","Oncology,Inflammation and Autoimmunity",F0,No,,
+ASCT2,"ASCT2,ATBO,M7VS1",Oncology,F0,No,,
+BSPII,"BSP,BNSP,BSPII",Oncology,F0,No,,
+CD166,"MEMD,CD166","Oncology,Inflammation and Autoimmunity",F0,No,,
+CLDN4,"CLDN4,CPER,WBSCR8",Oncology,F0,No,,
+IL20,"IL-20,IL10D,ZCYTO10",Inflammation and Autoimmunity,F0,No,1,
+IFNB1,"IFNB1,IFNB,IFN-beta",Inflammation and Autoimmunity,F0,No,21,
+CD23,"CD23,FCE2","Oncology,Inflammation and Autoimmunity",F0,No,,
+PRLR,"PRLR,HPRL,MFAB","Oncology,Reproductive System Diseases",F0,No,5,
+OSMR,"OSMR,IL-31R-beta","Oncology,Inflammation and Autoimmunity",F0,No,0,
+KIR,"KIR,KIR3DL1",Oncology,F0,No,0,
+CD80,"CD80,B7-1,CD28LG","Oncology,Inflammation and Autoimmunity",F0,No,,
+CD15,"CD15,FCT3A,FUTIV","Oncology,Inflammation and Autoimmunity",F0,No,,
+CCL5,"CCL5,SCYA5,RANTES",Inflammation and Autoimmunity,F0,No,,
+CCL24,"CCL24,Ckb-6,MPIF2","Inflammation and Autoimmunity,Metabolism,Infectious Diseases",F0,No,,
+EPHA3,"EPHA3,EK4,TYRO4",Oncology,F0,No,1,
+GUCY2C,"GUCY2C,STAR,MECIL",Oncology,F0,No,4,
+LRP5,"LRP5,HBM,LR3","Oncology,Ophthalmology",F0,No,0,
+TNFRSF25,"TNFRSF25,DDR3,TRAMP","Oncology,Inflammation and Autoimmunity",F0,No,0,
+CXCL13,"CXCL13,BLC,ANGIE","Oncology,Inflammation and Autoimmunity,Infectious Diseases",F0,No,,
+EMP2,"EMP2,XMP",Oncology,F0,No,0,
+GRP,"GRP,GRP-10,proGRP","Oncology,Infectious Diseases",F0,No,4,
+LGALS9,"LGALS9,HUAT,LGALS9A","Oncology,Infectious Diseases",F0,No,0,
+TREM1,"TREM1,CD354,TREM-1","Oncology,Inflammation and Autoimmunity",F0,No,1,
+IFNAR1,"IFNAR1,AVP,IFNBR","Inflammation and Autoimmunity,Urological Diseases",F0,No,5,
+TSLPR,"CRL2,TSLPR,CRLF2Y",Inflammation and Autoimmunity,F0,No,0,
+ILDR2,"ILDR2,C1orf32,dJ782G3.1",Oncology,F0,No,1,
+CD54,"BB2,CD54,P3.58","Oncology,Inflammation and Autoimmunity",F0,No,,
+TLR4,TLR4,"Inflammation and Autoimmunity,Infectious Diseases,Gastrointestinal",F0,No,20,
+TLR2,TLR2,"Inflammation and Autoimmunity,Infectious Diseases,Gastrointestinal,Oncology",F0,No,8,
+TEM1,"TEM1,CD164L1",Oncology,F0,No,1,
+MFGE8,"MFGE8,BA46,HMFG,","Oncology,Neuroscience,Ophthalmology",F0,No,0,
+CSF2RA,"CSF2RA,CD116,CSF2R",Inflammation and Autoimmunity,F0,No,,
+AFP,"AFP,FETA,HPAFP",Oncology,F0,No,,
+FZD10,"FZD10,Fz10,CD350",Oncology,F0,No,1,
+FCRL5,"FCRL5,CD307,IRTA2",Oncology,F0,No,,
+CLU,"CLU,APOJ,SGP2",Oncology,F0,No,,
+CFB,"CFB,PBF2,AHUS4","Inflammation and Autoimmunity,Ophthalmology,Infectious Diseases,Others,Urological Diseases,Cardiovascular",F0,No,,
+CD7,"CD7,GP40,TP41","Oncology,Infectious Diseases",F0,No,,
+CD5,"CD5,T1,LEU1","Oncology,Inflammation and Autoimmunity,Metabolism,Others",F0,No,,
+CD43,"LSN,CD43,GALGP,GPL115",Oncology,F0,No,,
+P2X7,P2X7,Oncology,F0,No,6,
+PSCA,"PSCA,PRO232","Oncology,Others",F0,No,4,
+SSTR2,SSTR2,Oncology,F0,No,22,
+IL3RA,"IL3RA,IL3R,CD123","Oncology,Others,Inflammation and Autoimmunity",F0,No,24,
+CD300a,"CD300a,IRC1,CMRF35H",Inflammation and Autoimmunity,F0,No,,
+CDCP1,"CDCP1,CD318,TRASK",Oncology,F0,No,,
+DKK2,DKK-2,Oncology,F0,No,,
+IL3,IL3,"Inflammation and Autoimmunity,Others",F0,No,0,
+POSTN,"POSTN,PN,OSF2","Oncology,Cardiovascular,Inflammation and Autoimmunity",F0,No,0,
+TREM2,"TREM2,PLOSL2","Neuroscience,Oncology,Gastrointestinal,Inflammation and Autoimmunity,Infectious Diseases",F0,No,1,
+ANXA1,"ANXA1,ANX1,LPC1","Inflammation and Autoimmunity,Neuroscience,Infectious Diseases,Cardiovascular,Reproductive System Diseases",F0,No,,
+AREG,"AREG,SDGF,AREGB",Oncology,F0,No,,
+CD48,"CD48,BCM1,BLAST","Inflammation and Autoimmunity,Oncology,Gastrointestinal",F0,No,,
+CD83,"CD83,BL11,HB15","Inflammation and Autoimmunity,Oncology",F0,No,,
+CFI,"CFI,AHUS3,C3BINA","Inflammation and Autoimmunity,Neuroscience",F0,No,,
+IL12RB1,"IL12RB1,CD212",Inflammation and Autoimmunity,F0,No,0,
+JAM-A,JAM-A,"Oncology,Cardiovascular",F0,No,0,
+PROK2,"PROK2,PK2,KAL4",Oncology,F0,No,0,
+SPARC,"SPARC,ONT,BM-40","Oncology,Inflammation and Autoimmunity,Infectious Diseases,Ophthalmology,Cardiovascular,Orthopaedic Disorders",F0,No,0,
+APLN,"APLN,APEL,XNPEP2","Oncology,Ophthalmology",F0,No,,
+BST2,"BST2,CD317,TETHERIN",Oncology,F0,No,,
+FGF21,FGF21,Metabolism,F0,No,,
+GPR84,"GPR84,EX33,GPCR4",Inflammation and Autoimmunity,F0,No,2,
+UPA,UPA,"Oncology,Cardiovascular,Others,Inflammation and Autoimmunity",F0,No,12,
+MADCAM1,MADCAM1,Inflammation and Autoimmunity,F0,No,1,
+M-CSF,M-CSF,"Oncology,Inflammation and Autoimmunity",F0,No,4,
+CD46,"CD46,MCP,TLX",Oncology,F0,No,,
+CD49b,"CD49b,HPA-5,VLA-2","Inflammation and Autoimmunity,Cardiovascular,Oncology,Others",F0,No,,
+G-CSFR,G-CSFR,"Inflammation and Autoimmunity,Oncology,Others,Cardiovascular",F0,No,,
+TSPAN8,"TSPAN8,CO-029,TM4SF3",Oncology,F0,No,0,
+ARTN,"ARTN,NBN,ENOVIN",Oncology,F0,No,,
+CD151,"CD151,GP27,TSPAN24",Oncology,F0,No,,
+CD69,"CD69,MLR-3,CLEC2C",Oncology,F0,No,,
+CRTAM,"CRTAM,CD355",Oncology,F0,No,,
+EPHA5,"EPHA5,EK7,TYRO4",Oncology,F0,No,,
+GAS6,"GAS6,AXSF,AXLLG","Oncology,Urological Diseases",F0,No,,
+GPA,"GPA,PAS-2,CD235a",Cardiovascular,F0,No,,
+HGFA,"HGFA,HGFA","Oncology,Inflammation and Autoimmunity,Others",F0,No,10,
+IL17RB,"IL17RB,CRL4,EVI27","Oncology,Inflammation and Autoimmunity",F0,No,4,
+IL34,"IL34,IL-34,C16orf77","Oncology,Inflammation and Autoimmunity,Others",F0,No,4,
+IL9,IL9,"Infectious Diseases,Inflammation and Autoimmunity,Oncology,NA",F0,No,14,
+KCNA3,"KCNA3,HGK5,PCN3",Inflammation and Autoimmunity,F0,No,0,
+KLKB1,"KLKB1,PKK,KLK3","Inflammation and Autoimmunity,Others,Cardiovascular,Orthopaedic Disorders,Infectious Diseases,Metabolism",F0,No,2,
+LAMA4,"LAMA4,LAMA3,CMD1JJ",Oncology,F0,No,19,
+LRRN1,"LRRN1,NLRR-1,FIGLER3",Oncology,F0,No,0,
+Notch4,"Notch4,INT3","Oncology,Inflammation and Autoimmunity",F0,No,2,
+OLFML3,"OLFML3,OLF44,HNOEL-iso",Oncology,F0,No,1,
+MRP14,"MRP14,P14,CAGB",Metabolism,F0,No,16,
+SFRP2,"SFRP2,SARP1,SDF-5",Oncology,F0,No,1,
+SLPI,"SLPI,ALP,MPI",Oncology,F0,No,8,
+ADAMTS4,"ADAMTS4,ADMP-1,ADAMTS-2",Orthopaedic Disorders,F0,No,,
+ADIPOQ,"ADIPOQ,ACDC,APM1",Inflammation and Autoimmunity,F0,No,,
+APOA2,"APOA2,apoAII,Apo-AII",Inflammation and Autoimmunity,F0,No,,
+BST1,"BST1,CD157",Oncology,F0,No,,
+CACFD1,"CACFD1,C9orf7,FLOWER",Oncology,F0,No,,
+CAV1,"CAV1,CGL3,PPH3",Oncology,F0,No,,
+CD300LF,"CD300LF,CLM1,NKIR",Oncology,F0,No,,
+CD34,"CD34,","Ophthalmology,Oncology",F0,No,,
+CD5L,"CD5L,AIM,PRO229",Oncology,F0,No,,
+CD68,"CD68,GP110,LAMP4",Oncology,F0,No,,
+CMKLR1,"CMKLR1,",Inflammation and Autoimmunity,F0,No,,
+CXCL4,"CXCL4,PF-4,CXCL4","Oncology,Others",F0,No,,
+CXCR6,"CXCR6,CD186,STRL33",Inflammation and Autoimmunity,F0,No,,
+EFEMP1,"EFEMP1,DHRD,MLVT",Oncology,F0,No,,
+ENTPD2,"ENTPD2,",Oncology,F0,No,,
+EPHB2,"EPHB2,DRT,EK5",Oncology,F0,No,,
+EREG,"EREG,ER,Ep,EPR","Oncology,Urological Diseases,Metabolism",F0,No,,
+GAL1,"GAL1,GBP,GAL1","Oncology,Others",F0,No,,
+GAST,"GAST,GAS","Oncology,Others",F0,No,,
+GFRA3,"GFRA3,GDNFR3","Oncology,Others",F0,No,,
+GHR,"GHR,GHBP,GHIP","Metabolism,Oncology,Inflammation and Autoimmunity,Infectious Diseases",F0,No,,
+HDGF,"HDGF,HMG1L2",Oncology,F0,No,,
+HPN,"HPN,TMPRSS1",Oncology,F0,No,,
+IL20R1,"IL20R1,CRF2-8,IL-20R1","Oncology,Gastrointestinal",F0,No,1,
+IL27,IL27,Oncology,F0,No,0,
+ITGA7,ITGA7,Oncology,F0,No,1,
+KREMEN2,"KREMEN2,KRM2",Oncology,F0,No,17,
+LCK,"LCK,LSK,YT16",Oncology,F0,No,19,
+LGALS3BP,"LGALS3BP,M2BP,gp90",Oncology,F0,No,19,
+LGR6,"LGR6,GPCR,VTS20631",Oncology,F0,No,2,
+MARCO,"MARCO,SR-A6,SCARA2",Oncology,F0,No,4,
+MLC,"MLC,LVM,MLC","Cardiovascular,Oncology",F0,No,5,
+VLDLR,"VLDLR,CAMRQ1,CARMQ1","Inflammation and Autoimmunity,Cardiovascular",F0,No,3,
+CRIg,"CRIg,CRIg,Z39IG","Others,Infectious Diseases",F0,No,,
+CD200R,"CD200R,OX2R,MOX2R","Inflammation and Autoimmunity,Ophthalmology",F0,No,,
+IL13RA2,"IL13RA2,IL-13R,IL13BP",Inflammation and Autoimmunity,F0,No,,
+CD200,"CD200,MRC,MOX2","Oncology,Inflammation and Autoimmunity,Infectious Diseases,Others",F0,No,,
+CCL20,"CCL20,ST38,MIP3A","Inflammation and Autoimmunity,Oncology,Gastrointestinal",F0,No,,
+APP,"APP,ABPP,APPI","Neuroscience,Others,Ophthalmology,Inflammation and Autoimmunity,Oncology,Cardiovascular,Metabolism,Infectious Diseases",F0,No,,
+LIV-1,LIV-1,Oncology,F0,No,1,
+CD49a,"CD49a,VLA1","Inflammation and Autoimmunity,Metabolism,Cardiovascular",F0,No,,
+MUC18,MUC18,"Oncology,Inflammation and Autoimmunity,Neuroscience,Ophthalmology",F0,No,2,
+IL7RA,IL7RA,"Inflammation and Autoimmunity,Oncology,Metabolism",F0,No,5,
+CD205,"CD205,CLEC13B,DEC-205","Infectious Diseases,Oncology,Inflammation and Autoimmunity,Reproductive System Diseases",F0,No,,
+CD81,"CD81,TAPA1,TSPAN28","Oncology,Infectious Diseases,Inflammation and Autoimmunity",F0,No,,
+CD160,"CD160,NK1,BY55","Oncology,Ophthalmology,Reproductive System Diseases",F0,No,,
+ANXA2,"ANXA2,P36,ANX2",Oncology,F0,No,,
+CFD,"CFD,ADN,ADIPSIN","Ophthalmology,Inflammation and Autoimmunity,Urological Diseases,Cardiovascular",F0,No,,
+ERalpha36,"ERalpha36,",Oncology,F0,No,,
+GDF15,"GDF15,PDF,MIC1","Oncology,Others",F0,No,,
+LGMN,"LGMN,AEP,LGMN1",Oncology,F0,No,0,
+TFF1,"TFF1,pS2,BCEI",Oncology,F0,No,1,
+ADAM15,"ADAM15,MDC15",Oncology,F0,No,,
+ADAM8,"ADAM8,MS2,CD156",Oncology,F0,No,,
+ADAMTS1,"ADAMTS1,C3-C5,METH1",Oncology,F0,No,,
+APLP2,"APLP2,APPH,APPL2",Oncology,F0,No,,
+BAMBI,"BAMBI,NMA",Inflammation and Autoimmunity,F0,No,,
+LYPD3,LYPD3,Oncology,F0,No,1,
+CHODL,"CHODL,MT75,PRED12",Oncology,F0,No,,
+CLEC9A,"CLEC9A,CD370,DNGR1",Oncology,F0,No,,
+DDT,"DDT,DDCT,MIF2",Inflammation and Autoimmunity,F0,No,,
+DR6,"DR6,CD358,BM-018",Inflammation and Autoimmunity,F0,No,,
+EDA1,"EDA1,ED1,HED","Reproductive System Diseases,Oncology,Urological Diseases,Inflammation and Autoimmunity",F0,No,,
+EFNA3,"EFNA3,EFL2,EPLG3",Oncology,F0,No,,
+EVA-1,EVA-1,Oncology,F0,No,,
+Gal,"Gal,GALN,GMAP",Inflammation and Autoimmunity,F0,No,,
+GP1BB,"GP1BB,CD42C,GPIBB","Oncology,Others",F0,No,,
+GSDMD,GSDMD,Oncology,F0,No,,
+IGFBP-3R,IGFBP-3R,Oncology,F0,No,,
+IL17B,IL17B,Oncology,F0,No,,
+IL-1R2,IL-1R2,Inflammation and Autoimmunity,F0,No,,
+OSCAR,"OSCAR,PIGR3,PIgR-3",Inflammation and Autoimmunity,F0,No,1,
+CD31,"CD31,CD31,PECA1",Others,F0,No,,
+PGLYRP1,"PGLYRP1,PGRP,TNFSF3L",Inflammation and Autoimmunity,F0,No,14,
+PLA2-Ib,PLA2-Ib,Infectious Diseases,F0,No,14,
+RETN,"RETN,ADSF,RSTN",Oncology,F0,No,24,
+SCG3,"SCG3,SGIII","Metabolism,Oncology",F0,No,19,
+SERPINF2,"SERPINF2,AAP,A2AP","Oncology,Others,Cardiovascular",F0,No,1,
+SRB1,"SRB1,CLA1,CD36L1","Infectious Diseases,Inflammation and Autoimmunity",F0,No,2,
+TEM7R,"TEM7R,TEM7R",Oncology,F0,No,1,
+TGFA,"TGFA,TFGA",Oncology,F0,No,4,
+PAR2,"PAR2,PAR2,GPR11","Others,Inflammation and Autoimmunity,Neuroscience,Oncology,Metabolism",F0,No,1,
+FZD4,"FZD4,EVR1,CD344",Oncology,F0,No,,
+FFAR1,"FFAR1,FFA1R,GPCR40",Metabolism,F0,No,,
+GARP,"GARP,LRRC32","Oncology,Inflammation and Autoimmunity",F0,Yes,,
+CD73,CD73,Oncology,Antibody Discovery,No,,
+B7-H3,B7-H3,Oncology,Antibody Discovery,Yes,,
+TNFR2,TNFR2,Oncology,Antibody Discovery,Yes,0,

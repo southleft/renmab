@@ -1,0 +1,149 @@
+.licensing-cta {
+	background: $navy;
+	color: $ice;
+	max-width: 450px;
+	border-radius: $radius;
+	padding: em(85) 8%;
+	position: relative;
+	margin-bottom: 90px;
+	top: 40px;
+	position: absolute;
+	transition: 600ms ease-out;
+
+	&:after {
+		content: '';
+		position: absolute;
+		width: 65%;
+		padding-top: 65%;
+		right: -23%;
+		bottom: -23%;
+		background: url('img/cloud-small.svg') no-repeat bottom center/contain;
+		z-index: -1;
+	}
+}
+
+.licensing-cta h3 {
+	color: inherit;
+}
+
+.licensing-cta .sphere {
+	position: absolute;
+}
+
+.licensing-cta .sphere-orange {
+	width: 105px;
+	top: -40px;
+	right: -20px;
+}
+
+.licensing-cta .sphere-green {
+	width: 40px;
+	top: -75px;
+	right: 70px;
+}
+
+.licensing-cta .sphere-blue {
+	width: 82px;
+	bottom: -50px;
+	left: 40px;
+}
+
+.cta-card {
+	margin: em(75) auto em(100);
+	padding: em(45) $gutterLarge * 1.5;
+	background: $navy;
+	color: $ice;
+	border-radius: $radius;
+	position: relative;
+}
+
+.cta-card .spheres-1,
+.cta-card .spheres-2{
+	position: absolute;
+}
+
+.cta-card .sphere {
+	position: relative;
+}
+
+.cta-card .spheres-1 {
+	left: -75px;
+	top: -45px;
+	width: 156px;
+	z-index: -1;
+
+	.sphere-orange {
+		width: 156px;
+		height: 156px;
+	}
+
+	.sphere-green {
+		width: 44px;
+		height: 44px;
+		left: -5px;
+		bottom: 10px;
+	}
+}
+
+.cta-card .spheres-2 {
+	right: -90px;
+	bottom: 58px;
+	width: 140px;
+
+	.sphere-green {
+		width: 120px;
+		height: 120px;
+	}
+
+	.sphere-orange {
+		width: 48px;
+		height: 48px;
+		right: -95px;
+		top: 60px;
+		z-index: 1;
+	}
+}
+
+.cta-card h3,
+.cta-card p {
+	color: inherit;
+}
+
+.cta-image {
+	@include flex-basis($col5);
+	padding-right: $gutterLarge;
+}
+
+.cta-content {
+	@include flex-direction(column);
+	@include justify-content(center);
+	@include align-items(flex-start);
+	@include flex-basis($col7);
+	padding-left: $gutterLarge;
+}
+
+@media screen and (max-width: $screenSizeM) {
+	.licensing-cta {
+		position: relative;
+	}
+	.cta-card {
+		@include flex-wrap(wrap);
+		@include justify-content(center);
+		padding-top: em(40);
+	}
+	.cta-image, .cta-content {
+		@include flex-basis(100%);
+		padding: 0;
+	}
+
+	.cta-image {
+		margin-bottom: em(20);
+		max-width: 350px;
+	}
+}
+
+@media screen and (max-width: $screenSizeS) {
+	.cta-card .sphere {
+		z-index: -1;
+	}
+}
