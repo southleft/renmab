@@ -1,0 +1,23 @@
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!.gitignore
+!refresh_ko_data.php
+!wp-content/
+!refresh_ko_data.php
+# Ignore everything in the "wp-content" directory, except the "plugins" and "themes" directories.
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+# Ignore everything in the "plugins" directory, except the plugins you specify
+wp-content/plugins/*
+!wp-content/plugins/renmab-blocks
+!wp-content/plugins/project-integrum
+!wp-content/plugins/renmab-events
+!wp-content/plugins/renmab-resources
+# Ignore everything in the "themes" directory, except the themes you specify
+wp-content/themes/*
+!wp-content/themes/renmab/
+
+wp-admin/*
+wp-includes/*
