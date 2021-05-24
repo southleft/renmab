@@ -1,0 +1,396 @@
+.multi-steps {
+	margin-bottom: em(100);
+}
+.multi-steps-wrap {
+	margin: em(50) auto 0;
+	transition: height 600ms;
+	max-width: 1400px;
+	padding-left: $gutterLarge;
+	padding-right: $gutterLarge;
+	@include align-items(flex-start);
+
+	h1, h2, h3, h4, h5, h6 {
+		max-width: 1080px;
+	}
+
+	select {
+		display: none;
+	}
+}
+
+.perspective-wrap {
+	@include flex(1);
+	perspective: 400px; 
+	perspective-origin: 100% em(100);
+	transition: 1s;
+	margin: 0 0 0 $gutterLarge * 2.25;
+}
+
+.multi-steps.noicons .perspective-wrap {
+	margin-left: $gutterLarge * 3;
+}
+
+.multi-nav-wrap {
+	flex-basis: 25%;
+}
+
+.multi-nav-wrap h4 {
+	text-align: right;
+	margin: 0 15% em(20) 0;
+}
+
+.multi-steps.noicons .multi-nav-wrap h4 {
+	margin-right: 0;
+}
+
+.multi-nav {
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+	position: relative;
+	transition: 600ms ease-out;
+
+	&:after {
+		content: '';
+		width: 3px;
+		background: $sand;
+		position: absolute;
+		top: 0;
+		bottom: 20px;
+		right: -3px;
+		z-index: -1;
+	}
+}
+
+.multi-steps.icons .multi-nav:after {
+	top: 30px;
+}
+
+.multi-nav li {
+	margin-bottom: em(80);
+	transition: 400ms;
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+.multi-nav li:before {
+	display: none;
+}
+
+.multi-nav button {
+	padding: 0;
+	width: 100%;
+	background: transparent;
+	@include flexbox();
+	@include align-items(center);
+	transform: none;
+	transition: inherit;
+	&:hover {
+		transform: none;
+	}
+}
+
+.multi-nav li .accent {
+	color: $taupe;
+	text-align: right;
+	@include flex-basis(60%);
+	min-width: 150px;
+	margin: 0 20px 0 0;
+	transition: inherit;
+}
+
+.multi-nav li.active .accent {
+	color: $blue;
+}
+
+.multi-steps.icons .multi-nav {
+	max-width: 265px;
+}
+
+.multi-steps.icons .multi-nav li {
+	margin-right: -28px;
+}
+
+.multi-steps.icons button {
+	@include justify-content(space-between);
+}
+
+.step-icon  {
+	width: 58px;
+	min-width: 58px;
+	height: 58px;
+	transition: 300ms;
+	position: relative;
+}
+
+.step-icon svg {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: inherit;
+}
+
+.step-icon svg path {
+	fill: $sand;
+	transition: inherit;
+}
+
+li.active .step-icon svg path {
+	fill: $sky;
+}
+
+.step-icon svg #filter-blue {
+	opacity: 0;
+	transition: inherit;
+}
+
+li.active .step-icon svg #filter-blue {
+	opacity: 1;
+}
+
+.multi-steps.noicons .multi-nav button {
+	@include justify-content(flex-end);
+}
+
+.multi-steps.noicons .multi-nav button:after {
+	content: '';
+	border-radius: 50%;
+	width: 23px;
+	height: 23px;
+	background: $sand;
+	margin-right: -13px;
+	transition: inherit;
+	position: relative;
+}
+
+.multi-steps.noicons li.active button:after {
+	background: $blue;
+}
+
+.multi-step {
+	position: absolute;
+	display: none;
+	top: 0;
+	transition: transform 1s;
+	max-width: 1080px;
+	width: 100%;
+	left: 0;
+	p, h1, h2, h3, h4, h5, h6 {
+		max-width: 780px;
+	}
+}
+
+.data-labels {
+	clear: both;
+	padding-top: em(30);
+	position: relative;
+}
+.data-tabs .data-content {
+	padding-top: em(30);
+}
+
+.data-labels + .data-tabs .data-content{
+	padding-top: 0;
+}
+
+.data-labels button {
+	padding: em(20) $gutterLarge em(35);
+	background-color: transparent;
+	border-radius: $radius $radius 0 0;
+	position: relative;
+	color: $taupe;
+	margin: 0;
+	transform: none;
+
+	&:hover {
+		transform: none;
+	}
+}
+
+.data-labels button.active {
+	color: $blue;
+	background-color: $ice;
+}
+
+.data-tabs {
+	position: relative;
+}
+
+.data-tab {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.data-text, .result {
+	max-width: 680px;
+}
+
+.data-content {
+	margin-bottom: em(40);
+}
+
+.data-text {
+	border-radius: $radius;
+	margin-top: em(-15);
+	overflow: auto;
+	padding: em(25) $gutterLarge 0;
+}
+
+.data-text:empty {
+	padding-top: 0;
+}
+
+.data-img img {
+	width: 100%;
+}
+
+.data-text ul {
+	margin: em(45) $gutterLarge*2 em(20);
+
+	li:before {
+		background-color: $blue;
+	}
+}
+
+.result {
+	background-color: $sky;
+	@include flexbox();
+	border-radius: 0 0 $radius $radius;
+	padding: em(22) em(40) em(32);
+}
+
+.result h4 {
+	margin: 0;
+}
+
+.result .accent {
+	margin-right: em(30);
+	line-height: 2.6;
+}
+
+.multi-resource {
+	max-width: 980px;
+	margin-top: em(90);
+	overflow: hidden;
+	border-radius: $radius;
+}
+
+.multi-resource-img {
+	@include flex-basis(33.33%);
+	min-width: 33.33%;
+	padding: 6%;
+	background-color: $sky;
+}
+
+.multi-resource-img img {
+	border-radius: $radius;
+	margin-left: -8px;
+	box-shadow: 8px 8px 0 $blue;
+}
+
+.multi-resource-content {
+	@include flexbox();
+	@include flex-direction(column);
+	@include align-items(flex-start);
+	@include justify-content(space-evenly);
+	padding: em(50) $gutterLarge * 1.75;
+} 
+
+@media screen and (max-width: $screenSizeM) {
+	.multi-steps-wrap {
+		@include flex-direction(column);
+		@include align-items(center);
+	}
+
+	.multi-steps.icons .multi-nav {
+		max-width: 100%;
+		width: 100%;
+		max-width: 500px;
+	}
+
+	.multi-nav-wrap {
+		width: 100%;
+	}
+
+	.multi-nav-wrap h4 {
+		text-align: left;
+		margin-bottom: 1em;
+	}
+
+	.multi-nav {
+		@include flexbox();
+		@include justify-content(space-between);
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.multi-steps-wrap select {
+		display: block;
+		margin-bottom: em(30);
+	}
+
+	.multi-steps.icons .multi-nav li {
+		display: inline-block;
+		margin: 0 5% em(30) 0;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	.multi-steps.noicons .multi-nav {
+		@include order(-1);
+		width: 100%;
+		&:after {
+			display: none;
+		}
+	}
+
+	.multi-steps.noicons .multi-nav-wrap h4{
+		margin-bottom: em(10);
+	}
+	.multi-steps.noicons .multi-nav li {
+		display: none;
+	}
+
+	.multi-nav:after {
+		height: 3px;
+		width: 100%;
+		left: 0;
+	}
+
+	.multi-nav button {
+		width: auto;
+		@include flex-direction(column);
+	}
+	.multi-nav li span {
+		display: none;
+	}
+	.perspective-wrap,
+	.multi-steps.noicons .perspective-wrap {
+		margin: 0;
+		width: 100%;
+	}
+	.multi-resource {
+		max-width: 500px;
+		margin-top: em(40);
+		@include flex-wrap(wrap);
+	}
+	.multi-resource-img {
+		@include flex-basis(100%);
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: $screenSizeS) {
+	.data-labels button {
+		font-size: 13px;
+	}
+
+	.result {
+			@include flex-wrap(wrap);
+	}
+} 

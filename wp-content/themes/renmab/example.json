@@ -1,0 +1,120 @@
+{
+   "request_id":"11c0834eeb7e4cd292ea04d0fccaad31",
+   "code":200,
+   "msg":"OK",
+   "data":[
+      {
+         "en_target_name ":"Interleukin-23",
+         "en_target_alias":[
+            "Interleukin-23"
+         ],
+         "en_short_name":"IL23",
+         "target_description":null,
+         "number_launched_druds":"4",
+         "number_drugs_clinical_trials":"10",
+         "highest_phase":"Approved",
+         "drugs":[
+            {
+               "en_name":"Risankizumab",
+               "highest_en_name":"Approved",
+               "code_name":[
+                  "ABBV-066",
+                  "BI-655066"
+               ],
+               "brand_name":[
+                  "Skyrizi"
+               ],
+               "mechanism_action":[
+                  
+               ],
+               "indications":[
+                  "Spondylitis, Ankylosing",
+                  "Dermatitis"
+               ],
+               "organization":[
+                  "Boehringer Ingelheim"
+               ],
+               "clinical_trials":[
+                  {
+                     "nct_number":"NCT03398135",
+                     "intervention_type":[
+                        "Drug",
+                        "Drug"
+                     ],
+                     "indications":"Ulcerative Colitis (UC)",
+                     "study_phase":"Phase 3",
+                     "recruitment_status":"Recruiting",
+                     "last_update_date":"2020-07-17"
+                  },
+                  {
+                     "nct_number":"NCT04254783",
+                     "intervention_type":[
+                        "Drug",
+                        "Drug"
+                     ],
+                     "indications":"Ulcerative Colitis (UC); Crohn's Disease",
+                     "study_phase":"Phase 1",
+                     "recruitment_status":"Recruiting",
+                     "last_update_date":"2020-05-05"
+                  },
+                  {
+                     "nct_number":"NCT03398148",
+                     "intervention_type":[
+                        "Drug",
+                        "Drug",
+                        "Drug"
+                     ],
+                     "indications":"Ulcerative Colitis (UC)",
+                     "study_phase":"Phase 2/Phase 3",
+                     "recruitment_status":"Recruiting",
+                     "last_update_date":"2020-08-17"
+                  },
+                  {
+                     "nct_number":"NCT04435600",
+                     "intervention_type":[
+                        "Drug",
+                        "Drug"
+                     ],
+                     "indications":"Psoriasis",
+                     "study_phase":"Phase 3",
+                     "recruitment_status":"Recruiting",
+                     "last_update_date":"2020-08-27"
+                  },
+                  {
+                     "nct_number":"NCT03104413",
+                     "intervention_type":[
+                        "Drug",
+                        "Drug",
+                        "Drug"
+                     ],
+                     "indications":"Crohn's Disease",
+                     "study_phase":"Phase 3",
+                     "recruitment_status":"Recruiting",
+                     "last_update_date":"2020-08-19"
+                  },
+                  {
+                     "nct_number":"NCT03105128",
+                     "intervention_type":[
+                        "Drug",
+                        "Drug",
+                        "Drug"
+                     ],
+                     "indications":"Crohn's Disease",
+                     "study_phase":"Phase 3",
+                     "recruitment_status":"Active, not recruiting",
+                     "last_update_date":"2020-09-02"
+                  }
+               ]
+            }
+         ],
+         "literatures":[
+            {
+               "title":"High prevalence of ovarian cysts in premenopausal women receiving sirolimus and tacrolimus after clinical islet transplantation.",
+               "author":"Alfadhli E,Senior PA,Shapiro AM,Ryan EA,McDonald C,Ackerman T,Bhargava R,Albaker W,Koh A",
+               "source":"Transpl Int,2009-Jun,22,6,622-5",
+               "pubmed_link":"https://pubmed.ncbi.nlm.nih.gov/19207188/"
+            }
+         ]
+      }
+   ]
+}

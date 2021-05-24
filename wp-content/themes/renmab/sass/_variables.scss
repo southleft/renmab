@@ -1,0 +1,61 @@
+/* Layout */
+$gutterBase: .0185;
+$gutterSmall: percentage( $gutterBase );
+$gutterLarge: percentage( $gutterBase * 2 );
+
+$col9: percentage(9/12);
+$col8: percentage(8/12);
+$col7: percentage(7/12);
+$col5: percentage(5/12);
+$col6: percentage(6/12);
+$col4: percentage(4/12);
+$col3: percentage(3/12);
+$col2: percentage(2/12);
+
+$screenSizeL: 1080px;
+$screenSizeM: 800px;
+$screenSizeS: 600px;
+
+/* Colors */
+$white: #FEFCFB;
+$ivory: #FAF4F1;
+$sand: #ECE1DD;
+$taupe: #CEBFB9;
+$brown: #8E7A71;
+
+$ice: #F5F7FF;
+$sky: #E6EBFF;
+$blue: #848CC6;
+$navy: #2A3165;
+
+$lime: #A1C439;
+$lightLime: #E7F2C4;
+
+$orange: #F9865D;
+$lightOrange: #FFDDD1;
+
+$white: #FFF;
+
+/* Fonts */
+$bodyFamily: "roboto", Tahoma, sans-serif;
+$headlineFamily: "sofia-pro", Verdana, sans-serif;
+$accentFamily: "roboto-mono", "Lucida Console", monospace;
+
+$headlineSizeXL: 3.75; /*60px*/
+$headlineSizeL: 3.125; /*50px*/
+$headlineSizeM: 2.313; /*37px*/
+$headlineSizeS: 1.875; /*30px*/
+$headlineSizeXS: 1.375; /*22px*/
+$leadSizeL: 1.75; /*28px*/
+$leadSizeM: $headlineSizeXS; 
+
+$accentSizeS: 0.875rem; /*14px*/
+$accentSizeM: 1.063rem; /*17px*/
+$accentSizeL: 1.438rem; /*23px*/
+
+/* Misc */
+$border: 3px solid $ivory;
+$radius: 10px;
+$transition: 400ms ease-out;
+
+$pi-border: 1px solid $ice;

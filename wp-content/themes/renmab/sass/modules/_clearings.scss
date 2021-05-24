@@ -1,0 +1,27 @@
+.clear:before,
+.clear:after,
+.single-content:before,
+.single-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+.clear:after,
+.single-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

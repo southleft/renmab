@@ -1,0 +1,55 @@
+.hero {
+	padding-bottom: em(70);
+}
+
+.hero .flex-parent {
+	@include flex-wrap(wrap);
+}
+
+.hero-art, .hero-content {
+	@include flex-basis($col6);
+}
+
+.hero-art {
+	padding-right: $gutterLarge;
+}
+.hero-content {
+	@include flex-direction(column);
+	@include justify-content(center);
+	@include align-items(flex-start);
+}
+
+.hero.layout-right .hero-art {
+	@include order(1);
+	padding-left: $gutterLarge;
+	padding-right: 0;
+}
+
+.hero-content .lead,
+.hero-content p,
+.hero-content .lead + .button,
+.hero-content p + .button {
+	margin-left: $gutterLarge * 3;
+}
+
+@media screen and (max-width: $screenSizeM) {
+	.hero {
+		padding-bottom: em(40);
+	}
+	.hero.layout-right .hero-art {
+		@include order(0);
+	}
+	.hero-content,
+	.hero-art {
+		@include flex-basis(100%);
+		padding: 0;
+	}
+	.hero-art {
+		margin-left: auto;
+		text-align: right;
+	}
+	.hero-art img {
+		max-width: 100%;
+		max-height: 450px;
+	}
+}
