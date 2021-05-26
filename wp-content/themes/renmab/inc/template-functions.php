@@ -330,12 +330,17 @@ function renmab_pi_load_kos($args) {
 
             <ul class="table-header accent accent-small table-row">
                 <li>Target Name</li>
-                <li class="pi-model-mouse">
-                    <ul class="table-row">
-                        <li>RenMab</li>
-                        <li>RenLite</li>
-                        <li>RenNano</li>
-                    </ul>
+                <li class="pi-model-mouse pi-model-mouse--header">
+                    <div>
+                        <div class="pi-model-mouse--label table-row">
+                            mouse models
+                        </div>
+                        <ul class="pi-model-mouse table-row">
+                            <li>RenMab&trade;</li>
+                            <li>RenLite&trade;</li>
+                            <li>RenNano&trade;</li>
+                        </ul>
+                    </div>
                 </li>
                 <li>Launched Drugs</li>
             </ul>
@@ -347,15 +352,16 @@ function renmab_pi_load_kos($args) {
                 $phase_renlite   = $private ? 'Exclusive Partnership' : get_field('pi_phase_renlite');
                 $phase_rennano   = $private ? 'Exclusive Partnership' : get_field('pi_phase_rennano');
                 $drugs   = get_field('pi_drugs_launched'); ?>
-
-                <a href="<?= get_the_permalink() ?>" class="pi-knockout table-row">
-                    <h3 class="h6"><?= get_the_title() ?></h3>
-                    <div class="table-row">
-                        <div class="<?= trim($phase_renmab) ?>"><?= $phase_renmab ?></div>
-                        <div class="<?= trim($phase_renlite) ?>"><?= $phase_renlite ?></div>
-                        <div class="<?= trim($phase_rennano) ?>"><?= $phase_rennano ?></div>
-                    </div>
-                    <p><?= $drugs ?></p>
+                <a href="<?= get_the_permalink() ?>" class="pi-title">
+                    <div href="<?= get_the_permalink() ?>" class="table-row">
+                        <h3 class="h6"><?= get_the_title() ?></h3>
+                        <div class="pi-model-mouse table-row">
+                            <div class="renmab <?= sanitize_title_for_query($phase_renmab) ?>"></div>
+                            <div class="renlite <?= sanitize_title_for_query($phase_renlite) ?>"></div>
+                            <div class="rennano <?= sanitize_title_for_query($phase_rennano) ?>"></div>
+                        </div>
+                        <p><?= $drugs ?></p>
+                     </div>
                  </a>
                
             <?php endwhile;

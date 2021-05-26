@@ -116,25 +116,26 @@ button.pi-tag {
 	position: relative;
 }
 
-.pi-model li {
-	display: inherit;
-	@include align-items(center);
-	margin-bottom: 0;
-	color: $brown;
-}
-
 .pi-model .table-row,
 .pi-model-mouse .table-row {
 	@include flexbox();
-	@include justify-content(space-between);
+	@include justify-content(space-around);
 	@include align-items(flex-end);
+	@include align-items(center);
 	width: 100%;
-	padding-top: 0.8rem;
-	padding-bottom: 0.2rem;
+	border-bottom: 1px solid #EEE8FB;
+}
+
+.pi-model .table-row {
+	border-bottom: 1px solid #EEE8FB;
+	padding-top: 1.1rem;
+	padding-bottom: 1.1rem;
+	@include headlineStyle;
 }
 
 .pi-model .table-row *:first-child {
 	@include flex-basis($col4);
+
 }
 
 .pi-model .table-row *:nth-child(2n) {
@@ -145,20 +146,236 @@ button.pi-tag {
 .pi-model .table-row *:nth-child(3n) {
 	@include flex-basis($col4);
 	margin-left: $gutterLarge;
+	text-align: center;
 }
 
-.pi-model-mouse .table-row *:first-child {
-	@include flex-basis($col4);
+@media screen and (max-width: $screenSizeM) {
+	.pi-model .table-row *:first-child {
+		@include flex-basis($col3);
+	}
+
+	.pi-model .table-row *:nth-child(2n) {
+		@include flex-basis($col6);
+	}
+
+	.pi-model .table-row *:nth-child(3n) {
+		@include flex-basis($col3);
+
+	}
 }
 
-.pi-model-mouse .table-row *:nth-child(2n) {
-	@include flex-basis($col4);
-	margin-left: 0;
+.pi-model-mouse {
+	display: block;
+
+	&--header {
+		margin-top: -60px;
+	}
+
+	&.table-row {
+		text-align: center;
+		padding-bottom: 0;
+		padding-top: 0;
+		border-bottom: none;
+
+		li {
+			text-transform: none;
+			margin: 0 5px;
+		}
+	}
+
+	.table-row *:first-child {
+		@include flex-basis($col4);
+		margin-left: 0;
+	}
+
+	.table-row *:nth-child(2n) {
+		@include flex-basis($col4);
+		margin-left: 0;
+	}
+
+	.table-row *:nth-child(3n) {
+		@include flex-basis($col4);
+		text-align: center;
+	}
+
+	&--label {
+		white-space: nowrap;
+		vertical-align: top;
+
+		&.table-row {
+			color: $brown;
+		}
+
+		&::before {
+			content: '';
+			width: 100%;
+			height: 20px;
+			border-top: 1px solid #979797;
+			border-left: 1px solid #979797;
+			margin-right: 15px;
+			margin-top: 5px;
+		}
+		&::after {
+			content: '';
+			height: 20px;
+			width: 100%;
+			border-top: 1px solid #979797;
+			border-right: 1px solid #979797;
+			margin-left: 15px;
+			margin-top: 5px;
+		}
+
+		&.table-row {
+			align-items: flex-start;
+			border-bottom: none;
+		}
+	}
+
+	.renmab.f0,
+	.renmab.f1,
+	.renmab.f2,
+	.renmab.immunization,
+	.renmab.antibody-discovery,
+	.renmab.in-vitro,
+	.renmab.in-vivo,
+	.renmab.complete,
+	.renlite.f0,
+	.renlite.f1,
+	.renlite.f2,
+	.renlite.immunization,
+	.renlite.antibody-discovery,
+	.renlite.in-vitro,
+	.renlite.in-vivo,
+	.renlite.complete,
+	.rennano.f0,
+	.rennano.f1,
+	.rennano.f2,
+	.rennano.immunization,
+	.rennano.antibody-discovery,
+	.rennano.in-vitro,
+	.rennano.in-vivo,
+	.rennano.complete,
+	.exclusive-partnership {
+	 	background-repeat: no-repeat;
+	 	background-size: 100%;
+	 	max-width: 80px;
+	 	max-height: 20px;
+	 	display: inline-block;
+	 	min-height: 20px;
+	}
+
+	.exclusive-partnership {
+		background-image: url('img/exclusive-partnership.svg');
+	}
+
+	.renmab {
+		&.f0 {
+			background-image: url('img/renmab-f0.svg');
+		}
+
+		&.f1 {
+			background-image: url('img/renmab-f1.svg');
+		}
+
+		&.f2 {
+			background-image: url('img/renmab-f2.svg');
+		}
+
+		&.immunization {
+			background-image: url('img/renmab-immunization.svg');
+		}
+
+		&.antibody-discovery {
+			background-image: url('img/renmab-antibody.svg');
+		}
+
+		&.in-vitro {
+			background-image: url('img/renmab-invitro.svg');
+		}
+
+		&.in-vivo {
+			background-image: url('img/renmab-invivo.svg');
+		}
+
+		&.complete {
+			background-image: url('img/renmab-complete.svg');
+		}
+	}
+
+	.renlite {
+		&.f0 {
+			background-image: url('img/renlite-f0.svg');
+		}
+
+		&.f1 {
+			background-image: url('img/renlite-f1.svg');
+		}
+
+		&.f2 {
+			background-image: url('img/renlite-f2.svg');
+		}
+
+		&.immunization {
+			background-image: url('img/renlite-immunization.svg');
+		}
+
+		&.antibody-discovery {
+			background-image: url('img/renlite-antibody.svg');
+		}
+
+		&.in-vitro {
+			background-image: url('img/renlite-invitro.svg');
+		}
+
+		&.in-vivo {
+			background-image: url('img/renlite-invivo.svg');
+		}
+
+		&.complete {
+			background-image: url('img/renlite-complete.svg');
+		}
+	}
+
+	.rennano {
+		&.f0 {
+			background-image: url('img/rennano-f0.svg');
+		}
+
+		&.f1 {
+			background-image: url('img/rennano-f1.svg');
+		}
+
+		&.f2 {
+			background-image: url('img/rennano-f2.svg');
+		}
+
+		&.immunization {
+			background-image: url('img/rennano-immunization.svg');
+		}
+
+		&.antibody-discovery {
+			background-image: url('img/rennano-antibody.svg');
+		}
+
+		&.in-vitro {
+			background-image: url('img/rennano-invitro.svg');
+		}
+
+		&.in-vivo {
+			background-image: url('img/rennano-invivo.svg');
+		}
+
+		&.complete {
+			background-image: url('img/rennano-complete.svg');
+		}
+	}
 }
 
-.pi-model-mouse .table-row *:nth-child(3n) {
-	@include flex-basis($col4);
-	margin-left: $gutterLarge;
+.pi-model li {
+	display: inline;
+	@include align-items(center);
+	margin-bottom: 0;
+	color: $brown;
 }
 
 .pi-model .table-header {
@@ -181,7 +398,7 @@ button.pi-tag {
 }
 
 .pi-model h2 {
-	margin-bottom: 54px;
+	margin-bottom: 80px;
 }
 
 .pi-model h3 {
@@ -197,13 +414,13 @@ button.pi-tag {
 	display: initial;
 }
 
-.pi-model .pi-knockout {
-	color: $navy;
+
+.pi-border {
 	border-bottom: $pi-border;
 }
 
-.pi-model a:hover {
-	text-decoration: underline;
+a.pi-title:hover {
+	border-bottom: none;
 }
 
 .no-results {
@@ -351,7 +568,7 @@ button.pi-tag {
 
 	.pi-model h2{
 		@include headlineSize($headlineSizeXS);
-		margin-bottom: em(12);
+		margin-bottom: 60px;
 	}
 
 	.pi-model {
@@ -362,8 +579,6 @@ button.pi-tag {
 	.pi-model .table-row {
 		margin-bottom: em(20);
 		margin: 0;
-		padding-top: 8px;
-		padding-bottom: 10px;
 	}
 
 	.pi-model .table-row.table-header {
@@ -559,6 +774,10 @@ button.pi-tag {
 		top: 18px;
 		font-size: 42px;
 	}
+
+	.pi-model-mouse--header {
+		margin-top: -55px;
+	}
 }
 
 .pi-stats {
@@ -752,4 +971,11 @@ button.pi-tag {
 	.pi-footer-img svg {
 		width: 100%;
 	}
+}
+
+.pi-model-mouse.table-row,
+.table-row .pi-model-mouse, 
+.pi-model-mouse.table-row div,
+.pi-model-mouse.table-row li {
+	margin-left: 0 !important;
 }
