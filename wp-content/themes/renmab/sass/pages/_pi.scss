@@ -151,15 +151,31 @@ button.pi-tag {
 
 @media screen and (max-width: $screenSizeM) {
 	.pi-model .table-row *:first-child {
-		@include flex-basis($col3);
+		@include flex-basis($col2);
 	}
 
 	.pi-model .table-row *:nth-child(2n) {
-		@include flex-basis($col6);
+		@include flex-basis($col8);
 	}
 
 	.pi-model .table-row *:nth-child(3n) {
-		@include flex-basis($col3);
+		@include flex-basis($col2);
+
+	}
+
+	.pi-model .pi-model-mouse.table-row *:first-child {
+		@include flex-basis($col4);
+		margin: 0 2px 0 0;
+	}
+
+	.pi-model .pi-model-mouse.table-row *:nth-child(2n) {
+		@include flex-basis($col4);
+		margin: 0 2px;
+	}
+
+	.pi-model .pi-model-mouse.table-row *:nth-child(3n) {
+		@include flex-basis($col4);
+		margin: 0 0 0 2px;
 
 	}
 }

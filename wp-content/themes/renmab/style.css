@@ -5274,18 +5274,36 @@ button.pi-tag {
 
 @media screen and (max-width: 800px) {
   .pi-model .table-row *:first-child {
-    -webkit-flex-basis: 25%;
-    flex-basis: 25%;
+    -webkit-flex-basis: 16.6666666667%;
+    flex-basis: 16.6666666667%;
   }
 
   .pi-model .table-row *:nth-child(2n) {
-    -webkit-flex-basis: 50%;
-    flex-basis: 50%;
+    -webkit-flex-basis: 66.6666666667%;
+    flex-basis: 66.6666666667%;
   }
 
   .pi-model .table-row *:nth-child(3n) {
-    -webkit-flex-basis: 25%;
-    flex-basis: 25%;
+    -webkit-flex-basis: 16.6666666667%;
+    flex-basis: 16.6666666667%;
+  }
+
+  .pi-model .pi-model-mouse.table-row *:first-child {
+    -webkit-flex-basis: 33.3333333333%;
+    flex-basis: 33.3333333333%;
+    margin: 0 2px 0 0;
+  }
+
+  .pi-model .pi-model-mouse.table-row *:nth-child(2n) {
+    -webkit-flex-basis: 33.3333333333%;
+    flex-basis: 33.3333333333%;
+    margin: 0 2px;
+  }
+
+  .pi-model .pi-model-mouse.table-row *:nth-child(3n) {
+    -webkit-flex-basis: 33.3333333333%;
+    flex-basis: 33.3333333333%;
+    margin: 0 0 0 2px;
   }
 }
 .pi-model-mouse {
