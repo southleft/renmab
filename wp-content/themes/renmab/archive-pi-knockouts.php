@@ -121,14 +121,16 @@
             </div>
         </div>
         <div class="ko-form--sort-container accent accent-small">
-            <label for="ko-sort">Sort by</label>
-            <select class="ko-form--sort-select" name="ko-sort" id="ko-sort">
-                <option class="ko-form--sort-option" selected></option>
-                <option class="ko-form--sort-option"  value="name">A-Z</option>
-                <option class="ko-form--sort-option"  value="name-reverse">Z-A</option>
-                <option class="ko-form--sort-option"  value="num-launched">Launched Drugs (Ascending)</option>
-                <option class="ko-form--sort-option"  value="nam-launched-rev">Launched Drugs (Descending)</option>
-            </select>
+            <form name="ko-sort-form">
+                <label for="ko-sort">Sort by</label>
+                <select class="ko-form--sort-select" name="ko-sort" id="ko-sort">
+                    <option class="ko-form--sort-option" selected></option>
+                    <option class="ko-form--sort-option"  value="ASC">A-Z</option>
+                    <option class="ko-form--sort-option"  value="DESC">Z-A</option>
+                    <option class="ko-form--sort-option"  value="LAUNCHED-ASC">Launched Drugs (Ascending)</option>
+                    <option class="ko-form--sort-option"  value="LAUNCHED-DESC">Launched Drugs (Descending)</option>
+                </select>
+            </form>
         </div>
         <ul class="pi-models">
             <?php renmab_ajax_pi_filter_args(); ?> 
