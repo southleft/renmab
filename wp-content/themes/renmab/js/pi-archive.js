@@ -3,7 +3,8 @@
 jQuery(function ($){
 	const loader = jQuery('.pi-loading');
 
-	jQuery('body').on('click', 'a.pi-knockout', function() {
+	// jQuery('body').on('click', 'a.pi-knockout', function () {
+	jQuery('body').on('click', '.ko-form--search-button', function() {
 		var href = $(this).attr('href');
 		var name = $(this).find('h3').text();
 

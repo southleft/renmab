@@ -86,7 +86,7 @@
 .ko-form--phase-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0.25rem 0.75rem;
 }
 
@@ -152,6 +152,22 @@
   padding: 0.2rem 0.35rem !important;
   font-size: 0.75rem !important;
   width: 300px !important;
+}
+
+.ko-form--sort-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ko-form--sort-select {
+  width: auto;
+  padding-right: 3rem !important;
+}
+
+.ko-form--sort-option {
+  width: auto;
+  margin-right: 2rem;
 }
 
 .archive .pi-filters {

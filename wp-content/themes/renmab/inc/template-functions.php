@@ -296,6 +296,7 @@ function renmab_ajax_pi_filter_args() {
     
     $model = $_POST['model'] != '' ? $_POST['model'] : 'all';
 
+    
     if ((isset($search) && strlen($search) > 0) || $model !== 'all') {
         $args['posts_per_page'] = -1; 
     } else {

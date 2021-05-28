@@ -82,7 +82,7 @@
 								</div>
 							</div>	
                         </div>
-                        <div class="ko-form--phase-halfrow">
+                        <div class="ko-form--phase-row">
                             <div>
                                 <input type="checkbox" id="invitro" name="invitro">
                                 <label for="invitro">In Vitro</label>
@@ -105,10 +105,10 @@
                 </div>
                 <div class="ko-form--button-section">
                     <div class="ko-form--button-container">
-                        <button type="button" class="ko-form--search-button">Search Targets</button>
+                        <button type="button" class="apply ko-form--search-button">Search Targets</button>
                     </div>
                     <div class="ko-form--button-container">
-                        <button type="button" class="ko-form--clear-button">Clear Search</button>
+                        <button type="button" class="clear ko-form--clear-button">Clear Search</button>
                     </div>
                 </div>
             </form>
@@ -120,13 +120,26 @@
                 <p>Loading</p>
             </div>
         </div>
+        <div class="ko-form--sort-container accent accent-small">
+            <label for="ko-sort">Sort by</label>
+            <select class="ko-form--sort-select" name="ko-sort" id="ko-sort">
+                <option class="ko-form--sort-option" selected></option>
+                <option class="ko-form--sort-option"  value="name">A-Z</option>
+                <option class="ko-form--sort-option"  value="name-reverse">Z-A</option>
+                <option class="ko-form--sort-option"  value="num-launched">Launched Drugs (Ascending)</option>
+                <option class="ko-form--sort-option"  value="nam-launched-rev">Launched Drugs (Descending)</option>
+            </select>
+        </div>
         <ul class="pi-models">
-            <?php renmab_ajax_pi_filter_args(); ?>
+            <?php renmab_ajax_pi_filter_args(); ?> 
         </ul>
     </div>
 </main>
 <!-- #main -->
+
 <?php $title=get_field( 'pi_footer_title', 'option'); $img=get_field( 'pi_footer_img', 'option'); $content=get_field( 'pi_footer_content', 'option'); ?>
+
+
 
 <section class="pi-footer bg-beige">
     <h3 class="pi-footer-title wrapper">
