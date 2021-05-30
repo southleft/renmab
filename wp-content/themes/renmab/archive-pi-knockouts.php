@@ -124,8 +124,7 @@
             <form name="ko-sort-form">
                 <label for="ko-sort">Sort by</label>
                 <select class="ko-form--sort-select" name="ko-sort" id="ko-sort">
-                    <option class="ko-form--sort-option" selected></option>
-                    <option class="ko-form--sort-option"  value="ASC">A-Z</option>
+                    <option class="ko-form--sort-option" selected value="ASC">A-Z</option>
                     <option class="ko-form--sort-option"  value="DESC">Z-A</option>
                     <option class="ko-form--sort-option"  value="LAUNCHED-ASC">Launched Drugs (Ascending)</option>
                     <option class="ko-form--sort-option"  value="LAUNCHED-DESC">Launched Drugs (Descending)</option>
