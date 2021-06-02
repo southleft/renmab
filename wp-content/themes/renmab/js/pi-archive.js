@@ -101,7 +101,11 @@ jQuery(function ($) {
     }
 
     var filterStr =
-      '&model=' + model + searchCode + '&action=renmab_ajax_pi_filter_args';
+      '&model=' +
+      model +
+      searchCode +
+      getSearchParams() +
+      '&action=renmab_ajax_pi_filter_args';
 
     jQuery.ajax({
       type: 'POST',
@@ -135,10 +139,37 @@ jQuery(function ($) {
         } else {
           loadKOs('all', true);
         }
-
-        window.history.pushState(null, '', '?model=' + model + searchCode);
+        window.history.pushState(
+          null,
+          '',
+          '?model=' + model + searchCode + getSearchParams()
+        );
       },
     });
     return false;
   }
 });
+
+function getSearchParams() {
+  let paramString = '';
+  let modelSelects = document.querySelectorAll('input.model-select');
+  modelSelects.forEach((model) =>
+    model.checked ? (paramString += `&${model.id}=true`) : ''
+  );
+  let phaseSelects = document.querySelectorAll('input.phase-select');
+  phaseSelects.forEach((phase) =>
+    phase.checked ? (paramString += `&${phase.id}=true`) : ''
+  );
+  let excludeSelect = document.querySelector('input.exclude-select');
+  excludeSelect.checked ? (paramString += `&exclude=true`) : '';
+  let sortOptions = document.querySelectorAll('option.ko-form--sort-option');
+  sortOptions.forEach((option) =>
+    option.selected
+      ? (paramString += `&order-by=${option.value.split('-')[0]}&order=${
+          option.value.split('-')[1]
+        }`)
+      : ''
+  );
+
+  return paramString;
+}

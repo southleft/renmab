@@ -278,9 +278,9 @@ add_action('wp_ajax_nopriv_renmab_ajax_pi_filter_args', 'renmab_ajax_pi_filter_a
 function renmab_ajax_pi_filter_args() {
     $args = array(
         'post_type'      => 'pi-knockouts',
-        'meta_key'       => 'pi_drugs_launched',
+        'meta_key'       => $_POST['order-by'],
         'orderby'        => 'meta_value_num',
-        'order'          => 'DESC',
+        'order'          => $_POST['order'],
         'tax_query'      => array(
             array(
                 'taxonomy' => 'pi-cats',
@@ -523,3 +523,18 @@ function renmab_pingback_header() {
     }
 }
 add_action( 'wp_head', 'renmab_pingback_header' );
+
+
+function renmab_ajax_pi_query() {
+    $args = array (
+        'post-type' => 'pi-knockouts',
+        'meta_key' => 'pi_drugs_launched',
+        'orderby' => 'meta_value_num',
+        'order' => 'DESC',
+        'meta_query' => array(
+
+        )
+    );
+        $items = new WP_Query($args);
+
+}

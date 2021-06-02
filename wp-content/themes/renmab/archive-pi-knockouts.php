@@ -39,15 +39,15 @@
                         </div>
                         <div class="ko-form--mouse-checkboxes">
                             <div class="ko-form--input-container">
-                                <input type="checkbox" id="renmab" name="renmab">
+                                <input type="checkbox" id="renmab" name="renmab" class="model-select">
                                 <label for="renmab">RenMab</label>
                             </div>
                             <div class="ko-form--input-container">
-                                <input type="checkbox" id="renlite" name="renlite">
+                                <input type="checkbox" id="renlite" name="renlite" class="model-select">
                                 <label for="renlite">RenLite</label>
                             </div>
                             <div class="ko-form--input-container">
-                                <input type="checkbox" id="rennano" name="rennano">
+                                <input type="checkbox" id="rennano" name="rennano" class="model-select">
                                 <label for="rennano">RenNano</label>
                             </div>
                         </div>
@@ -59,45 +59,45 @@
                         <div class="ko-form--phase-row">
                             <div class="ko-form--phase-subrow">
 								<div>
-									<input type="checkbox" id="f0" name="f0">
+									<input type="checkbox" id="f0" name="f0" class="phase-select">
 									<label for="f0">F0</label>
 								</div>
 								<div>
-									<input type="checkbox" id="f1" name="f1">
+									<input type="checkbox" id="f1" name="f1" class="phase-select">
 									<label for="f1">F1</label>
 								</div>
 								<div>
-									<input type="checkbox" id="f2" name="f2">
+									<input type="checkbox" id="f2" name="f2" class="phase-select">
 									<label for="f2">F2</label>
 								</div>
 							</div>
 							<div class="ko-form--phase-subrow">
 								<div>
-									<input type="checkbox" id="immunization" name="immnunization">
+									<input type="checkbox" id="immunization" name="immnunization" class="phase-select">
 									<label for="immunization">Immunization</label>
 								</div>
 								<div>
-									<input type="checkbox" id="anti-discovery" name="anti-discovery">
+									<input type="checkbox" id="anti-discovery" name="anti-discovery" class="phase-select">
 									<label for="anti-discovery">Antibody Discovery</label>
 								</div>
 							</div>	
                         </div>
                         <div class="ko-form--phase-row">
                             <div>
-                                <input type="checkbox" id="invitro" name="invitro">
+                                <input type="checkbox" id="invitro" name="invitro" class="phase-select">
                                 <label for="invitro">In Vitro</label>
                             </div>
                             <div>
-                                <input type="checkbox" id="invivo" name="invivo">
+                                <input type="checkbox" id="invivo" name="invivo" class="phase-select">
                                 <label for="invivo">In Vivo</label>
                             </div>
                             <div>
-                                <input type="checkbox" id="complete" name="complete">
+                                <input type="checkbox" id="complete" name="complete" class="phase-select">
                                 <label for="complete">Complete</label>
                             </div>
                         </div>
                         <div class="ko-form--exclude-row">
-                            <input type="checkbox" id="exclude" name="exclude" checked="">
+                            <input type="checkbox" id="exclude" name="exclude" checked="" class="exclude-select">
                             <label class="ko-form--exclude-label" for="exclude">Exclude Exclusive Partnerships</label>
                         </div>
 
@@ -124,17 +124,22 @@
             <form name="ko-sort-form">
                 <label for="ko-sort">Sort by</label>
                 <select class="ko-form--sort-select" name="ko-sort" id="ko-sort">
-                    <option class="ko-form--sort-option" selected value="ASC">A-Z</option>
-                    <option class="ko-form--sort-option"  value="DESC">Z-A</option>
-                    <option class="ko-form--sort-option"  value="LAUNCHED-ASC">Launched Drugs (Ascending)</option>
-                    <option class="ko-form--sort-option"  value="LAUNCHED-DESC">Launched Drugs (Descending)</option>
+                    <option class="ko-form--sort-option" selected value="pi_drugs_launched-DESC">Launched Drugs (Descending)</option>
+                    <option class="ko-form--sort-option"   value="pi_drugs_launched-ASC">Launched Drugs (Ascending)</option>
+                    <option class="ko-form--sort-option"  value="name-ASC">A-Z</option>
+                    <option class="ko-form--sort-option"  value="name-DESC">Z-A</option>
                 </select>
             </form>
         </div>
         <ul class="pi-models">
             <?php renmab_ajax_pi_filter_args(); ?> 
         </ul>
+        
+        
+        
     </div>
+
+
 </main>
 <!-- #main -->
 
