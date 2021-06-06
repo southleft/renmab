@@ -6339,3 +6339,114 @@ a.pi-title:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Search & Filter Styles */
+
+.ko-block {
+	margin: 100px 0; 
+}
+#search-filter-form-4074 ul li::before {
+	display: none !important;
+}
+#search-filter-form-4074 ul li h4{
+	color: #fff;
+	font-family: "roboto-mono", "Lucida Console", monospace;
+	text-transform: uppercase;
+	font-size: 12px;
+  line-height: 16px;
+	letter-spacing: 0.128696em;
+	margin: auto 0;
+}
+.sf-field-search, 
+.sf-field-taxonomy-pi-cats {
+	display: inline-block !important;
+	width: 50%;
+	min-width: 300px;
+}
+.sf-field-search label,
+.sf-field-taxonomy-pi-cats label {
+	width: 90%; 
+	margin-right: 20px;
+}
+#search-filter-form-4074 ul li ul li {
+	  display: inline-flex;
+    padding: 0 15px;
+}
+/*.sf-field-post-meta-pi_private li.sf-item-0 {
+	display: none !important;
+}*/
+.searchandfilter ul li:nth-child(3),
+.searchandfilter ul li:nth-child(4),
+.searchandfilter ul li:nth-child(5) {
+	display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 1rem 0;
+  border-radius: 10px;
+	padding: 1rem 2rem;
+}
+.searchandfilter ul li:nth-child(5) {
+	padding-bottom: 2rem;
+}
+.sf-level-0 {
+	background: none !important;
+}
+.searchandfilter {
+	width: 100%;
+	padding: 30px;
+}
+.searchandfilter input[type=submit]{
+	background-color: #fff;
+	color: #2a3164;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+.sf-field-reset input[type=submit]{
+	background-color: unset !important;
+	color: #fff;
+	font-size: 14px;
+	font-family: "roboto-mono", "Lucida Console", monospace;
+	text-transform: uppercase;
+}
+.sf-field-submit {
+    padding-top: 30px !important;
+}
+.sf-field-reset {
+    margin-bottom: -30px !important;
+}
+.sf-field-reset,
+.sf-field-submit {
+	background-color: #2a3164;
+  width: calc(120% + 120px);
+  margin-left: calc(-10% - 60px) !important;
+}
+.searchandfilter ul:first-child {
+	margin: 0 auto;
+	padding: 0px;
+	width: 80%;
+	min-width: 300px;
+}
+li.sf-field-post-meta-pi_private {
+    background: #a8add6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: -33px;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+}
+li.sf-field-post-meta-pi_private ul {
+	width: 100% !important;
+}
+
+@media (max-width: 600px) {
+	.sf-field-reset {
+    margin-bottom: 0px !important;
+		}
+}
