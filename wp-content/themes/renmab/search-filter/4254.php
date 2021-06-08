@@ -22,6 +22,8 @@
  *
  */
 
+
+
 // If this file is called directly, abort.
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -187,4 +189,5 @@ else
 	</div>
 	<?php
 }
+phase_redirect();
 ?>

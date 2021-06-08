@@ -538,3 +538,188 @@ function renmab_ajax_pi_query() {
         $items = new WP_Query($args);
 
 }
+
+
+
+/**
+ * Search & Filter phase work-around
+ */
+
+
+function phase_redirect() {
+
+	if(isset($_GET['_sfm_token_mouse_model']) && isset($_GET['_sfm_token_pi_phase'])){
+    		$mouse_param = $_GET['_sfm_token_mouse_model'];
+				$phase_param = $_GET['_sfm_token_pi_phase'];
+		}
+	elseif (isset($_GET['_sfm_token_mouse_model']) && !isset($_GET['_sfm_token_pi_phase'])) {
+				$mouse_param = $_GET['_sfm_token_mouse_model'];
+				$phase_param = 'all';
+	}
+	elseif (!isset($_GET['_sfm_token_mouse_model']) && isset($_GET['_sfm_token_pi_phase'])) {
+				$mouse_param = 'all';
+				$phase_param = $_GET['_sfm_token_pi_phase'];
+	}
+	else{ 
+				$mouse_param = 'all';
+				$phase_param = 'all';
+		}
+	
+	if (strpos($mouse_param, 'renmab') !== false && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url1 = new URL(window.location.href);
+					url1.searchParams.set('_sfm_pi_phase_renmab', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url1); // or pushState
+				
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'renmab') !== true && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url1 = new URL(window.location.href);
+					url1.searchParams.delete('_sfm_pi_phase_renmab', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url1); // or pushState
+			</script>
+		<?php
+	}
+	
+	if (strpos($mouse_param, 'rennano') !== false && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url2 = new URL(window.location.href);
+					url2.searchParams.set('_sfm_pi_phase_rennano', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url2); // or pushState
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'rennano') !== true && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url2 = new URL(window.location.href);
+					url2.searchParams.delete('_sfm_pi_phase_rennano', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url2); // or pushState
+			</script>
+		<?php
+	}
+	
+	if (strpos($mouse_param, 'renlite') !== false && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url3 = new URL(window.location.href);
+					url3.searchParams.set('_sfm_pi_phase_renlite', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url3); // or pushState
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'renlite') !== true && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url3 = new URL(window.location.href);
+					url3.searchParams.delete('_sfm_pi_phase_renlite', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url3); // or pushState
+			</script>
+		<?php
+	}
+	
+	
+	if (strpos($mouse_param, 'rennano') !== false && $phase_param !== 'all') {
+		
+		?>
+			<script type="text/javascript">
+				const url4 = new URL(window.location.href);
+					url4.searchParams.set('_sfm_pi_phase_rennano', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url4); // or pushState
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'rennano') !== true && $phase_param !== 'all') {
+		?>
+			<script type="text/javascript">
+				const url4 = new URL(window.location.href);
+					url4.searchParams.delete('_sfm_pi_phase_rennano', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url4); // or pushState
+			</script>
+		<?php
+	}
+	
+	if (strpos($mouse_param, 'renlite') !== false && $phase_param !== 'all') {
+		?>
+			<script type="text/javascript">
+				const url5 = new URL(window.location.href);
+					url5.searchParams.set('_sfm_pi_phase_renlite', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url5); // or pushState
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'renlite') !== true && $phase_param !== 'all') {
+		?>
+			<script type="text/javascript">
+				const url5 = new URL(window.location.href);
+					url5.searchParams.delete('_sfm_pi_phase_renlite', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url5); // or pushState
+			</script>
+		<?php
+	}
+	
+	if (strpos($mouse_param, 'renmab') !== false && $phase_param !== 'all') {
+
+		?>
+			<script type="text/javascript">
+				const url6 = new URL(window.location.href);
+					url6.searchParams.set('_sfm_pi_phase_renmab', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url6); // or pushState
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'renmab') !== true && $phase_param !== 'all') {
+		?>
+			<script type="text/javascript">
+				const url6 = new URL(window.location.href);
+					url6.searchParams.delete('_sfm_pi_phase_renmab', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url6); // or pushState
+			</script>
+		<?php
+	}
+	
+	
+	if ($mouse_param == 'all' && $phase_param !== 'all') {
+
+		?>
+			<script type="text/javascript">
+				const url = new URL(window.location.href);
+					url.searchParams.set('_sfm_pi_phase_renmab', '<?php echo $phase_param ?>');
+					url.searchParams.set('_sfm_pi_phase_renlite', '<?php echo $phase_param ?>');
+					url.searchParams.set('_sfm_pi_phase_rennano', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url); // or pushState
+				
+				
+			</script>
+		<?php
+	}
+	
+	$ko_base_url = get_site_url().'/ko-library/';
+	$ko_base_url2 = get_site_url().'/ko-library/?search=';
+	$ko_base_url3 = get_site_url().'/ko-library/?search';
+	
+	?>
+
+<script type="text/javascript">
+	var str = '<?php echo $ko_base_url ?>';
+	var str2 = '<?php echo $ko_base_url ?>';
+	var urlp = window.location.href;
+	
+	if (window.location.href.indexOf("&search") > -1 || str === urlp || str2 === urlp || str3 === urlp) {
+   
+	}	
+	else {window.location.href += "&search";}
+	
+	if (str === urlp) {
+		window.location.href += "?search";
+	}
+	</script>
+
+<?php
+		
+}

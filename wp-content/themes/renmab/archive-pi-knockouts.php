@@ -5,11 +5,11 @@
     <div class="wrapper">
         <h3>Search Knockouts</h3>
         <div class="pi-filters">
-           <?php echo do_shortcode('[searchandfilter id="4074"]'); ?>
+           <?php echo do_shortcode('[searchandfilter id="4254"]'); ?>
         </div>
        
         <ul class="pi-models">
-					<?php echo do_shortcode('[searchandfilter id="4074" show="results"]'); ?>
+					<?php echo do_shortcode('[searchandfilter id="4254" show="results"]'); ?>
         </ul>
         
         

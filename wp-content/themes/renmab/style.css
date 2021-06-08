@@ -6346,10 +6346,10 @@ a.pi-title:hover {
 .ko-block {
 	margin: 100px 0; 
 }
-#search-filter-form-4074 ul li::before {
+#search-filter-form-4254 ul li::before {
 	display: none !important;
 }
-#search-filter-form-4074 ul li h4{
+#search-filter-form-4254 ul li h4{
 	color: #fff;
 	font-family: "roboto-mono", "Lucida Console", monospace;
 	text-transform: uppercase;
@@ -6369,7 +6369,7 @@ a.pi-title:hover {
 	width: 90%; 
 	margin-right: 20px;
 }
-#search-filter-form-4074 ul li ul li {
+#search-filter-form-4254 ul li ul li {
 	  display: inline-flex;
     padding: 0 15px;
 }
@@ -6449,4 +6449,10 @@ li.sf-field-post-meta-pi_private ul {
 	.sf-field-reset {
     margin-bottom: 0px !important;
 		}
+}
+
+.sf-field-post-meta-pi_phase_renmab,
+.sf-field-post-meta-pi_phase_renlite,
+.sf-field-post-meta-pi_phase_rennano {
+	display:none !important;
 }
