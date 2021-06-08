@@ -708,7 +708,7 @@ function phase_redirect() {
 <script type="text/javascript">
 	var str = '<?php echo $ko_base_url ?>';
 	var str2 = '<?php echo $ko_base_url2 ?>';
-	var str3 = '<?php echo $ko_base_url2 ?>';
+	var str3 = '<?php echo $ko_base_url3 ?>';
 	var urlp = window.location.href;
 	
 	if (window.location.href.indexOf("&search") > -1 || str === urlp || str2 === urlp || str3 === urlp) {
