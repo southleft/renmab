@@ -13,6 +13,15 @@ add_action('acf/init', 'renmab_register_blocks');
 
 function renmab_register_blocks() {
      if( function_exists('acf_register_block_type') ) {
+          acf_register_block_type(array(
+            'name'              => 'home-hero',
+            'title'             => __('Homepage Hero'),
+            'category'          => 'widgets',
+            'render_template'   => plugin_dir_path( __FILE__ ) . 'blocks/home-hero.php',
+            'icon'              => 'align-left',
+            'keywords'          => array('hero','header','image', 'home', 'animation'),
+            'enqueue_script'    => get_template_directory_uri() . '/js/hero.js',
+        ));
         acf_register_block_type(array(
             'name'              => 'hero',
             'title'             => __('Hero Block'),
@@ -20,7 +29,6 @@ function renmab_register_blocks() {
             'render_template'   => plugin_dir_path( __FILE__ ) . 'blocks/hero.php',
             'icon'              => 'align-left',
             'keywords'          => array('hero','header','image'),
-            'enqueue_script'    => get_template_directory_uri() . '/js/hero.js',
         ));
         acf_register_block_type(array(
             'name'              => 'svg',

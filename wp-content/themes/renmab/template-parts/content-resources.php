@@ -35,7 +35,7 @@
 				</div>
 			</div>
 		</header><!-- .single-header -->
-		<div class="resource-content-wrap">
+		<div class="resource-content-wrap has-white-background-color">
 			<div class="wrapper flex-parent">
 				<div class="single-content">
 					<?php
@@ -77,7 +77,7 @@
 		<div class="archive-img">
 			<?php renmab_post_thumbnail('resource-thumb'); ?>
 		</div>
-		<div class="archive-content">
+		<div class="archive-content has-white-background-color">
 			<?php
 			renmab_resource_tagger('link');
 			the_title( '<h2 class="h4 entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );

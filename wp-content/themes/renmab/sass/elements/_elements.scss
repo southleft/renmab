@@ -4,13 +4,13 @@ body {
 }
 
 a {
-	color: $orange;
+	color: $navy-solid;
 	text-decoration: none;
 
 	&:hover,
 	&:focus,
 	&:active {
-		border-bottom: 2px solid $lightOrange;
+		border-bottom: 2px solid $navy-solid;
 	}
 
 	&:focus {
@@ -63,7 +63,7 @@ ul li:before {
 	width: 8px;	
 	margin-left: -38px;
 	text-align: right;
-	background-color: $orange;
+	background-image: $orange;
 	border-radius: 50%;
 }
 
@@ -75,7 +75,7 @@ ol li:before {
 	width: 20px;
 	margin-left: -50px;
 	content: counter(li)'.';
-	color: $orange;
+	@include gradText($orange);
 	font-weight: bolder;
 }
 
@@ -90,25 +90,26 @@ input[type="submit"],
 	border: none;
 	position: relative;
 	line-height: 70px;
-	font-size: 1.313rem;
 	padding: 0 2.143em;
-	background-color: $orange;
+	background-image: $orange;
+	background-color: $lightOrange;
+	-webkit-background-clip: initial;
+	background-clip: initial;
 	color: $white;
 	font-family: $headlineFamily;
-	border-radius: 2em;
+	border-radius: 99999px;
 	text-transform: uppercase;
 	font-weight: 900;
-	letter-spacing: 0.157em;  
+	letter-spacing: 2.51/16 + em;  
 	-webkit-backface-visibility: hidden;
  	backface-visibility: hidden;  
-	transition: transform $transition;
+	transition: $transition;
 	
 	&:active,
 	&:hover,
 	&:focus {
 		border: none;
-		outline: none;
-		transform: scale(1.03);
+		background-image:  none;
 	}
 
 	span {
@@ -116,20 +117,21 @@ input[type="submit"],
 		display: inline-block;
 		vertical-align: middle;
 		margin-top: -8px;
-		margin-right: -0.74em;
+		margin-right: -0.6em;
 		margin-left: 0.35em;
 	}
 }
 
 button:disabled,
 input[type="button"]:disabled {
-	cursor: not-allowed;
-	background-color: $sand;
+	pointer-events: none;
+	background: $sand;
 	color: $taupe;
+}
 
-	&:hover, &:focus {
-		transform: none;
-	}
+.wp-block-button.is-style-disabled .wp-block-button__link {
+	opacity: 0.5;
+	pointer-events: none;
 }
 
 .is-style-arrow .wp-block-button__link:after {
@@ -153,23 +155,21 @@ input[type="button"]:disabled {
 .wp-block-button {
 	margin: 0;
 }
-.wp-block-button .has-lime-background-color,
-.button-poster,
-.button-secondary {
-	background-color: $lime;
-}
-
+.wp-block-button .has-yellow-background-color,
+.button-secondary,
 .button-white {
-	color: $navy;
-	background-color: $ice;
-
-	&:before {
-		background: $blue;
+	background: $yellow;
+	border: 3px solid transparent;
+	color: $navy-solid;
+	box-shadow: 0 0 21px 0 rgba(61,128,223,0.48);
+	&:active,
+	&:hover,
+	&:focus {
+		color: $white;
+		border: 3px solid $yellow;
+		background-color: transparent;
+		box-shadow: none;
 	}
-}
-
-.button-webinar {
-	background-color: $blue;
 }
 
 hr {
@@ -210,7 +210,7 @@ hr {
 	transition: $transition;
 	&:hover {
 		border: none;
-		color: $blue;
+		color: $lilac;
 	}
 
 	.bubble {
@@ -220,7 +220,7 @@ hr {
 	}
 
 	&:hover .bubble {
-		color: $blue;
+		color: $lilac;
 		background: $sky;
 	}
 }
@@ -245,7 +245,7 @@ a.bubble {
 
 a.bubble:hover,
 a .bubble:hover {
-	color: $blue;
+	color: $lilac;
 	background: $sky;
 }
 
@@ -265,74 +265,6 @@ a .bubble:hover {
 
 .section-header h2 {
 	margin-right: $gutterLarge *2;
-}
-
-.bg-blue .section-header,
-.bg-blue .page-header,
-.bg-blue hr {
-	border-color: $sky;
-}
-
-.bg-beige .section-header {
-	border-color: $sand;
-}
-
-.bg-blue {
-	background-color: $ice;
-	color: $blue;
-	border-color: $sky;
-}
-
-.bg-blue a:hover {
-	border-color: $sky;
-}
-
-.bg-blue li:before {
-	color: $blue;
-}
-
-.bg-blue .site-description,
-.bg-blue .lead {
-	color: $blue;
-}
-
-.bg-blue .tag-bubble {
-	color: $blue;
-}
-
-.bg-blue .bubble {
-	background-color: $sky;
-	color: $blue;
-}
-
-.bg-blue a.bubble:hover,
-.bg-blue .tag-bubble:hover .bubble {
-	background-color: $blue;
-	color: $sky;
-}
-
-.bg-blue button:disabled,
-.bg-blue input[type="button"]:disabled {
-	background-color: $sky;
-	color: $blue;
-}
-
-.bg-beige {
-	background-color: $ivory;
-}
-
-.bg-beige .tag-bubble:hover {
-	color: $taupe;
-}
-
-.bg-beige .bubble {
-	background-color: $sand;
-}
-
-.bg-beige a.bubble:hover,
-.bg-beige .tag-bubble:hover .bubble {
-	background-color: $taupe;
-	color: $ivory;
 }
 
 .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {

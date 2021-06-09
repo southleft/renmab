@@ -6,31 +6,26 @@
 $image = get_field('cta_card_image');
 $title = get_field('cta_card_title');
 $text = get_field('cta_card_text');
-$btn = get_field('cta_card_link');
+$btn = get_field('cta_card_link'); ?>
 
-echo '<div class="cta-card wrapper flex-parent">';
-	echo '<div class="spheres-1">';
-		renmab_sphere('orange'); 
-		renmab_sphere('green'); 
-	echo '</div>';
-
-	if ($image) {
+<div class="cta-card has-white-background-color wrapper flex-parent">
+    <?php renmab_sphere('orange'); ?>
+    <?php renmab_sphere('green'); ?>
+	
+	<?php if ($image) {
 		echo '<div class="cta-image"><img src="'.$image.'" /></div>';
-	}
-	echo '<div class="cta-content flex-parent">';
+	} ?>
+	<div class="cta-content flex-parent">
+		<?php
 		if ($title) {
 			echo '<h3>'.$title.'</h3>';
 		}	
 		if ($text) {
-			echo '<p class="lead lead-small">'.$text.'</p>';
+			echo '<p class="lead-small">'.$text.'</p>';
 		}	
 
 		if ($btn) {
-			echo '<a class="button button-white" href="'.$btn['url'].'">'.$btn['title'].'<span class="icon icon-rarr"></span></a>';
-		}
-	echo '</div>';
-	echo '<div class="spheres-2">';
-		renmab_sphere('orange'); 
-		renmab_sphere('green'); 
-	echo '</div>';
-echo '</div>';
+			echo '<a class="button" href="'.$btn['url'].'">'.$btn['title'].'<span class="icon icon-rarr"></span></a>';
+		} ?>
+	</div>
+</div>

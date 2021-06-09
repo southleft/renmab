@@ -1,6 +1,6 @@
 <?php /** * The template for displaying the Project Integrum library * * @link https://developer.wordpress.org/themes/basics/template-hierarchy/ * * @package RenMab */ get_header(); ?>
 
-<main id="main" class="site-main">
+<main id="main" class="site-main has-white-background-color">
     <?php $cats=get_terms(array( 'taxonomy'=> 'pi-cats', )); ?>
     <div class="wrapper">
         <h3>Search Knockouts</h3>
@@ -9,20 +9,13 @@
         </div>
        
         <ul class="pi-models">
-					<?php echo do_shortcode('[searchandfilter id="4254" show="results"]'); ?>
+			<?php echo do_shortcode('[searchandfilter id="4254" show="results"]'); ?>
         </ul>
-        
-        
-        
     </div>
-
-
 </main>
 <!-- #main -->
 
 <?php $title=get_field( 'pi_footer_title', 'option'); $img=get_field( 'pi_footer_img', 'option'); $content=get_field( 'pi_footer_content', 'option'); ?>
-
-
 
 <section class="pi-footer bg-beige">
     <h3 class="pi-footer-title wrapper">

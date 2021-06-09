@@ -1,6 +1,6 @@
 .licensing-cta {
 	background: $navy;
-	color: $ice;
+	color: $white;
 	max-width: 450px;
 	border-radius: $radius;
 	padding: em(85) 8%;
@@ -49,10 +49,9 @@
 }
 
 .cta-card {
-	margin: em(75) auto em(100);
-	padding: em(45) $gutterLarge * 1.5;
-	background: $navy;
-	color: $ice;
+	margin: em(150) auto em(100);
+	padding: em(89) $gutterLarge * 1.5 em(63);
+	background: $white;
 	border-radius: $radius;
 	position: relative;
 }
@@ -63,50 +62,22 @@
 }
 
 .cta-card .sphere {
-	position: relative;
-}
-
-.cta-card .spheres-1 {
-	left: -75px;
-	top: -45px;
-	width: 156px;
+	position: absolute;
 	z-index: -1;
-
-	.sphere-orange {
-		width: 156px;
-		height: 156px;
-	}
-
-	.sphere-green {
-		width: 44px;
-		height: 44px;
-		left: -5px;
-		bottom: 10px;
-	}
 }
 
-.cta-card .spheres-2 {
-	right: -90px;
-	bottom: 58px;
-	width: 140px;
-
-	.sphere-green {
-		width: 120px;
-		height: 120px;
-	}
-
-	.sphere-orange {
-		width: 48px;
-		height: 48px;
-		right: -95px;
-		top: 60px;
-		z-index: 1;
-	}
+.cta-card .sphere-orange {
+	width: 128px;
+	height: 128px;
+	left: -69px;
+	top: -65px;
 }
 
-.cta-card h3,
-.cta-card p {
-	color: inherit;
+.cta-card .sphere-green {
+	top: 62px;
+	left: -83px;
+	width: 37px;
+	height: 37px;
 }
 
 .cta-image {
@@ -130,6 +101,7 @@
 		@include flex-wrap(wrap);
 		@include justify-content(center);
 		padding-top: em(40);
+		margin-bottom: em(20);
 	}
 	.cta-image, .cta-content {
 		@include flex-basis(100%);
@@ -139,6 +111,12 @@
 	.cta-image {
 		margin-bottom: em(20);
 		max-width: 350px;
+	}
+
+
+	.cta-card .sphere-green {
+		top: -70px;
+		left: 70px;
 	}
 }
 

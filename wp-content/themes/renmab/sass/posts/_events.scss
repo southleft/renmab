@@ -63,7 +63,7 @@ img.size-thumb-event {
 }
 
 .speaker-name {
-	color: $navy;
+	@include gradText($navy);
 	margin-top: 0;
 	margin-bottom: 0.25em;
 }
@@ -71,12 +71,12 @@ img.size-thumb-event {
 .speaker-title {
 	font-style: italic;
 	font-size: $accentSizeS;
-	color: $blue;
+	color: $lilac;
 	margin-bottom: 0;
 }
 
 .speech-date {
-	color: $brown;
+	color: $grey;
 	margin: 0;
 	line-height: 2;
 }

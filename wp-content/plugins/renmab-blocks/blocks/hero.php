@@ -25,9 +25,11 @@ if ($headline) {
 }
 
 if ($lead) {
-	$content .= "<p class='lead";
+	$content .= "<p class='";
 	if ( strlen($lead) > 150 ) {
-		$content .= " lead-small";
+		$content .= "lead-small";
+	} else {
+		$content .= "lead";
 	}
 	$content .= "''>".$lead."</p>";
 }
@@ -43,7 +45,7 @@ if ($vid) {
 	$content .= do_shortcode($shortcode);
 }
 
-if ($button && !$vid) {
+if ($button) {
 	$arrow = get_field('hero_button_arrow');
 	$content .= "<a class='button' href='".$button['url']."'>";
 		$content .= $button['title'];
@@ -55,13 +57,7 @@ echo "<section class='hero layout-".$layout.$hasParagraph.$hasVid."'>";
 	echo "<div class='wrapper flex-parent'>";
 			echo "<div class='hero-art'><img src='".$art."' />";
 			if ( $vid ) {
-				echo '<div class="spheres">';
-					echo renmab_sphere('green');
-					echo renmab_sphere('green');
-					echo renmab_sphere('blue');
-					echo renmab_sphere('green');
-					echo renmab_sphere('blue');
-				echo '</div>';
+
 			}
 			echo '</div>';
 			echo "<div class='hero-content flex-parent'>".$content."</div>";

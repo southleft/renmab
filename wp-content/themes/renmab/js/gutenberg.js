@@ -1,4 +1,12 @@
+const { addFilter } = wp.hooks;
+
 wp.domReady( () => {
+	wp.blocks.registerBlockStyle( 'core/group', [ 
+		{
+			name: 'offset',
+			label: 'Offset Top',
+		},
+	]);
 
 	wp.blocks.registerBlockStyle( 'core/heading', [ 
 		{
@@ -37,6 +45,10 @@ wp.domReady( () => {
 		{
 			name: 'arrow',
 			label: 'Arrow',
+		},
+		{
+			name: 'disabled',
+			label: 'Disabled',
 		}
 	]);
 	

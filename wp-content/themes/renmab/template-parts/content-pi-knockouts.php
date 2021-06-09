@@ -6,13 +6,16 @@
  * @package RenMab
  */
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>
+<article id="post-<?php the_ID(); ?>" <?php post_class('has-white-background-color'); ?>>
 	<?php
 	$pi_id   = get_field('pi_id');
     $private = get_field('pi_private');
 	$phase_renmab   = $private ? 'Exclusive Partnership' : get_field('pi_phase_renmab');
 	$phase_renlite   = $private ? 'Exclusive Partnership' : get_field('pi_phase_renlite');
 	$phase_rennano   = $private ? 'Exclusive Partnership' : get_field('pi_phase_rennano');
+
+	echo get_field('pi_phase_renmab');
+
 	$cats    = get_the_terms( get_the_ID(), 'pi-cats');
 
 	if( $pi_id ) {
@@ -50,12 +53,13 @@
 				echo '<p>'.$desc.'</p>';
 			endif; 
 			
-			// if($phase) : // DO WE WANT TO CONDITIONALLY SHOW THESE FIELDS? OR ALWAYS SHOW
+			// if($phase) : rm conditional
 				echo '<h3>KO Status</h3>';
-				echo '<p class="hello">'.$phase_renmab.'</p>';
+				echo '<p>'.$phase_renmab.'</p>';
 				echo '<p>'.$phase_renlite.'</p>';
 				echo '<p>'.$phase_rennano.'</p>';
 			// endif; 
+			?>
 
 			<h3>Drug Information</h3>
 			

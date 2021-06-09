@@ -184,8 +184,8 @@ endif;
  */
 
 function renmab_sphere($color) {
-    $url = get_template_directory_uri()."/img/sphere_".$color.".png";
-    echo '<img src="'.$url.'" class="sphere sphere-'.$color.'" alt=""/>';
+    $url = get_template_directory_uri()."/img/sphere-".$color.".svg";
+    echo '<span class="sphere sphere-'.$color.'" alt=""><img src="'.$url.'" /></span>';
 }
 
 /**
@@ -198,7 +198,7 @@ function renmab_licensing_cta($stick = 'nostick') {
         <a class="button button-white" href="/contact?ref=partnership#wpcf7-f1048-p98-o1">Apply Now</a>
             <?php renmab_sphere('orange'); ?>
             <?php renmab_sphere('green'); ?>
-            <?php renmab_sphere('blue'); ?>
+            <?php renmab_sphere('green'); ?>
     </div>
 <?php
 }

@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main id="main" class="site-main">
+	<main id="main" class="site-main has-white-background-color">
 	<?php
 	if ( have_posts() ) :
 

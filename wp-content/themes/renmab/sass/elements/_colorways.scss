@@ -1,0 +1,150 @@
+.site {
+	background: linear-gradient(132deg, #172251 0%, #091429 100%);
+}
+
+.archive .site,
+.blog .site,
+.single-pi-knockouts .site {
+	background: $white;
+}
+
+.post-type-archive-resources .site,
+.post-type-archive-resources #main {
+	background: $ivory;
+}
+
+.post-type-archive-resources #main .page-header {
+	border-color: $sand;
+}
+
+h1 {
+	color: $sky;
+	text-shadow: 0 0 22px rgba(154,115,226,0.75);
+}
+
+h2,
+h3,
+h4,
+p.is-style-lead {
+	color: $white;
+}
+
+p, li {
+	color: $sky;
+}
+
+.has-white-background-color {
+	background-color: $white;
+	border-color: $sky;
+}
+
+.wp-block-group.has-white-background-color {
+	position: relative;
+}
+.wp-block-group.has-white-background-color:before {
+	content: '';
+	position: absolute;
+	top: -57px;
+	min-width: 1000px;
+	left: 0;
+	height: 58px;
+	width: 100%;
+	background: url(img/wav1_white.svg) no-repeat bottom center/cover;
+}
+
+.has-white-background-color h1 {
+	text-shadow: none;
+}
+
+.has-white-background-color h2,
+.has-white-background-color .h2, 
+.has-white-background-color h1,
+.has-white-background-color .h1,
+.has-white-background-color h3,
+.has-white-background-color .h3,
+.has-white-background-color h4,
+.has-white-background-color .h4 {
+	@include gradText($navy);
+}
+
+.has-white-background-color {
+	h1, h2, h3, h4, h5, h6 {
+
+		&.is-style-accent, &.accent-style {
+			color: $lilac;
+		}
+	}
+}
+
+.has-white-background-color p, 
+.has-white-background-color li,
+.has-white-background-color p.is-style-lead {
+	color: $grey;
+}
+
+.has-white-background-color .wp-block-button .has-yellow-background-color,
+.has-white-background-color .button-white {
+	&:active,
+	&:hover,
+	&:focus {
+		color: $navy-solid;
+	}
+}
+
+.has-white-background-color .section-header,
+.has-white-background-color .page-header,
+.has-white-background-color hr {
+	border-color: $sky;
+}
+
+.bg-beige .section-header {
+	border-color: $sand;
+}
+
+.has-white-background-color li:before {
+	color: $lilac;
+}
+
+.has-white-background-color .site-description,
+.has-white-background-color .lead {
+	color: $lilac;
+}
+
+.has-white-background-color .tag-bubble {
+	color: $lilac;
+}
+
+.has-white-background-color .bubble {
+	background-color: $sky;
+	color: $lilac;
+}
+
+.has-white-background-color a.bubble:hover,
+.has-white-background-color .tag-bubble:hover .bubble {
+	background-color: $lilac;
+	color: $sky;
+}
+
+.has-white-background-color button:disabled,
+.has-white-background-color input[type="button"]:disabled {
+	background-color: $sky;
+	color: $lilac;
+}
+
+.bg-beige {
+	background-color: $ivory;
+}
+
+.bg-beige .tag-bubble:hover {
+	color: $taupe;
+}
+
+.bg-beige .bubble {
+	background-color: $sand;
+}
+
+.bg-beige a.bubble:hover,
+.bg-beige .tag-bubble:hover .bubble {
+	background-color: $taupe;
+	color: $ivory;
+}

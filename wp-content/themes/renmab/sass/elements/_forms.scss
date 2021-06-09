@@ -6,40 +6,35 @@ textarea {
   background-color: $ice;
   border: none;
   border-radius: 14px;
-  padding: 1rem;
+  font-size: 1.2rem;
+  padding: 0.8rem;
   line-height: 2;
   width: 100%;
-  color: $navy;
+  color: $navy-solid;
   font-weight: 500;
   transition: $transition;
   &::placeholder {
     font-weight: 300;
-    color: $taupe;
+    color: $lilac;
   }
 
   &:focus {
     outline: none;
-    background-color: $sky;
-
-    &::placeholder {
-      color: $blue;
-    }
+    box-shadow: 0 2px 22px 0 rgba(61,128,223,0.35);
+    background-color: white;
   }
 }
 
-.post-type-archive-pi-knockouts {
+.post-type-archive-pi-knockouts{
   select,
-  input[type='text'],
-  input[type='search'],
-  input[type='email'],
-  textarea {
+  input[type="text"],
+  input[type="search"],
+  input[type="email"],
+  textarea{
     padding: 0.5rem;
     border-radius: 5px;
-    &::placeholder {
-      color: $blue;
-    }
   }
-  label {
+  label{
     margin: 0;
   }
 }
@@ -58,21 +53,15 @@ form {
   padding-right: 52px;
 }
 
-.icon-search {
-  color: $taupe;
-}
-
-input[type='text']:focus + .searchsubmit .icon-search {
-  color: $blue;
-}
 
 button.searchsubmit {
-  background-color: transparent;
+  background: transparent;
   padding: 0;
   font-size: 43px;
   position: absolute;
   line-height: 0.75;
   right: 33px;
+  color: $lilac;
 
   span {
     position: relative;
@@ -85,28 +74,27 @@ button.searchsubmit {
 }
 
 .searchquery {
-  color: $navy;
+  color: $navy-solid;
 }
 
 label {
   @include accentStyle;
   font-size: $accentSizeS;
-  color: $brown;
   margin-left: 14px;
   line-height: 1;
 
   &.focus {
-    color: $blue;
+    color: $lilac;
   }
 }
 
 label + .required {
-  color: $orange;
+  color: $lightOrange;
   margin-left: 2px;
 }
 
 label.required {
-  color: $orange;
+  color: $lightOrange;  
 }
 
 select {
@@ -143,7 +131,8 @@ select {
 
 .wpcf7-list-item-label,
 .checkbox label {
-  @include bodyStyle();
+  @include headlineStyle();
+  color: inherit;
   letter-spacing: normal;
   font-weight: 500;
   text-transform: none;
@@ -162,12 +151,12 @@ select {
   width: 1.938rem;
   height: 1.938rem;
   border-radius: 8px;
-  background-color: $ivory;
+  background-color: $sky;
 }
 
 .wpcf7-list-item-label:before,
 .wpcf7-list-item-label:after {
-  z-index: -1;
+  pointer-events: none;
 }
 
 .checkbox input:checked + label,
@@ -176,8 +165,8 @@ select {
   &:after {
     font-family: 'icomoon';
     font-size: 1.938rem;
-    content: '\e900';
-    color: $navy;
+    content: "\e900";
+    color: $navy-solid;
     position: absolute;
     top: 0.5rem;
     left: 0.15rem;
@@ -235,43 +224,6 @@ select {
   margin-left: 15px;
 }
 
-.bg-blue input[type='text'],
-.bg-blue input[type='search'],
-.bg-blue textarea {
-  background-color: $sky;
-
-  &::placeholder {
-    color: $blue;
-  }
-
-  &:focus {
-    background-color: $white;
-  }
-
-  &:focus::placeholder {
-    color: $taupe;
-  }
-}
-
-.bg-blue select {
-  background-color: $sky;
-  background-image: url('img/darr-blue.svg');
-  color: $navy;
-}
-
-.bg-blue .icon-search,
-.bg-blue label {
-  color: $blue;
-}
-
-.bg-blue .checkbox label:before {
-  background-color: $sky;
-}
-
-.bg-blue .checkbox label {
-  color: $blue;
-}
-
 .wpcf7:before {
   content: '';
   display: block;
@@ -289,7 +241,8 @@ select {
 
 .wpcf7-validation-errors {
   background-color: $lightOrange;
-  color: $orange;
+  @include gradText($orange);
+
   padding: 20px 30px;
   margin: em(5) auto em(30);
 }
@@ -303,7 +256,8 @@ select {
   width: 100%;
   font-size: 14px;
   font-weight: 400;
-  color: $orange;
+  @include gradText($orange);
+
   margin-left: 14px;
   margin-top: 1px;
 }

@@ -2,7 +2,7 @@
 /**
  * Block Name: Icon Bullet Points
  */
-echo '<section class="icon-bullets"><div class="wrapper">';
+echo '<section class="bullet-icons"><div class="wrapper">';
 	$text = get_field('bullet_points_title');
 	if($text) { echo '<h3 class="h4">'.$text.'</h3>'; };
 
@@ -16,7 +16,7 @@ echo '<section class="icon-bullets"><div class="wrapper">';
 	    		echo '<img class="bullet-icon" src="'.$icon['url'].'"/>';
 	    		echo '<div class="bullet-text">';
 	    			echo '<h4 class="accent">'.$title.'</h4>';
-	    			echo '<p class="lead lead-small">'.$text.'</p>';
+	    			echo '<p class="lead-small">'.$text.'</p>';
 	    		echo '</div>';
 	    	echo '</li>';
 	    endwhile;

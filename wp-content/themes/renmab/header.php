@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The header for our theme
  *
@@ -27,13 +28,15 @@
 	<header id="masthead" class="site-header">
 		<div class="wrapper flex-parent">
 			<div class="site-branding">
-				<?php
-				the_custom_logo();
-				$renmab_description = get_bloginfo( 'description', 'display' );
-				if ( $renmab_description || is_customize_preview() ) :
-					?>
-					<p class="site-description"><?php echo $renmab_description; /* WPCS: xss ok. */ ?></p>
-				<?php endif; ?>
+				<a href="/">
+					<img class="logo light-logo" src="<?php echo esc_url( get_theme_mod( 'renmab_light_logo' ) ); ?>" alt="<?php bloginfo( 'name', 'display' ); ?>">
+					<img class="logo dark-logo" src="<?php echo esc_url( wp_get_attachment_url(get_theme_mod( 'custom_logo' ) )); ?>" alt="<?php bloginfo( 'name', 'display' ); ?>">
+				</a>
+			<?php 
+			$renmab_description = get_bloginfo( 'description', 'display' );
+			if ( $renmab_description || is_customize_preview() ) : ?>
+				<p class="site-description"><?php echo $renmab_description; /* WPCS: xss ok. */ ?></p>
+			<?php endif; ?>
 			</div><!-- .site-branding -->
 
 			<nav id="site-navigation" class="main-navigation flex-parent">

@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<main id="main" class="site-main">
+	<main id="main" class="site-main has-white-background-color">
 
 	<?php if ( have_posts() ) : ?>
 
@@ -40,7 +40,7 @@ get_header();
 							<div class="header-img">
 								<?php renmab_post_thumbnail('resource-header'); ?>
 							</div>
-							<div class="header-content">
+							<div class="header-content has-white-background-color">
 								<?php 
 							    renmab_resource_tagger('text');
 

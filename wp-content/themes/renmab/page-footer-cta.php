@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Subfooter
+ * Template Name: Dark Mode w/Subfooter
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *

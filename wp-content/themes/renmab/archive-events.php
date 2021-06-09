@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<main id="main" class="site-main">
+	<main id="main" class="site-main has-white-background-color">
 		<header class="page-header wrapper">
 			<h1 class="h2">Upcoming Events</h1>
 		</header>

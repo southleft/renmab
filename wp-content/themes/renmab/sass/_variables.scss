@@ -1,7 +1,7 @@
 /* Layout */
-$gutterBase: 0.0185;
-$gutterSmall: percentage($gutterBase);
-$gutterLarge: percentage($gutterBase * 2);
+$gutterBase: .0185;
+$gutterSmall: percentage( $gutterBase );
+$gutterLarge: percentage( $gutterBase * 2 );
 
 $col9: percentage(9/12);
 $col8: percentage(8/12);
@@ -17,29 +17,29 @@ $screenSizeM: 800px;
 $screenSizeS: 600px;
 
 /* Colors */
-$white: #fefcfb;
-$ivory: #faf4f1;
-$sand: #ece1dd;
-$taupe: #cebfb9;
-$brown: #8e7a71;
-
-$ice: #f5f7ff;
-$sky: #e6ebff;
-$blue: #848cc6;
-$navy: #2a3165;
-
-$lime: #a1c439;
-$lightLime: #e7f2c4;
-
-$orange: #f9865d;
-$lightOrange: #ffddd1;
-
 $white: #fff;
 
+$grey: #8E8B8A;
+$ivory: lighten($grey, 42);
+$sand: lighten($grey, 37);
+$taupe: lighten($grey, 20);
+
+$lilac: #C0ACE9;
+$sky: #E3D5FF;
+$ice: #EEE8FB;
+
+$navy-solid: #15173E;
+$navy: linear-gradient(270deg, #022C77 2%, #031220 100%);
+
+$yellow: #FDC200;
+
+$orange: linear-gradient(225deg, #FF8B68 0%, #FF5384 95%);
+$lightOrange: #FFAD94;
+
 /* Fonts */
-$bodyFamily: 'roboto', Tahoma, sans-serif;
-$headlineFamily: 'sofia-pro', Verdana, sans-serif;
-$accentFamily: 'roboto-mono', 'Lucida Console', monospace;
+$bodyFamily: "neuzeit-grotesk", Tahoma, sans-serif;
+$headlineFamily: "sofia-pro", Verdana, sans-serif;
+$accentFamily: "roboto-mono", "Lucida Console", monospace;
 
 $headlineSizeXL: 3.75; /*60px*/
 $headlineSizeL: 3.125; /*50px*/
@@ -47,15 +47,15 @@ $headlineSizeM: 2.313; /*37px*/
 $headlineSizeS: 1.875; /*30px*/
 $headlineSizeXS: 1.375; /*22px*/
 $leadSizeL: 1.75; /*28px*/
-$leadSizeM: $headlineSizeXS;
+$leadSizeM: $headlineSizeXS; 
 
 $accentSizeS: 0.875rem; /*14px*/
 $accentSizeM: 1.063rem; /*17px*/
 $accentSizeL: 1.438rem; /*23px*/
 
 /* Misc */
-$border: 3px solid $ivory;
-$radius: 10px;
-$transition: 400ms ease-out;
+$border: 3px solid $lilac;
+$radius: 5px;
+$transition: 300ms ease-out;
 
 $pi-border: 1px solid $ice;

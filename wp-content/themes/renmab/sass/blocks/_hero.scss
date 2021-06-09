@@ -1,5 +1,8 @@
 .hero {
 	padding-bottom: em(70);
+	margin-top: -116px;
+	padding-top: 116px;
+	background: url(img/spheres.png) no-repeat top center/cover;
 }
 
 .hero .flex-parent {
@@ -35,6 +38,7 @@
 @media screen and (max-width: $screenSizeM) {
 	.hero {
 		padding-bottom: em(40);
+		margin-top: -140px;
 	}
 	.hero.layout-right .hero-art {
 		@include order(0);

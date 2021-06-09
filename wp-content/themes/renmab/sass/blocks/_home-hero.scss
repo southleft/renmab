@@ -1,0 +1,357 @@
+/*
+
+Homepage Hero
+
+*/
+
+.home-hero {
+	margin-top: -191px;
+	margin-bottom: 45px;
+	background: url(img/bubbles.png) no-repeat center/auto 100%;
+	z-index: -1;
+}
+
+.home-hero__inner {
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding-top: #{'clamp('900px, 73%, 100vh')'};
+	position: relative;
+}
+
+.home-hero .cell {
+	position: absolute;
+	height: 142%;
+	width: 142%;
+	left: #{'max(' -55%, -500px ')'};
+	top: -34%;
+	max-width: 1700px;
+	background: url(img/bcell.png) no-repeat center/100% auto;
+}
+
+.home-hero h1 {
+	position: absolute;
+	z-index: 2;
+	font-size: #{'min(' 62/14.4 + vw, 62px ')'};
+	top: #{'min(' 65%, 640px ')'};
+	right: percentage(60/1440);
+	max-width: 13.25em;
+	letter-spacing: em(-1.3/62);
+	line-height: (74/62);
+}
+
+.home-hero .tooltip {
+	position: absolute;
+	background-color: white;
+	font-family: $accentFamily;
+	font-size: em(9.12);
+	letter-spacing: 1.02/9.12 + em;
+	line-height: (11.65/9.12);
+	text-transform: uppercase;
+	color: $navy-solid;
+	padding: 10px 14px;
+	border-radius: em(7.54);
+	z-index: 2;
+	&:after {
+		content: '';
+		position: absolute;
+		border-right: 1px dashed white;
+	}
+}
+
+.home-hero #dna-tooltip {
+	top: 72%;
+	left: 12%;
+	max-width: 116px;
+	text-align: center;
+	&:after {
+		width: 100%;
+		left: 0;
+		height: 760%;
+		transform: translate(-50%, -100%);
+	}
+}
+
+.home-hero #light-tooltip {
+	top: 15%;
+	right: 31%;
+	max-width: 155px;
+	text-align: right;
+	padding-right: 40px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	background-image: url(img/body.svg);
+	background-repeat: no-repeat;
+	background-position: center right 10px;
+	background-size: auto percentage(43/61);
+	&:before {
+		content: '';
+		position: absolute;
+		width: 30%;
+		right: -30%;
+		height: 0;
+		top: 50%;
+		border-bottom: 1px dashed white;
+	}
+	&:after {
+		height: 200%;
+		bottom: -40%;
+		right: -30%;
+	}
+}
+
+.home-hero #heavy-tooltip {
+	top: 42%;
+	right: 2.8%;
+	max-width: 120px;
+	padding-left: 55px;
+	background-image: url(img/mouse.svg);
+	background-repeat: no-repeat;
+	background-position: center left 14px;
+	background-size: auto percentage(23/59);
+	&:before {
+		content: '';
+		position: absolute;
+		width: 25%;
+		left: -25%;
+		height: 0;
+		top: 50%;
+		border-bottom: 1px dashed white;
+	}
+	&:after {
+		height: 280%;
+		bottom: -40%;
+		left: -25%;
+	}
+}
+
+.home-hero .antibody {
+	position: absolute;
+}
+
+.home-hero img {
+	max-width: 100%;
+}
+
+.home-hero .antibody-1 {
+	width: percentage(318/1440);
+	top: percentage(177/1440);
+	right: percentage(46/1440);
+	z-index: 1;
+}
+
+.home-hero .antibody-2 {
+	width: percentage(166/1440);
+	top: percentage(394/1440);
+	right: percentage(810/1440);
+}
+
+.home-hero .antibody-3 {
+	width: percentage(234/1440);
+	top: percentage(410/1440);
+	right: percentage(467/1440);
+}
+
+.home-hero .antibody-4 {
+	width: percentage(53/1440);
+	top: percentage(265/1440);
+	right: percentage(669/1440);
+	filter: blur(4.11px);
+}
+
+.home-hero .antibody-5 {
+	width: percentage(113/1440);
+	top: percentage(197/1440);
+	left: percentage(412/1440);
+	filter: blur(1.37px);
+}
+
+.home-hero .antibody-6 {
+	width: percentage(91/1440);
+	top: percentage(529/1440);
+	left: percentage(-19/1440);
+	filter: blur(2.74px);
+}
+
+.home-hero .antibody-7 {
+	width: percentage(97/1440);
+	top: percentage(701/1440);
+	left: percentage(105/1440);
+}
+
+.home-hero .antibody-8 {
+	width: percentage(106/1440);
+	top: percentage(218/1440);
+	left: percentage(63/1440);
+	filter: blur(1.37px);
+}
+
+
+@media screen and (max-width: $screenSizeL) {
+	.home-hero {
+		background: none;
+	}
+
+	.home-hero .cell {
+		display: none;
+	}
+
+	.home-hero__inner {
+		background: url(img/bcell-mobile.png) no-repeat top left / #{'max(' 95%, 600px ')'} auto;
+		height: 912/3.6 + vw;
+		max-height: 1300px;
+		margin-top: 0;
+		margin-bottom: -120/3.6 + vw;
+		padding: 0;
+	}
+
+	.home-hero h1 {
+		position: relative;
+		margin: auto;
+		left: 0;
+		right: 0;
+		top: 60%;
+		width: 90%;
+		font-size: #{'min(' 50px, 36/3.6 + vw ')'};
+		letter-spacing: -0.46/3.6 + vw;
+		line-height: (42/36);
+		max-width: 15em;
+	}
+
+	.home-hero .antibody-1 {
+		width: #{'min(' 125/3.6 + vw, 230px ')'};
+		top: 37%;
+		right: #{'max(' 18.5%, 56px')'};
+	}
+
+	.home-hero .antibody-2 {
+		width: #{'min('69/3.6 + vw, 130px ')'};
+		top: #{'min(' 132/3.6 + vw, 200px ')'};
+		right: 49/3.6 + vw;
+	}
+
+	.home-hero .antibody-3 {
+		width: #{'min('93/3.6 + vw, 140px ')'};
+		top: #{'min(' 415/3.6 + vw, 550px ')'};
+		right: #{'min(' 227/3.6 + vw, 600px')'};
+	}
+
+	.home-hero .antibody-4 {
+		width: #{'min('31/3.6 + vw, 40px ')'};
+		top: #{'min(' 225/3.6 + vw, 500px ')'};
+		right: 29/3.6 + vw;
+	}
+
+	.home-hero .antibody-5 {
+		width: #{'min('48/3.6 + vw, 60px ')'};
+		top: 49/3.6 + vw;
+		left: 203/3.6 + vw;
+	}
+
+	.home-hero .antibody-6 {
+		width: #{'min('38/3.6 + vw, 50px ')'};
+		top: #{'min(' 199/3.6 + vw, 300px ')'};
+		left: 25px;
+	}
+
+	.home-hero .antibody-7 {
+		width: #{'min('48/3.6 + vw, 65px ')'};
+		top: #{'min(' 246/3.6 + vw,  400px ')'};
+		left: 44/3.6 + vw;
+	}
+
+	.home-hero .antibody-8 {
+		width: #{'min('44/3.6 + vw, 80px ')'};
+		top: #{'min(' 58/3.6 + vw, 100px ')'};
+		left: 56/3.6 + vw;
+	}
+
+	.home-hero #heavy-tooltip {
+		top: #{'min(' 54%, 640px')'};
+		right: #{'min(' 12%, 400px')'};
+		&:after {
+			height: 200%;
+		}
+	}
+
+	.home-hero #light-tooltip {
+		top: #{'min(' 348/3.6 + vw, 480px ')'};
+		right: #{'min(' 210/3.6 + vw, 475px')'};
+		
+		&:after {
+			height: 200%;
+			bottom: -20%;
+		}
+	}
+
+	.home-hero #dna-tooltip {
+		&:after {
+			height: #{'max(' 380%, 17vw ')'};
+			transform: translate(-60%, -100%);
+		}
+		top: #{'max(' 27%, 48vw ')'};
+		left: #{'max(' 17%, 100px ')'};;
+	}
+}
+
+@media screen and (max-width: $screenSizeM) {
+	.home-hero {
+		margin-top: -141px;
+	}
+
+	.home-hero .tooltip {
+		font-size: 8px;
+		line-height: (10/8);
+		border-radius: 8px;;
+	}
+
+	.home-hero #heavy-tooltip {
+		max-width: 93px;
+		padding: 8px 10px 8px 37px;
+		background-position: center left 6px;
+		&:before {
+			width: 3vw;
+			left: -3vw;
+		}
+		&:after {
+			left: -3vw;
+		}
+	}
+
+	.home-hero #light-tooltip {
+		max-width: 131px;
+		padding: 12px 33px 12px 7px;
+		&:before {
+			width: 3vw;
+			right: -3vw;
+		}
+		&:after {
+			right: -3vw;
+			height: 150%;
+		}
+	}
+
+	.home-hero #dna-tooltip {
+		max-width: 108px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.home-hero #heavy-tooltip {
+		top: 49%;
+		right: 5%;
+		&:after {
+			left: -3vw;
+			height: 145%;
+			bottom: -15%;
+		}
+	}
+
+	.home-hero #dna-tooltip {
+		&:after {
+			height: 64px;
+		}
+		top: 270px;
+	}
+}

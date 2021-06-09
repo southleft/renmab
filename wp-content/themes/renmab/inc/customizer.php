@@ -25,6 +25,19 @@ function renmab_customize_register( $wp_customize ) {
 			'render_callback' => 'renmab_customize_partial_blogdescription',
 		) );
 	}
+	
+    $wp_customize->add_setting('renmab_light_logo', array(
+        'transport' => 'refresh',
+        'height'    => 79,
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'renmab_light_logo', array(
+        'label'       => 'Upload Light Logo',
+        'description' => 'Visible on the dark mode page template',
+        'section'     => 'title_tagline',
+        'settings'    => 'renmab_light_logo',
+        'priority'    => 8
+    )));
 }
 add_action( 'customize_register', 'renmab_customize_register' );
 

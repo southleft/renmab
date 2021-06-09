@@ -1,0 +1,60 @@
+.bullet-icons {
+	margin: em(70) 0 em(50);
+}
+
+.bullet-icons h3 {
+	text-align: center;
+	padding: em(20) 0 em(22);
+}
+
+.bullet-icons ul {
+	margin: 0;
+	padding: 0;
+	@include flex-wrap(wrap);
+	@include justify-content(space-around);
+}
+
+.bullet-icons li {
+	@include flex-basis(46%);
+	@include align-items(flex-start);
+	max-width: 500px;
+	margin-bottom: em(60);
+
+	&:nth-of-type(odd) {
+		margin-right: $gutterLarge;
+	}
+}
+
+.bullet-icons li:before {
+	display: none;
+}
+
+.bullet-icon {
+	max-width: 78px;
+	margin-right: 8%;
+}
+
+.bullet-text {
+	padding-top: em(10);
+}
+
+@media screen and (max-width: $screenSizeM) {
+	.bullet-icons ul {
+		@include justify-content(flex-start);
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.bullet-icons li {
+		@include flex-basis(100%);
+		@include justify-content(flex-start);
+		margin-bottom: em(10);
+	}
+}
+
+@media screen and (min-width: $screenSizeM + 1px) {
+	.bullet-icons li:last-child,
+	.bullet-icons li:nth-last-child(2) {
+	  margin-bottom: 0;
+	}
+}

@@ -1,0 +1,51 @@
+.is-root-container {
+	background: linear-gradient(132deg, #172251 0%, #091429 100%);
+}
+
+.editor-styles-wrapper .is-root-container h1 {
+	color: $sky;
+	text-shadow: 0 0 22px rgba(154,115,226,0.75);
+}
+
+.editor-styles-wrapper .is-root-container h3,
+.editor-styles-wrapper p.is-style-lead {
+	color: $white;
+}
+
+.editor-styles-wrapper p {
+	color: $sky;
+}
+
+/* Groups */
+.editor-styles-wrapper .is-root-container {
+	color: white;
+}
+
+.editor-styles-wrapper .is-root-container .is-style-accent, 
+.editor-styles-wrapper .is-root-container .accent-style {
+	color: $lilac;
+}
+
+.editor-styles-wrapper .is-root-container .has-white-background-color h2,
+.editor-styles-wrapper .is-root-container .has-white-background-color .h2, 
+.editor-styles-wrapper .is-root-container .has-white-background-color h1,
+.editor-styles-wrapper .is-root-container .has-white-background-color .h1,
+.editor-styles-wrapper .is-root-container .has-white-background-color h3,
+.editor-styles-wrapper .is-root-container .has-white-background-color .h3,
+.editor-styles-wrapper .is-root-container .has-white-background-color h4,
+.editor-styles-wrapper .is-root-container .has-white-background-color .h4 {
+	@include gradText($navy);
+	&.is-style-accent, &.accent-style {
+		color: $lilac;
+	}
+}
+
+.editor-styles-wrapper .is-root-container .has-white-background-color h2 {
+	color: $lilac;
+}
+
+.is-root-container .has-white-background-color p, 
+.is-root-container .has-white-background-color li,
+.is-root-container .has-white-background-color p.is-style-lead {
+	color: $grey;
+}

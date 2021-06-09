@@ -1,8 +1,26 @@
 .multi-steps {
-	margin-bottom: em(100);
+	padding-top: em(50);
+	padding-bottom: em(50);
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		top: -57px;
+		min-width: 1000px;
+		left: 0;
+		height: 58px;
+		width: 100%;
+		background: url(img/wav1_white.svg) no-repeat bottom center/cover;
+	}
 }
+
+.multi-steps:last-child {
+	padding-bottom: em(150);
+	margin-bottom: em(-55);
+}
+
 .multi-steps-wrap {
-	margin: em(50) auto 0;
+	margin: 0 auto;
 	transition: height 600ms;
 	max-width: 1400px;
 	padding-left: $gutterLarge;
@@ -101,7 +119,7 @@
 }
 
 .multi-nav li.active .accent {
-	color: $blue;
+	color: $lilac;
 }
 
 .multi-steps.icons .multi-nav {
@@ -109,7 +127,7 @@
 }
 
 .multi-steps.icons .multi-nav li {
-	margin-right: -28px;
+	margin-right: -45px;
 }
 
 .multi-steps.icons button {
@@ -117,37 +135,16 @@
 }
 
 .step-icon  {
-	width: 58px;
-	min-width: 58px;
-	height: 58px;
+	width: 88px;
+	height: 88px;
 	transition: 300ms;
 	position: relative;
+	filter: grayscale(1);
+
 }
 
-.step-icon svg {
-	position: absolute;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	transition: inherit;
-}
-
-.step-icon svg path {
-	fill: $sand;
-	transition: inherit;
-}
-
-li.active .step-icon svg path {
-	fill: $sky;
-}
-
-.step-icon svg #filter-blue {
-	opacity: 0;
-	transition: inherit;
-}
-
-li.active .step-icon svg #filter-blue {
-	opacity: 1;
+.multi-steps.icons li.active .step-icon {
+	filter: grayscale(0);
 }
 
 .multi-steps.noicons .multi-nav button {
@@ -166,7 +163,7 @@ li.active .step-icon svg #filter-blue {
 }
 
 .multi-steps.noicons li.active button:after {
-	background: $blue;
+	background: $lilac;
 }
 
 .multi-step {
@@ -197,7 +194,7 @@ li.active .step-icon svg #filter-blue {
 
 .data-labels button {
 	padding: em(20) $gutterLarge em(35);
-	background-color: transparent;
+	background: transparent;
 	border-radius: $radius $radius 0 0;
 	position: relative;
 	color: $taupe;
@@ -210,7 +207,7 @@ li.active .step-icon svg #filter-blue {
 }
 
 .data-labels button.active {
-	color: $blue;
+	color: $lilac;
 	background-color: $ice;
 }
 
@@ -252,7 +249,7 @@ li.active .step-icon svg #filter-blue {
 	margin: em(45) $gutterLarge*2 em(20);
 
 	li:before {
-		background-color: $blue;
+		background-color: $lilac;
 	}
 }
 
@@ -277,6 +274,7 @@ li.active .step-icon svg #filter-blue {
 	margin-top: em(90);
 	overflow: hidden;
 	border-radius: $radius;
+	background-color: $ice;
 }
 
 .multi-resource-img {
@@ -289,7 +287,7 @@ li.active .step-icon svg #filter-blue {
 .multi-resource-img img {
 	border-radius: $radius;
 	margin-left: -8px;
-	box-shadow: 8px 8px 0 $blue;
+	box-shadow: 8px 8px 0 $lilac;
 }
 
 .multi-resource-content {

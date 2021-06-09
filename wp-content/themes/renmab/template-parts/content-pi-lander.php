@@ -16,7 +16,7 @@
 	<div class="single-content">
 		<?php the_content(); ?>
 		<div class="wrapper">
-			<div class="pi-stats">
+			<div class="pi-stats has-white-background-color">
 				<h2 class="h3">Phase Overview of KO Targets Progress</h2>
 				<div class="flex-parent">
 					<?php 
@@ -40,25 +40,26 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="pi-filters lander-filters">
-				<form class="flex-parent">
-					<div class="form-container flex-parent">
-						<div class="input-group">
-							<label for="search-kos">Search Targets::</label>
-							<div class="search">
-								<input id="search-kos" role="search" type="text" placeholder="Search..."></input>
+
+				<div class="pi-filters lander-filters">
+					<form class="flex-parent">
+						<div class="form-container flex-parent">
+							<div class="input-group">
+								<label for="search-kos">Search Targets:</label>
+								<div class="search">
+									<input id="search-kos" role="search" type="text" placeholder="Search..."></input>
+								</div>
 							</div>
 						</div>
-					</div>
-				    <div class="button-group">
-				    	<a href="<?= get_post_type_archive_link('pi-knockouts').'?model=all&search=' ?>" class="button apply">Search</a>
-					</div>
-				</form>
-			</div>
+					    <div class="button-group">
+					    	<a href="<?= get_post_type_archive_link('pi-knockouts').'?model=all&search=' ?>" class="button apply">Search</a>
+						</div>
+					</form>
+				</div>
+			</div>	
 		</div>
 		<div class="pi-cats-wrap wrapper">
-			<div class="pi-cats bg-blue">
+			<div class="pi-cats has-white-background-color">
 				<h3>Therapeutic Areas</h3>
 				<div class="flex-parent">
 					<?php 

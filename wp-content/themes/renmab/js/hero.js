@@ -1,6 +1,6 @@
 jQuery(function ($){
 	$(document).ready(function() {
-		vid = $('.hero.has-vid');
+		vid = $('.home-hero');
 		if( vid.length ) {
 			drift();
 		}
@@ -8,7 +8,7 @@ jQuery(function ($){
 });
 
 function drift() {
-	var sphere = jQuery('.hero .sphere');
+	var sphere = jQuery('.home-hero .antibody');
 	spheres();
 
 	function spheres() {
@@ -24,9 +24,10 @@ function drift() {
 	}
 
 	function animation(el, posTop, posLeft) {
+
 		var delay = 1000 + ( Math.random() * 1000 ),
-		    top = posTop + 3 * ( Math.random() * 2 - 1),
-    	    left = posLeft + 1.5 * ( Math.random() * 2 - 1);
+		    top = posTop + el.innerHeight()/180 * ( Math.random() - 1.2),
+    	    left = posLeft + el.innerWidth()/180 * ( Math.random() - 1.2);
 
 		el.animate({
        		'top': top + '%',

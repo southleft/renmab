@@ -1,0 +1,148 @@
+/* Groups */
+.has-white-background-color h1,
+.has-white-background-color h3 {
+	@include gradText($navy);
+}
+
+.has-white-background-color h2 {
+	color: $lilac;
+}
+
+.has-white-background-color p, 
+.has-white-background-color p.is-style-lead {
+	color: $grey;
+}
+
+.wp-block-button__link {
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	position: relative;
+	line-height: 70px;
+	padding: 0 2.143em;
+	background-image: $orange;
+	-webkit-background-clip: initial;
+	background-clip: initial;
+	color: $white;
+	font-family: $headlineFamily;
+	border-radius: 99999px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 2.51/16 + em;  
+	-webkit-backface-visibility: hidden;
+ 	backface-visibility: hidden;  
+	transition: $transition;
+
+	span {
+		font-size: 42px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: -8px;
+		margin-right: -0.6em;
+		margin-left: 0.35em;
+	}
+}
+
+.is-style-disabled .wp-block-button__link {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.is-style-arrow .wp-block-button__link:after {
+	font-family: 'icomoon';
+	content: "\e90b";
+	font-size: 42px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -8px;
+	margin-right: -0.74em;
+	margin-left: 0.35em;
+}
+
+.is-style-small .wp-block-button__link { 
+	font-size: 0.875rem;
+	line-height: 50px;
+	padding-left: 1.125rem;
+	padding-right: 1.125rem;
+}
+
+.wp-block-button {
+	margin: 0;
+}
+.wp-block-button .has-yellow-background-color,
+.button-poster,
+.button-secondary,
+.button-white {
+	background: $yellow;
+	border: 3px solid transparent;
+	color: $navy-solid;
+	box-shadow: 0 0 21px 0 rgba(61,128,223,0.48);
+}
+
+.button-webinar {
+	background-color: $lilac;
+}
+
+hr {
+	border-style: none;
+	border-bottom: $border;
+	margin-bottom: em(30);
+}
+
+.has-white-background-color hr {
+	border-color: $sky;
+}
+
+.has-white-background-color {
+	background-color: $ice;
+	color: $lilac;
+	border-color: $sky;
+}
+
+.has-white-background-color li:before {
+	color: $lilac;
+}
+
+.has-white-background-color .site-description,
+.has-white-background-color .lead {
+	color: $lilac;
+}
+
+.has-white-background-color .tag-bubble {
+	color: $lilac;
+}
+
+.has-white-background-color .bubble {
+	background-color: $sky;
+	color: $lilac;
+}
+
+.has-white-background-color a.bubble:hover,
+.has-white-background-color .tag-bubble:hover .bubble {
+	background-color: $lilac;
+	color: $sky;
+}
+
+.has-white-background-color button:disabled,
+.has-white-background-color input[type="button"]:disabled {
+	background-color: $sky;
+	color: $lilac;
+}
+
+.bg-beige {
+	background-color: $ivory;
+}
+
+.bg-beige .tag-bubble:hover {
+	color: $taupe;
+}
+
+.bg-beige .bubble {
+	background-color: $sand;
+}
+
+.bg-beige a.bubble:hover,
+.bg-beige .tag-bubble:hover .bubble {
+	background-color: $taupe;
+	color: $ivory;
+}

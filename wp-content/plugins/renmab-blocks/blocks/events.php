@@ -79,7 +79,7 @@ echo '<section class="feat-events">';
 	        		    echo '<a href="'.get_the_permalink().'">';			    	
 					    	echo '<h4>'.get_the_title().'</h4><span class="bubble icon-rarr"></span>';
 	            		echo '</a>';
-	            		echo '<p class="lead lead-small">'.$speech_title.'</p>';
+	            		echo '<p class="lead-small">'.$speech_title.'</p>';
 	        			renmab_speaker_tagger($post);
 	        		echo '</dd>';
 	        		wp_reset_query();

@@ -9,7 +9,6 @@
 /** 
  * WP Cron - Refresh KO Library daily.
  */
-
 function ko_cron_interval( $schedules ) {
  
     $schedules['every_five_minutes'] = array(
@@ -538,7 +537,7 @@ function renmab_ajax_pi_query() {
         $items = new WP_Query($args);
 
 }
-
+        
 
 
 /**
@@ -721,6 +720,4 @@ function phase_redirect() {
 	}
 	</script>
 
-<?php
-		
-}
+<?php } 

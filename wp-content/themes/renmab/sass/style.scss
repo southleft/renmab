@@ -78,6 +78,9 @@ Elements
 /* Forms */
 @import "elements/popup";
 
+/* Colorways */
+@import "elements/colorways";
+
 /*--------------------------------------------------------------
 Structure
 --------------------------------------------------------------*/
@@ -107,6 +110,9 @@ Posts
 Blocks
 --------------------------------------------------------------*/
 /* Hero */
+@import "blocks/home-hero";
+
+/* Hero */
 @import "blocks/hero";
 
 /* Multi-Panel */
@@ -119,7 +125,7 @@ Blocks
 @import "blocks/ctas";
 
 /* Icon Bullet Points */
-@import "blocks/icon-bullets";
+@import "blocks/bullet-icons";
 
 /* SVG Diagram */
 @import "blocks/svg-diagram";
@@ -127,9 +133,6 @@ Blocks
 /*--------------------------------------------------------------
 Page-Specific
 --------------------------------------------------------------*/
-
-/* Home */
-@import "pages/home";
 
 /* Project Integrum */
 @import "pages/pi";

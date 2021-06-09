@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="60px" viewBox="0 0 61 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval Copy 6</title>
+    <defs>
+        <radialGradient cx="24.5023905%" cy="32.7875668%" fx="24.5023905%" fy="32.7875668%" r="54.0220945%" gradientTransform="translate(0.245024,0.327876),rotate(60.344782),scale(1.000000,1.068638),translate(-0.245024,-0.327876)" id="radialGradient-1">
+            <stop stop-color="#93D2D3" offset="0%"></stop>
+            <stop stop-color="#00B1A9" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-2" cx="162.5" cy="2091" r="15.5"></circle>
+        <filter x="-72.6%" y="-72.6%" width="245.2%" height="245.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.25485264   0 0 0 0 0.889020837  0 0 0 0.4463565 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval-Copy-6" transform="translate(-132.000000, -2061.000000)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

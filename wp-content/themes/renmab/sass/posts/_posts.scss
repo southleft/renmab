@@ -4,7 +4,6 @@
 
 .entry-title a {
 	font-weight: inherit;
-	color: inherit;
 	border: none;
 }
 
@@ -46,7 +45,6 @@ a.post-thumbnail {
 
 .single .header-content,
 .sticky-resource .header-content {
-	background-color: $white;
 	border-radius: $radius * 2;
 	padding: ($gutterLarge * 1.25);
 }
@@ -114,7 +112,7 @@ a.post-thumbnail {
 	display: inline-block;
 	border: none;
 	color: $sky;
-	background-color: $blue;
+	background-color: $lilac;
 	border-radius: 50%;
 	height: 43px;
 	width: 43px;
@@ -126,7 +124,7 @@ a.post-thumbnail {
 
 	&:hover {
 		background-color: $sky;
-		color: $blue;
+		color: $lilac;
 	}
 
 	span {

@@ -4,11 +4,21 @@ $browser-context: 16; // Default
   @return #{$pixels/$context}em;
 }
 
+@mixin gradText($grad) {
+   background: $grad no-repeat top left/cover;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@mixin removeGrad() {
+  -webkit-background-clip: initial;
+  background-clip: initial;
+}
 
 /* Typography Mixins */
 @mixin headlineStyle() {
 	font-family: $headlineFamily;
-	color: $navy;
 	font-weight: 700;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,12 +26,12 @@ $browser-context: 16; // Default
 
 @mixin headlineSize($size: $headlineSizeXL) {
     font-size: $size + rem;
-    line-height: 1 + ( 1 / ( $size * 2.2) );
+    line-height: 1.4;
 }
 
 @mixin leadStyle {
 	font-family: $headlineFamily;
-	color: $brown;
+  line-height: (33/22);
 	font-weight: 600;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,7 +39,6 @@ $browser-context: 16; // Default
 
 @mixin bodyStyle {
 	font-family: $bodyFamily;
-	color: $brown;
 	font-weight: 400;
 	line-height: 1.875;
   text-transform: none;
@@ -38,7 +47,7 @@ $browser-context: 16; // Default
 
 @mixin accentStyle {
 	font-family: $accentFamily;
-	color: $blue;
+	color: $lilac;
 	text-transform: uppercase;
 	letter-spacing: 0.128696em;
   line-height: 1.6;
