@@ -1,117 +1,175 @@
 /* KO Library Archive scripts */
 
-jQuery(function ($){
-	const loader = jQuery('.pi-loading');
+jQuery(function ($) {
+  const loader = jQuery('.pi-loading');
 
-	jQuery('body').on('click', 'a.pi-knockout', function() {
-		var href = $(this).attr('href');
-		var name = $(this).find('h3').text();
+  // jQuery('body').on('click', 'a.pi-knockout', function () {
+  jQuery('body').on('click', '.ko-form--search-button', function () {
+    var href = $(this).attr('href');
+    var name = $(this).find('h3').text();
 
-		loader.find('p').append(' ' + name + '...');
+    loader.find('p').append(' ' + name + '...');
 
-		loader.fadeIn( 300, function(){
-		    window.location=href;
-		})
-		return false;
-	})
+    loader.fadeIn(300, function () {
+      window.location = href;
+    });
+    return false;
+  });
 
-	var form    = jQuery('.pi-filters'), 
-		input   = form.find('input[type="text"]'),
-		submit  = form.find('button.apply'),
-		clear   = form.find('button.clear'),
-		results = form.find('.searchresults-wrap'),
-		select  = form.find('select'),
-		searchCode = '';
-	
-	var queryParams = new URLSearchParams(window.location.search),
-		querySearch = queryParams.get("search"),
-		queryModel  = queryParams.get("model");
+  var form = jQuery('.pi-filters'),
+    input = form.find('input[type="text"]'),
+    submit = form.find('button.apply'),
+    clear = form.find('button.clear'),
+    results = form.find('.searchresults-wrap'),
+    select = form.find('select'),
+    searchCode = '';
 
-	if(queryModel) {
-		select.val(queryModel);
-	}
+  var sort = jQuery('.ko-sort-form'),
+    sortOrder = sort.find('select');
 
-	input.val(querySearch);
+  var queryParams = new URLSearchParams(window.location.search),
+    querySearch = queryParams.get('search'),
+    queryModel = queryParams.get('model');
 
-	jQuery(window).load(function() {
-		loadKOs();
-	})
+  if (queryModel) {
+    select.val(queryModel);
+  }
 
-	submit.click(function() {
-		loadKOs();
-	});
+  input.val(querySearch);
 
-	clear.click(function() {
-		input.val('');
-		select.val('all');
-		loadKOs();
-	}); 
+  jQuery(window).load(function () {
+    loadKOs();
+  });
 
-	input.on('keydown', function(e) {
-	    if (e.keyCode === 13) {
-	    	e.preventDefault();
-	    	loadKOs();
-	    }
-	});
-	
-	jQuery('body').on('click', '.pi-models .loader', function() {
-		let loadedModel = jQuery(this).attr('data-model');
-		select.val(loadedModel);
-		loadKOs();
-		jQuery("html, body").animate({ scrollTop: form.offset().top - 50},700);
-	})
+  submit.click(function () {
+    loadKOs();
+  });
 
-	form.on('click', '.model', function() {
-		jQuery(this).remove();
-		loadKOs('all');
-	});
+  clear.click(function () {
+    input.val('');
+    select.val('all');
+    loadKOs();
+  });
 
-	form.on('click', '.keyword', function() {
-		jQuery(this).remove();
-		input.val('');
-		loadKOs();
-	});
+  input.on('keydown', function (e) {
+    if (e.keyCode === 13) {
+      e.preventDefault();
+      loadKOs();
+    }
+  });
 
-	function loadKOs(model = select.val(), retry = false) {
-		let keyword = input.val();
-		let selectText = select.find(':selected').text();
+  jQuery('body').on('click', '.pi-models .loader', function () {
+    let loadedModel = jQuery(this).attr('data-model');
+    select.val(loadedModel);
+    loadKOs();
+    jQuery('html, body').animate({ scrollTop: form.offset().top - 50 }, 700);
+  });
 
-		results.empty();
-		if(model != 'all') { 
-			results.append('<button class="pi-tag model"><span class="bubble icon-close"></span>' + selectText + '</button>'); 
-		}
+  form.on('click', '.model', function () {
+    jQuery(this).remove();
+    loadKOs('all');
+  });
 
-		if(keyword) {
-			results.append('<button class="pi-tag keyword"><span class="bubble icon-close"></span>' + keyword + '</button>') 
-			searchCode = '&search=' + encodeURIComponent(keyword);
-		} else {
-			searchCode = '';
-		}
+  form.on('click', '.keyword', function () {
+    jQuery(this).remove();
+    input.val('');
+    loadKOs();
+  });
 
-		var filterStr = '&model=' + model + searchCode + '&action=renmab_ajax_pi_filter_args';
+  function loadKOs(model = select.val(), retry = false) {
+    let keyword = input.val();
+    let selectText = select.find(':selected').text();
 
-		jQuery.ajax({
-			type : "POST",
-			dataType: "html",
-			url: renmab_pi_filter.ajax_url,
-			data: filterStr,
-			cache: true,
-			success:function(data) {
-            	var $data = $(data);
+    results.empty();
+    if (model != 'all') {
+      results.append(
+        '<button class="pi-tag model"><span class="bubble icon-close"></span>' +
+          selectText +
+          '</button>'
+      );
+    }
 
-            	if ($data.length && retry) {
-            		jQuery('.pi-models').html($data).prepend('<p class="no-results lead lead-small">No results found for "' + keyword + '" in '+ selectText +'. Showing results for "'+ keyword +'" in all areas.</p>');
-            	} else if ($data.length) {
-            		jQuery('.pi-models').html($data);
-            	} else if(model == 'all') {
-            		jQuery('.pi-models').html('<p class="no-results lead lead-small">No knockouts found for "' + keyword +'".</p>');
-            	} else {
-            		loadKOs('all', true);
-            	}
+    if (keyword) {
+      results.append(
+        '<button class="pi-tag keyword"><span class="bubble icon-close"></span>' +
+          keyword +
+          '</button>'
+      );
+      searchCode = '&search=' + encodeURIComponent(keyword);
+    } else {
+      searchCode = '';
+    }
 
-            	window.history.pushState(null, "", "?model=" + model + searchCode);
-			}
-		});
-		return false;
-	}
+    var filterStr =
+      '&model=' +
+      model +
+      searchCode +
+      getSearchParams() +
+      '&action=renmab_ajax_pi_filter_args';
+
+    jQuery.ajax({
+      type: 'POST',
+      dataType: 'html',
+      url: renmab_pi_filter.ajax_url,
+      data: filterStr,
+      cache: true,
+      success: function (data) {
+        var $data = $(data);
+
+        if ($data.length && retry) {
+          jQuery('.pi-models')
+            .html($data)
+            .prepend(
+              '<p class="no-results lead lead-small">No results found for "' +
+                keyword +
+                '" in ' +
+                selectText +
+                '. Showing results for "' +
+                keyword +
+                '" in all areas.</p>'
+            );
+        } else if ($data.length) {
+          jQuery('.pi-models').html($data);
+        } else if (model == 'all') {
+          jQuery('.pi-models').html(
+            '<p class="no-results lead lead-small">No knockouts found for "' +
+              keyword +
+              '".</p>'
+          );
+        } else {
+          loadKOs('all', true);
+        }
+        window.history.pushState(
+          null,
+          '',
+          '?model=' + model + searchCode + getSearchParams()
+        );
+      },
+    });
+    return false;
+  }
 });
+
+function getSearchParams() {
+  let paramString = '';
+  let modelSelects = document.querySelectorAll('input.model-select');
+  modelSelects.forEach((model) =>
+    model.checked ? (paramString += `&${model.id}=true`) : ''
+  );
+  let phaseSelects = document.querySelectorAll('input.phase-select');
+  phaseSelects.forEach((phase) =>
+    phase.checked ? (paramString += `&${phase.id}=true`) : ''
+  );
+  let excludeSelect = document.querySelector('input.exclude-select');
+  excludeSelect.checked ? (paramString += `&exclude=true`) : '';
+  let sortOptions = document.querySelectorAll('option.ko-form--sort-option');
+  sortOptions.forEach((option) =>
+    option.selected
+      ? (paramString += `&order-by=${option.value.split('-')[0]}&order=${
+          option.value.split('-')[1]
+        }`)
+      : ''
+  );
+
+  return paramString;
+}

@@ -278,9 +278,9 @@ add_action('wp_ajax_nopriv_renmab_ajax_pi_filter_args', 'renmab_ajax_pi_filter_a
 function renmab_ajax_pi_filter_args() {
     $args = array(
         'post_type'      => 'pi-knockouts',
-        'meta_key'       => 'pi_drugs_launched',
+        'meta_key'       => $_POST['order-by'],
         'orderby'        => 'meta_value_num',
-        'order'          => 'DESC',
+        'order'          => $_POST['order'],
         'tax_query'      => array(
             array(
                 'taxonomy' => 'pi-cats',
@@ -296,6 +296,7 @@ function renmab_ajax_pi_filter_args() {
     
     $model = $_POST['model'] != '' ? $_POST['model'] : 'all';
 
+    
     if ((isset($search) && strlen($search) > 0) || $model !== 'all') {
         $args['posts_per_page'] = -1; 
     } else {
@@ -330,12 +331,17 @@ function renmab_pi_load_kos($args) {
 
             <ul class="table-header accent accent-small table-row">
                 <li>Target Name</li>
-                <li class="pi-model-mouse">
-                    <ul class="table-row">
-                        <li>RenMab</li>
-                        <li>RenLite</li>
-                        <li>RenNano</li>
-                    </ul>
+                <li class="pi-model-mouse pi-model-mouse--header">
+                    <div>
+                        <div class="pi-model-mouse--label table-row">
+                            mouse models
+                        </div>
+                        <ul class="pi-model-mouse table-row">
+                            <li>RenMab&trade;</li>
+                            <li>RenLite&trade;</li>
+                            <li>RenNano&trade;</li>
+                        </ul>
+                    </div>
                 </li>
                 <li>Launched Drugs</li>
             </ul>
@@ -347,15 +353,16 @@ function renmab_pi_load_kos($args) {
                 $phase_renlite   = $private ? 'Exclusive Partnership' : get_field('pi_phase_renlite');
                 $phase_rennano   = $private ? 'Exclusive Partnership' : get_field('pi_phase_rennano');
                 $drugs   = get_field('pi_drugs_launched'); ?>
-
-                <a href="<?= get_the_permalink() ?>" class="pi-knockout table-row">
-                    <h3 class="h6"><?= get_the_title() ?></h3>
-                    <div class="table-row">
-                        <div class="<?= trim($phase_renmab) ?>"><?= $phase_renmab ?></div>
-                        <div class="<?= trim($phase_renlite) ?>"><?= $phase_renlite ?></div>
-                        <div class="<?= trim($phase_rennano) ?>"><?= $phase_rennano ?></div>
-                    </div>
-                    <p><?= $drugs ?></p>
+                <a href="<?= get_the_permalink() ?>" class="pi-title">
+                    <div href="<?= get_the_permalink() ?>" class="table-row">
+                        <h3 class="h6"><?= get_the_title() ?></h3>
+                        <div class="pi-model-mouse table-row">
+                            <div class="renmab <?= sanitize_title_for_query($phase_renmab) ?>"></div>
+                            <div class="renlite <?= sanitize_title_for_query($phase_renlite) ?>"></div>
+                            <div class="rennano <?= sanitize_title_for_query($phase_rennano) ?>"></div>
+                        </div>
+                        <p><?= $drugs ?></p>
+                     </div>
                  </a>
                
             <?php endwhile;
@@ -516,3 +523,204 @@ function renmab_pingback_header() {
     }
 }
 add_action( 'wp_head', 'renmab_pingback_header' );
+
+
+function renmab_ajax_pi_query() {
+    $args = array (
+        'post-type' => 'pi-knockouts',
+        'meta_key' => 'pi_drugs_launched',
+        'orderby' => 'meta_value_num',
+        'order' => 'DESC',
+        'meta_query' => array(
+
+        )
+    );
+        $items = new WP_Query($args);
+
+}
+
+
+
+/**
+ * Search & Filter phase work-around
+ */
+
+
+function phase_redirect() {
+
+	if(isset($_GET['_sfm_token_mouse_model']) && isset($_GET['_sfm_token_pi_phase'])){
+    		$mouse_param = $_GET['_sfm_token_mouse_model'];
+				$phase_param = $_GET['_sfm_token_pi_phase'];
+		}
+	elseif (isset($_GET['_sfm_token_mouse_model']) && !isset($_GET['_sfm_token_pi_phase'])) {
+				$mouse_param = $_GET['_sfm_token_mouse_model'];
+				$phase_param = 'all';
+	}
+	elseif (!isset($_GET['_sfm_token_mouse_model']) && isset($_GET['_sfm_token_pi_phase'])) {
+				$mouse_param = 'all';
+				$phase_param = $_GET['_sfm_token_pi_phase'];
+	}
+	else{ 
+				$mouse_param = 'all';
+				$phase_param = 'all';
+		}
+	
+	if (strpos($mouse_param, 'renmab') !== false && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url1 = new URL(window.location.href);
+					url1.searchParams.set('_sfm_pi_phase_renmab', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url1); // or pushState
+				
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'renmab') !== true && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url1 = new URL(window.location.href);
+					url1.searchParams.delete('_sfm_pi_phase_renmab', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url1); // or pushState
+			</script>
+		<?php
+	}
+	
+	if (strpos($mouse_param, 'rennano') !== false && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url2 = new URL(window.location.href);
+					url2.searchParams.set('_sfm_pi_phase_rennano', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url2); // or pushState
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'rennano') !== true && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url2 = new URL(window.location.href);
+					url2.searchParams.delete('_sfm_pi_phase_rennano', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url2); // or pushState
+			</script>
+		<?php
+	}
+	
+	if (strpos($mouse_param, 'renlite') !== false && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url3 = new URL(window.location.href);
+					url3.searchParams.set('_sfm_pi_phase_renlite', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url3); // or pushState
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'renlite') !== true && $phase_param == 'all') {
+		?>
+			<script type="text/javascript">
+				const url3 = new URL(window.location.href);
+					url3.searchParams.delete('_sfm_pi_phase_renlite', '1a-,-1b-,-1c-,-2a-,-2b-,-3a-,-3b-,-4');
+					window.history.replaceState(null, null, url3); // or pushState
+			</script>
+		<?php
+	}
+	
+	
+	if (strpos($mouse_param, 'rennano') !== false && $phase_param !== 'all') {
+		
+		?>
+			<script type="text/javascript">
+				const url4 = new URL(window.location.href);
+					url4.searchParams.set('_sfm_pi_phase_rennano', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url4); // or pushState
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'rennano') !== true && $phase_param !== 'all') {
+		?>
+			<script type="text/javascript">
+				const url4 = new URL(window.location.href);
+					url4.searchParams.delete('_sfm_pi_phase_rennano', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url4); // or pushState
+			</script>
+		<?php
+	}
+	
+	if (strpos($mouse_param, 'renlite') !== false && $phase_param !== 'all') {
+		?>
+			<script type="text/javascript">
+				const url5 = new URL(window.location.href);
+					url5.searchParams.set('_sfm_pi_phase_renlite', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url5); // or pushState
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'renlite') !== true && $phase_param !== 'all') {
+		?>
+			<script type="text/javascript">
+				const url5 = new URL(window.location.href);
+					url5.searchParams.delete('_sfm_pi_phase_renlite', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url5); // or pushState
+			</script>
+		<?php
+	}
+	
+	if (strpos($mouse_param, 'renmab') !== false && $phase_param !== 'all') {
+
+		?>
+			<script type="text/javascript">
+				const url6 = new URL(window.location.href);
+					url6.searchParams.set('_sfm_pi_phase_renmab', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url6); // or pushState
+			</script>
+		<?php
+	}
+	elseif (strpos($mouse_param, 'renmab') !== true && $phase_param !== 'all') {
+		?>
+			<script type="text/javascript">
+				const url6 = new URL(window.location.href);
+					url6.searchParams.delete('_sfm_pi_phase_renmab', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url6); // or pushState
+			</script>
+		<?php
+	}
+	
+	
+	if ($mouse_param == 'all' && $phase_param !== 'all') {
+
+		?>
+			<script type="text/javascript">
+				const url = new URL(window.location.href);
+					url.searchParams.set('_sfm_pi_phase_renmab', '<?php echo $phase_param ?>');
+					url.searchParams.set('_sfm_pi_phase_renlite', '<?php echo $phase_param ?>');
+					url.searchParams.set('_sfm_pi_phase_rennano', '<?php echo $phase_param ?>');
+					window.history.replaceState(null, null, url); // or pushState
+				
+				
+			</script>
+		<?php
+	}
+	
+	$ko_base_url = get_site_url().'/ko-library/';
+	$ko_base_url2 = get_site_url().'/ko-library/?search=';
+	$ko_base_url3 = get_site_url().'/ko-library/?search';
+	
+	?>
+
+<script type="text/javascript">
+	var str = '<?php echo $ko_base_url ?>';
+	var str2 = '<?php echo $ko_base_url2 ?>';
+	var str3 = '<?php echo $ko_base_url3 ?>';
+	var urlp = window.location.href;
+	
+	if (window.location.href.indexOf("&search") > -1 || str === urlp || str2 === urlp || str3 === urlp) {
+   
+	}	
+	else {window.location.href += "&search";}
+	
+	if (str === urlp) {
+		window.location.href += "?search";
+	}
+	</script>
+
+<?php
+		
+}
